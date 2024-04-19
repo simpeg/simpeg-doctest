@@ -6,7 +6,7 @@
 
 Computation times
 =================
-**00:45.394** total execution time for 3 files **from content/tutorials/10-vrm**:
+**00:51.110** total execution time for 3 files **from content/tutorials/10-vrm**:
 
 .. container::
 
@@ -33,11 +33,11 @@ Computation times
      - Time
      - Mem (MB)
    * - :ref:`sphx_glr_content_tutorials_10-vrm_plot_fwd_3_vrm_tem.py` (``plot_fwd_3_vrm_tem.py``)
-     - 00:27.598
-     - 288.7
+     - 00:31.745
+     - 288.8
    * - :ref:`sphx_glr_content_tutorials_10-vrm_plot_fwd_2_vrm_topsoil.py` (``plot_fwd_2_vrm_topsoil.py``)
-     - 00:13.098
-     - 8.6
+     - 00:14.276
+     - 8.7
    * - :ref:`sphx_glr_content_tutorials_10-vrm_plot_fwd_1_vrm_layer.py` (``plot_fwd_1_vrm_layer.py``)
-     - 00:04.699
-     - 8.6
+     - 00:05.089
+     - 8.3

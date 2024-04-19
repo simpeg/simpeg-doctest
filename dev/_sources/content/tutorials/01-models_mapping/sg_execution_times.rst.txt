@@ -6,7 +6,7 @@
 
 Computation times
 =================
-**00:19.632** total execution time for 3 files **from content/tutorials/01-models_mapping**:
+**00:19.919** total execution time for 3 files **from content/tutorials/01-models_mapping**:
 
 .. container::
 
@@ -33,11 +33,11 @@ Computation times
      - Time
      - Mem (MB)
    * - :ref:`sphx_glr_content_tutorials_01-models_mapping_plot_1_tensor_models.py` (``plot_1_tensor_models.py``)
-     - 00:08.483
+     - 00:08.500
      - 8.3
    * - :ref:`sphx_glr_content_tutorials_01-models_mapping_plot_3_tree_models.py` (``plot_3_tree_models.py``)
-     - 00:05.588
-     - 8.6
+     - 00:06.022
+     - 8.7
    * - :ref:`sphx_glr_content_tutorials_01-models_mapping_plot_2_cyl_models.py` (``plot_2_cyl_models.py``)
-     - 00:05.561
+     - 00:05.398
      - 8.3

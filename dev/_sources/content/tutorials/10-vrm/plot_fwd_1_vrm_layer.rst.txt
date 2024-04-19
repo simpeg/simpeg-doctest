@@ -132,7 +132,7 @@ Each waveform is defined with a diferent set of parameters.
  .. code-block:: none
 
 
-    <matplotlib.legend.Legend object at 0x7f90f4ae8280>
+    <matplotlib.legend.Legend object at 0x7f73f4f64a00>
 
 
 
@@ -333,16 +333,16 @@ Predict Data and Plot
     CREATING T MATRIX
     CREATING A MATRIX
 
-    <matplotlib.legend.Legend object at 0x7f927f6a30d0>
+    <matplotlib.legend.Legend object at 0x7f73f4f64520>
 
 
 
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 4.699 seconds)
+   **Total running time of the script:** (0 minutes 5.089 seconds)
 
-**Estimated memory usage:**  9 MB
+**Estimated memory usage:**  8 MB
 
 
 .. _sphx_glr_download_content_tutorials_10-vrm_plot_fwd_1_vrm_layer.py:

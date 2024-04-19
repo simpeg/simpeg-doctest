@@ -6,7 +6,7 @@
 
 Computation times
 =================
-**08:05.954** total execution time for 10 files **from content/tutorials/05-dcr**:
+**09:51.485** total execution time for 10 files **from content/tutorials/05-dcr**:
 
 .. container::
 
@@ -32,33 +32,33 @@ Computation times
    * - Example
      - Time
      - Mem (MB)
-   * - :ref:`sphx_glr_content_tutorials_05-dcr_plot_inv_2_dcr2d_irls.py` (``plot_inv_2_dcr2d_irls.py``)
-     - 02:44.386
-     - 8.6
    * - :ref:`sphx_glr_content_tutorials_05-dcr_plot_inv_3_dcr3d.py` (``plot_inv_3_dcr3d.py``)
-     - 02:25.665
-     - 8.6
+     - 03:34.622
+     - 8.7
+   * - :ref:`sphx_glr_content_tutorials_05-dcr_plot_inv_2_dcr2d_irls.py` (``plot_inv_2_dcr2d_irls.py``)
+     - 03:14.676
+     - 8.7
    * - :ref:`sphx_glr_content_tutorials_05-dcr_plot_inv_2_dcr2d.py` (``plot_inv_2_dcr2d.py``)
-     - 01:09.284
-     - 8.6
+     - 01:19.798
+     - 8.7
    * - :ref:`sphx_glr_content_tutorials_05-dcr_plot_inv_1_dcr_sounding_irls.py` (``plot_inv_1_dcr_sounding_irls.py``)
-     - 00:43.948
+     - 00:42.314
      - 8.3
    * - :ref:`sphx_glr_content_tutorials_05-dcr_plot_inv_1_dcr_sounding_parametric.py` (``plot_inv_1_dcr_sounding_parametric.py``)
-     - 00:25.888
+     - 00:22.611
      - 8.3
    * - :ref:`sphx_glr_content_tutorials_05-dcr_plot_fwd_3_dcr3d.py` (``plot_fwd_3_dcr3d.py``)
-     - 00:10.094
-     - 9.6
+     - 00:12.799
+     - 9.4
    * - :ref:`sphx_glr_content_tutorials_05-dcr_plot_inv_1_dcr_sounding.py` (``plot_inv_1_dcr_sounding.py``)
-     - 00:09.358
-     - 8.3
+     - 00:08.671
+     - 8.4
    * - :ref:`sphx_glr_content_tutorials_05-dcr_plot_fwd_2_dcr2d.py` (``plot_fwd_2_dcr2d.py``)
-     - 00:08.692
+     - 00:07.930
      - 8.3
    * - :ref:`sphx_glr_content_tutorials_05-dcr_plot_gen_3_3d_to_2d.py` (``plot_gen_3_3d_to_2d.py``)
-     - 00:04.894
+     - 00:04.453
      - 8.3
    * - :ref:`sphx_glr_content_tutorials_05-dcr_plot_fwd_1_dcr_sounding.py` (``plot_fwd_1_dcr_sounding.py``)
-     - 00:03.745
+     - 00:03.611
      - 8.3

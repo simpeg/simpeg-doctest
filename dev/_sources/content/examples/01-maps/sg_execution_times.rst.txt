@@ -6,7 +6,7 @@
 
 Computation times
 =================
-**00:33.033** total execution time for 5 files **from content/examples/01-maps**:
+**00:38.603** total execution time for 5 files **from content/examples/01-maps**:
 
 .. container::
 
@@ -33,17 +33,17 @@ Computation times
      - Time
      - Mem (MB)
    * - :ref:`sphx_glr_content_examples_01-maps_plot_sumMap.py` (``plot_sumMap.py``)
-     - 00:31.475
-     - 41.9
-   * - :ref:`sphx_glr_content_examples_01-maps_plot_mesh2mesh.py` (``plot_mesh2mesh.py``)
-     - 00:00.540
-     - 8.9
+     - 00:36.924
+     - 41.8
    * - :ref:`sphx_glr_content_examples_01-maps_plot_combo.py` (``plot_combo.py``)
-     - 00:00.506
-     - 10.2
+     - 00:00.631
+     - 10.3
+   * - :ref:`sphx_glr_content_examples_01-maps_plot_mesh2mesh.py` (``plot_mesh2mesh.py``)
+     - 00:00.513
+     - 9.0
    * - :ref:`sphx_glr_content_examples_01-maps_plot_block_in_layer.py` (``plot_block_in_layer.py``)
-     - 00:00.288
-     - 8.7
+     - 00:00.282
+     - 8.8
    * - :ref:`sphx_glr_content_examples_01-maps_plot_layer.py` (``plot_layer.py``)
-     - 00:00.224
+     - 00:00.253
      - 8.3

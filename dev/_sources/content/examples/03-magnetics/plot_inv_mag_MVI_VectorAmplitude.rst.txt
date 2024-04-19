@@ -412,9 +412,9 @@ Let's compare the smooth and compact model
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 47.887 seconds)
+   **Total running time of the script:** (0 minutes 54.387 seconds)
 
-**Estimated memory usage:**  139 MB
+**Estimated memory usage:**  144 MB
 
 
 .. _sphx_glr_download_content_examples_03-magnetics_plot_inv_mag_MVI_VectorAmplitude.py:

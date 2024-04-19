@@ -387,7 +387,7 @@ Run the long on-time simulation
  .. code-block:: none
 
     --- Running Long On-Time Simulation ---
-     ... done. Elapsed time 1.9647884368896484
+     ... done. Elapsed time 2.1097564697265625
 
 
 
@@ -522,7 +522,7 @@ Print the version of SimPEG and dependencies
     <div class="output_subarea output_html rendered_html output_result">
     <table style='border: 1.5px solid;'>
       <tr>
-         <td style='text-align: center; font-weight: bold; font-size: 1.2em; border: 1px solid;' colspan='6'>Wed Apr 17 13:34:28 2024 PDT</td>
+         <td style='text-align: center; font-weight: bold; font-size: 1.2em; border: 1px solid;' colspan='6'>Fri Apr 19 10:31:29 2024 PDT</td>
       </tr>
       <tr>
         <td style='text-align: right; border: 1px solid;'>OS</td>
@@ -612,9 +612,9 @@ Print the version of SimPEG and dependencies
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 12.467 seconds)
+   **Total running time of the script:** (0 minutes 12.435 seconds)
 
-**Estimated memory usage:**  10 MB
+**Estimated memory usage:**  9 MB
 
 
 .. _sphx_glr_download_content_examples_06-tdem_plot_fwd_tdem_inductive_src_permeable_target.py:

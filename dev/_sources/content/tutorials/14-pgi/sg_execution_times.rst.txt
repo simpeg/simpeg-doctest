@@ -6,7 +6,7 @@
 
 Computation times
 =================
-**07:06.750** total execution time for 2 files **from content/tutorials/14-pgi**:
+**07:25.544** total execution time for 2 files **from content/tutorials/14-pgi**:
 
 .. container::
 
@@ -33,8 +33,8 @@ Computation times
      - Time
      - Mem (MB)
    * - :ref:`sphx_glr_content_tutorials_14-pgi_plot_inv_2_joint_pf_pgi_no_info_tutorial.py` (``plot_inv_2_joint_pf_pgi_no_info_tutorial.py``)
-     - 03:49.968
-     - 94.6
+     - 03:54.312
+     - 90.5
    * - :ref:`sphx_glr_content_tutorials_14-pgi_plot_inv_1_joint_pf_pgi_full_info_tutorial.py` (``plot_inv_1_joint_pf_pgi_full_info_tutorial.py``)
-     - 03:16.782
-     - 104.4
+     - 03:31.232
+     - 102.0

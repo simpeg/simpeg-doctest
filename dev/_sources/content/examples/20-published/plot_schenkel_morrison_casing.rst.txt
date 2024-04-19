@@ -98,7 +98,7 @@ a citation would be much appreciated!
     Skin Depth:  [5000000.0]
     Mesh Extent xmax: 30844847.844048,: zmin: -10732642.852316, zmax: 10732343.352316
     Number of cells 878878
-    Time to solve 2 sources 7.13995885848999
+    Time to solve 2 sources 7.183493375778198
 
 
 
@@ -355,9 +355,9 @@ a citation would be much appreciated!
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 9.476 seconds)
+   **Total running time of the script:** (0 minutes 9.371 seconds)
 
-**Estimated memory usage:**  2136 MB
+**Estimated memory usage:**  2169 MB
 
 
 .. _sphx_glr_download_content_examples_20-published_plot_schenkel_morrison_casing.py:

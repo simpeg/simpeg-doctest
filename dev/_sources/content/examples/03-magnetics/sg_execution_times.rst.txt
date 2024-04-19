@@ -6,7 +6,7 @@
 
 Computation times
 =================
-**03:51.378** total execution time for 4 files **from content/examples/03-magnetics**:
+**04:10.066** total execution time for 4 files **from content/examples/03-magnetics**:
 
 .. container::
 
@@ -33,14 +33,14 @@ Computation times
      - Time
      - Mem (MB)
    * - :ref:`sphx_glr_content_examples_03-magnetics_plot_inv_mag_MVI_Sparse_TreeMesh.py` (``plot_inv_mag_MVI_Sparse_TreeMesh.py``)
-     - 02:11.110
-     - 672.3
-   * - :ref:`sphx_glr_content_examples_03-magnetics_plot_inv_mag_nonLinear_Amplitude.py` (``plot_inv_mag_nonLinear_Amplitude.py``)
-     - 00:51.857
-     - 545.6
+     - 02:21.400
+     - 671.7
    * - :ref:`sphx_glr_content_examples_03-magnetics_plot_inv_mag_MVI_VectorAmplitude.py` (``plot_inv_mag_MVI_VectorAmplitude.py``)
-     - 00:47.887
-     - 138.7
+     - 00:54.387
+     - 144.3
+   * - :ref:`sphx_glr_content_examples_03-magnetics_plot_inv_mag_nonLinear_Amplitude.py` (``plot_inv_mag_nonLinear_Amplitude.py``)
+     - 00:53.691
+     - 500.5
    * - :ref:`sphx_glr_content_examples_03-magnetics_plot_0_analytic.py` (``plot_0_analytic.py``)
-     - 00:00.524
+     - 00:00.588
      - 8.3

@@ -667,7 +667,7 @@ Let's compare the smooth and compact model
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (2 minutes 11.110 seconds)
+   **Total running time of the script:** (2 minutes 21.400 seconds)
 
 **Estimated memory usage:**  672 MB
 

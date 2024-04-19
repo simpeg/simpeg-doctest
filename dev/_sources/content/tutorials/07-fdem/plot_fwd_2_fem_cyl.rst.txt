@@ -347,16 +347,16 @@ Here we show how the simulation is used to predict data.
  .. code-block:: none
 
 
-    <matplotlib.legend.Legend object at 0x7f90f3ba8af0>
+    <matplotlib.legend.Legend object at 0x7f72e1880550>
 
 
 
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 10.679 seconds)
+   **Total running time of the script:** (0 minutes 10.965 seconds)
 
-**Estimated memory usage:**  204 MB
+**Estimated memory usage:**  236 MB
 
 
 .. _sphx_glr_download_content_tutorials_07-fdem_plot_fwd_2_fem_cyl.py:

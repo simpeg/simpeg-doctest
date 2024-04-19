@@ -244,18 +244,6 @@
       
       
         <div class="navbar-item">
-
-<script>
-document.write(`
-  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
-    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
-    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
-  </button>
-`);
-</script></div>
-      
-        <div class="navbar-item">
 <script>
 document.write(`
   <div class="version-switcher__container dropdown">
@@ -276,6 +264,18 @@ document.write(`
       <!-- dropdown will be populated by javascript on page load -->
     </div>
   </div>
+`);
+</script></div>
+      
+        <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
 `);
 </script></div>
       
@@ -447,18 +447,6 @@ document.write(`
       <div class="sidebar-header-items__end">
         
           <div class="navbar-item">
-
-<script>
-document.write(`
-  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
-    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
-    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
-  </button>
-`);
-</script></div>
-        
-          <div class="navbar-item">
 <script>
 document.write(`
   <div class="version-switcher__container dropdown">
@@ -479,6 +467,18 @@ document.write(`
       <!-- dropdown will be populated by javascript on page load -->
     </div>
   </div>
+`);
+</script></div>
+        
+          <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
 `);
 </script></div>
         
@@ -742,13 +742,13 @@ model has any nan: 0
   #     beta     phi_d     phi_m       f      |proj(x-g)-x|  LS    Comment
 -----------------------------------------------------------------------------
 x0 has any nan: 0
-   0  1.84e+01  2.00e+05  0.00e+00  2.00e+05    2.43e+06      0
-   1  1.84e+01  3.46e+01  4.59e+01  8.79e+02    5.67e-06      0
+   0  1.90e+01  2.00e+05  0.00e+00  2.00e+05    2.54e+06      0
+   1  1.90e+01  3.98e+01  4.56e+01  9.05e+02    3.70e-06      0
 ------------------------- STOP! -------------------------
-0 : |fc-fOld| = 1.9912e+05 &lt;= tolF*(1+|f0|) = 2.0000e+04
-0 : |xc-x_last| = 3.9965e+00 &lt;= tolX*(1+|x0|) = 1.0000e-01
-1 : |proj(x-g)-x|    = 5.6744e-06 &lt;= tolG          = 1.0000e-01
-1 : |proj(x-g)-x|    = 5.6744e-06 &lt;= 1e3*eps       = 1.0000e-02
+0 : |fc-fOld| = 1.9909e+05 &lt;= tolF*(1+|f0|) = 2.0000e+04
+0 : |xc-x_last| = 3.9752e+00 &lt;= tolX*(1+|x0|) = 1.0000e-01
+1 : |proj(x-g)-x|    = 3.7025e-06 &lt;= tolG          = 1.0000e-01
+1 : |proj(x-g)-x|    = 3.7025e-06 &lt;= 1e3*eps       = 1.0000e-02
 0 : maxIter   =      10    &lt;= iter          =      1
 ------------------------- DONE! -------------------------
 </pre></div>
@@ -845,70 +845,40 @@ model has any nan: 0
   #     beta     phi_d     phi_m       f      |proj(x-g)-x|  LS    Comment
 -----------------------------------------------------------------------------
 x0 has any nan: 0
-   0  3.12e-02  2.00e+05  0.00e+00  2.00e+05    2.43e+06      0
-geophys. misfits: 3.2 (target 20.0 [True]) | smallness misfit: 3122.3 (target: 100.0 [False])
-mref changed in  24  places
-Beta cooling evaluation: progress: [3.2]; minimum progress targets: [160000.]
-Warming alpha_pgi to favor clustering:  6.1833563421088895
-   1  3.12e-02  3.23e+00  2.20e+02  1.01e+01    1.02e+01      0
-geophys. misfits: 3.3 (target 20.0 [True]) | smallness misfit: 836.1 (target: 100.0 [False])
+   0  3.22e-02  2.00e+05  0.00e+00  2.00e+05    2.54e+06      0
+geophys. misfits: 1.1 (target 20.0 [True]) | smallness misfit: 4183.1 (target: 100.0 [False])
+mref changed in  26  places
+Beta cooling evaluation: progress: [1.1]; minimum progress targets: [160000.]
+Warming alpha_pgi to favor clustering:  18.08170689189458
+   1  3.22e-02  1.11e+00  7.84e+02  2.64e+01    3.33e+01      0
+geophys. misfits: 2.7 (target 20.0 [True]) | smallness misfit: 622.5 (target: 100.0 [False])
 mref changed in  0  places
 Add mref to Smoothness. Changes in mref happened in 0.0 % of the cells
-Beta cooling evaluation: progress: [3.3]; minimum progress targets: [22.]
-Warming alpha_pgi to favor clustering:  37.70439822940718
-   2  3.12e-02  3.28e+00  3.73e+02  1.49e+01    2.57e+01      0   Skip BFGS
-geophys. misfits: 3.7 (target 20.0 [True]) | smallness misfit: 377.9 (target: 100.0 [False])
+Beta cooling evaluation: progress: [2.7]; minimum progress targets: [22.]
+Warming alpha_pgi to favor clustering:  132.16542980257975
+   2  3.22e-02  2.74e+00  9.10e+02  3.20e+01    1.09e+02      0
+geophys. misfits: 8.7 (target 20.0 [True]) | smallness misfit: 125.0 (target: 100.0 [False])
 mref changed in  0  places
 Add mref to Smoothness. Changes in mref happened in 0.0 % of the cells
-Beta cooling evaluation: progress: [3.7]; minimum progress targets: [22.]
-Warming alpha_pgi to favor clustering:  202.25621612192984
-   3  3.12e-02  3.73e+00  8.70e+02  3.09e+01    8.92e+01      0
-geophys. misfits: 5.9 (target 20.0 [True]) | smallness misfit: 270.3 (target: 100.0 [False])
+Beta cooling evaluation: progress: [8.7]; minimum progress targets: [22.]
+Warming alpha_pgi to favor clustering:  302.9671896400009
+   3  3.22e-02  8.72e+00  5.03e+02  2.49e+01    8.45e+02      0
+geophys. misfits: 11.9 (target 20.0 [True]) | smallness misfit: 69.8 (target: 100.0 [True])
+All targets have been reached
 mref changed in  0  places
 Add mref to Smoothness. Changes in mref happened in 0.0 % of the cells
-Beta cooling evaluation: progress: [5.9]; minimum progress targets: [22.]
-Warming alpha_pgi to favor clustering:  686.1350055835422
-   4  3.12e-02  5.90e+00  1.98e+03  6.78e+01    2.22e+02      0
-geophys. misfits: 11.1 (target 20.0 [True]) | smallness misfit: 226.9 (target: 100.0 [False])
-mref changed in  0  places
-Add mref to Smoothness. Changes in mref happened in 0.0 % of the cells
-Beta cooling evaluation: progress: [11.1]; minimum progress targets: [22.]
-Warming alpha_pgi to favor clustering:  1239.1848453998018
-   5  3.12e-02  1.11e+01  2.94e+03  1.03e+02    2.33e+02      0
-geophys. misfits: 17.7 (target 20.0 [True]) | smallness misfit: 204.3 (target: 100.0 [False])
-mref changed in  0  places
-Add mref to Smoothness. Changes in mref happened in 0.0 % of the cells
-Beta cooling evaluation: progress: [17.7]; minimum progress targets: [22.]
-Warming alpha_pgi to favor clustering:  1400.7444119686998
-   6  3.12e-02  1.77e+01  3.00e+03  1.11e+02    6.45e+01      0   Skip BFGS
-geophys. misfits: 19.8 (target 20.0 [True]) | smallness misfit: 199.2 (target: 100.0 [False])
-mref changed in  0  places
-Add mref to Smoothness. Changes in mref happened in 0.0 % of the cells
-Beta cooling evaluation: progress: [19.8]; minimum progress targets: [22.]
-Warming alpha_pgi to favor clustering:  1413.8624630703057
-   7  3.12e-02  1.98e+01  2.95e+03  1.12e+02    5.17e+00      0   Skip BFGS
-geophys. misfits: 20.0 (target 20.0 [True]) | smallness misfit: 198.8 (target: 100.0 [False])
-mref changed in  0  places
-Add mref to Smoothness. Changes in mref happened in 0.0 % of the cells
-Beta cooling evaluation: progress: [20.]; minimum progress targets: [22.]
-Warming alpha_pgi to favor clustering:  1414.5628430183895
-   8  3.12e-02  2.00e+01  2.95e+03  1.12e+02    2.76e-01      0   Skip BFGS
-geophys. misfits: 20.0 (target 20.0 [True]) | smallness misfit: 198.8 (target: 100.0 [False])
-mref changed in  0  places
-Add mref to Smoothness. Changes in mref happened in 0.0 % of the cells
-Beta cooling evaluation: progress: [20.]; minimum progress targets: [22.]
-Warming alpha_pgi to favor clustering:  1414.5993442642125
-   9  3.12e-02  2.00e+01  2.94e+03  1.12e+02    1.44e-02      0   Skip BFGS
+Beta cooling evaluation: progress: [11.9]; minimum progress targets: [22.]
+Warming alpha_pgi to favor clustering:  509.0178156956555
 ------------------------- STOP! -------------------------
-1 : |fc-fOld| = 2.2637e-03 &lt;= tolF*(1+|f0|) = 2.0000e+04
-1 : |xc-x_last| = 2.4973e-05 &lt;= tolX*(1+|x0|) = 1.0000e-01
-1 : |proj(x-g)-x|    = 1.4363e-02 &lt;= tolG          = 1.0000e-01
-0 : |proj(x-g)-x|    = 1.4363e-02 &lt;= 1e3*eps       = 1.0000e-02
-0 : maxIter   =      20    &lt;= iter          =      9
+1 : |fc-fOld| = 0.0000e+00 &lt;= tolF*(1+|f0|) = 2.0000e+04
+1 : |xc-x_last| = 9.1229e-02 &lt;= tolX*(1+|x0|) = 1.0000e-01
+0 : |proj(x-g)-x|    = 8.4496e+02 &lt;= tolG          = 1.0000e-01
+0 : |proj(x-g)-x|    = 8.4496e+02 &lt;= 1e3*eps       = 1.0000e-02
+0 : maxIter   =      20    &lt;= iter          =      4
 ------------------------- DONE! -------------------------
 </pre></div>
 </div>
-<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> (0 minutes 6.525 seconds)</p>
+<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> (0 minutes 4.218 seconds)</p>
 <p><strong>Estimated memory usage:</strong>  9 MB</p>
 <div class="sphx-glr-footer sphx-glr-footer-example docutils container" id="sphx-glr-download-content-examples-10-pgi-plot-inv-0-pgi-linear-1d-py">
 <div class="sphx-glr-download sphx-glr-download-jupyter docutils container">

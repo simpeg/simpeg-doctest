@@ -23,9 +23,9 @@
          VectorAmplitude.test
          VectorAmplitude.update_weights
       
+         VectorAmplitude.__call__
          VectorAmplitude.__mul__
          VectorAmplitude.__getitem__
-         VectorAmplitude.__call__
          VectorAmplitude.__len__
   
 

@@ -6,7 +6,7 @@
 
 Computation times
 =================
-**05:00.110** total execution time for 11 files **from content/examples/20-published**:
+**04:20.373** total execution time for 11 files **from content/examples/20-published**:
 
 .. container::
 
@@ -32,36 +32,36 @@ Computation times
    * - Example
      - Time
      - Mem (MB)
-   * - :ref:`sphx_glr_content_examples_20-published_plot_heagyetal2017_cyl_inversions.py` (``plot_heagyetal2017_cyl_inversions.py``)
-     - 02:02.941
-     - 118.5
    * - :ref:`sphx_glr_content_examples_20-published_plot_laguna_del_maule_inversion.py` (``plot_laguna_del_maule_inversion.py``)
-     - 01:12.378
-     - 267.0
+     - 01:18.497
+     - 325.2
+   * - :ref:`sphx_glr_content_examples_20-published_plot_heagyetal2017_cyl_inversions.py` (``plot_heagyetal2017_cyl_inversions.py``)
+     - 01:03.114
+     - 118.6
    * - :ref:`sphx_glr_content_examples_20-published_plot_tomo_joint_with_volume.py` (``plot_tomo_joint_with_volume.py``)
-     - 00:30.380
-     - 9.0
-   * - :ref:`sphx_glr_content_examples_20-published_plot_heagyetal2017_casing.py` (``plot_heagyetal2017_casing.py``)
-     - 00:27.461
-     - 1541.8
+     - 00:33.507
+     - 9.9
    * - :ref:`sphx_glr_content_examples_20-published_plot_booky_1D_time_freq_inv.py` (``plot_booky_1D_time_freq_inv.py``)
-     - 00:24.936
-     - 15.4
+     - 00:32.950
+     - 15.6
+   * - :ref:`sphx_glr_content_examples_20-published_plot_heagyetal2017_casing.py` (``plot_heagyetal2017_casing.py``)
+     - 00:30.506
+     - 1620.2
    * - :ref:`sphx_glr_content_examples_20-published_plot_schenkel_morrison_casing.py` (``plot_schenkel_morrison_casing.py``)
-     - 00:09.476
-     - 2136.0
+     - 00:09.371
+     - 2169.3
    * - :ref:`sphx_glr_content_examples_20-published_plot_richards_celia1990.py` (``plot_richards_celia1990.py``)
-     - 00:05.395
+     - 00:05.651
      - 8.3
    * - :ref:`sphx_glr_content_examples_20-published_plot_effective_medium_theory.py` (``plot_effective_medium_theory.py``)
-     - 00:02.836
-     - 8.6
+     - 00:02.430
+     - 8.7
    * - :ref:`sphx_glr_content_examples_20-published_plot_booky_1Dstitched_resolve_inv.py` (``plot_booky_1Dstitched_resolve_inv.py``)
-     - 00:01.764
-     - 8.6
+     - 00:01.844
+     - 8.7
    * - :ref:`sphx_glr_content_examples_20-published_plot_load_booky.py` (``plot_load_booky.py``)
-     - 00:01.757
+     - 00:01.781
      - 8.3
    * - :ref:`sphx_glr_content_examples_20-published_plot_vadose_vangenuchten.py` (``plot_vadose_vangenuchten.py``)
-     - 00:00.786
+     - 00:00.722
      - 8.3
