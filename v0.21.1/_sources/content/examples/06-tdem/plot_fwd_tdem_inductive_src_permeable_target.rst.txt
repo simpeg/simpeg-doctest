@@ -387,7 +387,7 @@ Run the long on-time simulation
  .. code-block:: none
 
     --- Running Long On-Time Simulation ---
-     ... done. Elapsed time 2.730994939804077
+     ... done. Elapsed time 1.9867379665374756
 
 
 
@@ -522,13 +522,13 @@ Print the version of SimPEG and dependencies
     <div class="output_subarea output_html rendered_html output_result">
     <table style='border: 1.5px solid;'>
       <tr>
-         <td style='text-align: center; font-weight: bold; font-size: 1.2em; border: 1px solid;' colspan='6'>Wed Apr 10 20:13:50 2024 UTC</td>
+         <td style='text-align: center; font-weight: bold; font-size: 1.2em; border: 1px solid;' colspan='6'>Wed Apr 17 18:25:46 2024 PDT</td>
       </tr>
       <tr>
         <td style='text-align: right; border: 1px solid;'>OS</td>
         <td style='text-align: left; border: 1px solid;'>Linux</td>
         <td style='text-align: right; border: 1px solid;'>CPU(s)</td>
-        <td style='text-align: left; border: 1px solid;'>2</td>
+        <td style='text-align: left; border: 1px solid;'>48</td>
         <td style='text-align: right; border: 1px solid;'>Machine</td>
         <td style='text-align: left; border: 1px solid;'>x86_64</td>
       </tr>
@@ -536,7 +536,7 @@ Print the version of SimPEG and dependencies
         <td style='text-align: right; border: 1px solid;'>Architecture</td>
         <td style='text-align: left; border: 1px solid;'>64bit</td>
         <td style='text-align: right; border: 1px solid;'>RAM</td>
-        <td style='text-align: left; border: 1px solid;'>6.8 GiB</td>
+        <td style='text-align: left; border: 1px solid;'>125.8 GiB</td>
         <td style='text-align: right; border: 1px solid;'>Environment</td>
         <td style='text-align: left; border: 1px solid;'>Python</td>
       </tr>
@@ -550,7 +550,7 @@ Print the version of SimPEG and dependencies
       </tr>
       <tr>
         <td style='text-align: right; border: 1px solid;'>SimPEG</td>
-        <td style='text-align: left; border: 1px solid;'>0.21.1</td>
+        <td style='text-align: left; border: 1px solid;'>0.21.2.dev2+g999d18c03.d20240417</td>
         <td style='text-align: right; border: 1px solid;'>discretize</td>
         <td style='text-align: left; border: 1px solid;'>0.10.0</td>
         <td style='text-align: right; border: 1px solid;'>pymatsolver</td>
@@ -612,9 +612,9 @@ Print the version of SimPEG and dependencies
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 13.566 seconds)
+   **Total running time of the script:** (0 minutes 12.454 seconds)
 
-**Estimated memory usage:**  8 MB
+**Estimated memory usage:**  9 MB
 
 
 .. _sphx_glr_download_content_examples_06-tdem_plot_fwd_tdem_inductive_src_permeable_target.py:

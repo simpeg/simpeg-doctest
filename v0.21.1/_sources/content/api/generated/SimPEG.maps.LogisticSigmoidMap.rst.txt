@@ -18,8 +18,8 @@
          LogisticSigmoidMap.inverse
          LogisticSigmoidMap.test
       
-         LogisticSigmoidMap.__len__
          LogisticSigmoidMap.__mul__
+         LogisticSigmoidMap.__len__
   
 
   

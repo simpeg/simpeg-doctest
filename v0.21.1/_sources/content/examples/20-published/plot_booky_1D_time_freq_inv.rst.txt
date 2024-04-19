@@ -76,8 +76,9 @@ This example was updated for SimPEG 0.14.0 on January 31st, 2020 by Joseph Capri
 
  .. code-block:: none
 
+    file already exists, new file is called /home/ssoler/git/simpeg/examples/20-published/bookpurnong_inversion.tar.gz
     Downloading https://storage.googleapis.com/simpeg/bookpurnong/bookpurnong_inversion.tar.gz
-       saved to: /home/vsts/work/1/s/examples/20-published/bookpurnong_inversion.tar.gz
+       saved to: /home/ssoler/git/simpeg/examples/20-published/bookpurnong_inversion.tar.gz
     Download completed!
 
                             SimPEG.InvProblem is setting bfgsH0 to the inverse of the eval2Deriv.
@@ -93,7 +94,7 @@ This example was updated for SimPEG 0.14.0 on January 31st, 2020 by Joseph Capri
        2  2.00e+00  1.22e+01  3.36e+00  1.89e+01    8.93e+00      0              
     ------------------------- STOP! -------------------------
     1 : |fc-fOld| = 0.0000e+00 <= tolF*(1+|f0|) = 2.4920e+01
-    0 : |xc-x_last| = 2.1944e+00 <= tolX*(1+|x0|) = 1.3820e+00
+    0 : |xc-x_last| = 2.1943e+00 <= tolX*(1+|x0|) = 1.3820e+00
     0 : |proj(x-g)-x|    = 8.9324e+00 <= tolG          = 1.0000e-01
     0 : |proj(x-g)-x|    = 8.9324e+00 <= 1e3*eps       = 1.0000e-02
     0 : maxIter   =       5    <= iter          =      3
@@ -107,11 +108,11 @@ This example was updated for SimPEG 0.14.0 on January 31st, 2020 by Joseph Capri
       #     beta     phi_d     phi_m       f      |proj(x-g)-x|  LS    Comment   
     -----------------------------------------------------------------------------
     x0 has any nan: 0
-    /home/vsts/conda/envs/simpeg-test/lib/python3.8/site-packages/pymatsolver/direct.py:23: PardisoTypeConversionWarning:
+    /home/ssoler/mambaforge/envs/simpeg-test/lib/python3.8/site-packages/pymatsolver/direct.py:23: PardisoTypeConversionWarning:
 
     Converting csc_matrix matrix to CSR format.
 
-    /home/vsts/conda/envs/simpeg-test/lib/python3.8/site-packages/pymatsolver/direct.py:73: PardisoTypeConversionWarning:
+    /home/ssoler/mambaforge/envs/simpeg-test/lib/python3.8/site-packages/pymatsolver/direct.py:73: PardisoTypeConversionWarning:
 
     Converting csc_matrix matrix to CSR format.
 
@@ -119,19 +120,19 @@ This example was updated for SimPEG 0.14.0 on January 31st, 2020 by Joseph Capri
        1  2.00e+01  9.57e+01  4.04e+00  1.77e+02    9.18e+01      0              
        2  2.00e+01  3.77e+01  2.39e+00  8.54e+01    2.54e+01      0              
        3  2.00e+01  2.25e+01  2.77e+00  7.79e+01    8.14e+00      0              
-       4  2.00e+01  2.11e+01  2.81e+00  7.74e+01    3.47e+00      0              
+       4  2.00e+01  2.11e+01  2.81e+00  7.74e+01    3.46e+00      0              
     ------------------------- STOP! -------------------------
     1 : |fc-fOld| = 0.0000e+00 <= tolF*(1+|f0|) = 1.3067e+02
-    1 : |xc-x_last| = 1.0850e-01 <= tolX*(1+|x0|) = 1.3820e+00
-    0 : |proj(x-g)-x|    = 3.4654e+00 <= tolG          = 1.0000e-01
-    0 : |proj(x-g)-x|    = 3.4654e+00 <= 1e3*eps       = 1.0000e-02
+    1 : |xc-x_last| = 1.0849e-01 <= tolX*(1+|x0|) = 1.3820e+00
+    0 : |proj(x-g)-x|    = 3.4648e+00 <= tolG          = 1.0000e-01
+    0 : |proj(x-g)-x|    = 3.4648e+00 <= 1e3*eps       = 1.0000e-02
     1 : maxIter   =       5    <= iter          =      5
     ------------------------- DONE! -------------------------
-    /home/vsts/work/1/s/examples/20-published/plot_booky_1D_time_freq_inv.py:478: UserWarning:
+    /home/ssoler/git/simpeg/examples/20-published/plot_booky_1D_time_freq_inv.py:478: UserWarning:
 
     This figure includes Axes that are not compatible with tight_layout, so results might be incorrect.
 
-    ('/home/vsts/work/1/s/examples/20-published',)
+    ('/home/ssoler/git/simpeg/examples/20-published',)
 
 
 
@@ -618,9 +619,9 @@ This example was updated for SimPEG 0.14.0 on January 31st, 2020 by Joseph Capri
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 32.936 seconds)
+   **Total running time of the script:** (0 minutes 27.505 seconds)
 
-**Estimated memory usage:**  19 MB
+**Estimated memory usage:**  15 MB
 
 
 .. _sphx_glr_download_content_examples_20-published_plot_booky_1D_time_freq_inv.py:

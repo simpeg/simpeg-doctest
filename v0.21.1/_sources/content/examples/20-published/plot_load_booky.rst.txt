@@ -52,7 +52,7 @@ This example was updated for SimPEG 0.14.0 on January 31st, 2020 by Joseph Capri
  .. code-block:: none
 
     Downloading https://storage.googleapis.com/simpeg/bookpurnong/bookpurnong_inversion.tar.gz
-       saved to: /home/vsts/work/1/s/examples/20-published/bookpurnong_inversion.tar.gz
+       saved to: /home/ssoler/git/simpeg/examples/20-published/bookpurnong_inversion.tar.gz
     Download completed!
 
 
@@ -304,7 +304,7 @@ This example was updated for SimPEG 0.14.0 on January 31st, 2020 by Joseph Capri
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 1.809 seconds)
+   **Total running time of the script:** (0 minutes 1.666 seconds)
 
 **Estimated memory usage:**  8 MB
 

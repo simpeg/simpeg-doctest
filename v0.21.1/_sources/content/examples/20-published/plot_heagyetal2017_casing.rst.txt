@@ -106,7 +106,7 @@ This example was updated for SimPEG 0.14.0 on January 31st, 2020 by Joseph Capri
 
     Skin Depth: [7071.067811865475]
     Downloading https://storage.googleapis.com/simpeg/papers/Heagyetal2016/Heagyetal2016Casing.hdf5
-       saved to: /home/vsts/Downloads/simpegtemp/Heagyetal2016Casing.hdf5
+       saved to: /home/ssoler/Downloads/simpegtemp/Heagyetal2016Casing.hdf5
     Download completed!
     Getting Primary Problem
     Cyl Mesh Extent xmax: 88864.16819654894,: zmin: -289135.34091688367, zmax: 288135.8409168833
@@ -128,7 +128,7 @@ This example was updated for SimPEG 0.14.0 on January 31st, 2020 by Joseph Capri
     ... done secondary survey
     Setting up Secondary Survey
     ... done secondary survey
-    Removing /home/vsts/Downloads/simpegtemp
+    Removing /home/ssoler/Downloads/simpegtemp
 
 
 
@@ -1584,9 +1584,9 @@ This example was updated for SimPEG 0.14.0 on January 31st, 2020 by Joseph Capri
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 34.873 seconds)
+   **Total running time of the script:** (0 minutes 27.881 seconds)
 
-**Estimated memory usage:**  1545 MB
+**Estimated memory usage:**  1550 MB
 
 
 .. _sphx_glr_download_content_examples_20-published_plot_heagyetal2017_casing.py:

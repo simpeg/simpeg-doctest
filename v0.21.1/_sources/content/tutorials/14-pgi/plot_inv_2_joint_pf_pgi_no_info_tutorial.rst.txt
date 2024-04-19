@@ -308,25 +308,25 @@ Setup
 
  .. code-block:: none
 
-    file already exists, new file is called /home/vsts/work/1/s/tutorials/14-pgi/mesh_tutorial.ubc
+    file already exists, new file is called /home/ssoler/git/simpeg/tutorials/14-pgi/mesh_tutorial.ubc
     Downloading https://storage.googleapis.com/simpeg/pgi_tutorial_assets/mesh_tutorial.ubc
-       saved to: /home/vsts/work/1/s/tutorials/14-pgi/mesh_tutorial.ubc
+       saved to: /home/ssoler/git/simpeg/tutorials/14-pgi/mesh_tutorial.ubc
     Download completed!
-    file already exists, new file is called /home/vsts/work/1/s/tutorials/14-pgi/geology_true.mod
+    file already exists, new file is called /home/ssoler/git/simpeg/tutorials/14-pgi/geology_true.mod
     Downloading https://storage.googleapis.com/simpeg/pgi_tutorial_assets/geology_true.mod
-       saved to: /home/vsts/work/1/s/tutorials/14-pgi/geology_true.mod
+       saved to: /home/ssoler/git/simpeg/tutorials/14-pgi/geology_true.mod
     Download completed!
-    file already exists, new file is called /home/vsts/work/1/s/tutorials/14-pgi/gravity_data.obs
+    file already exists, new file is called /home/ssoler/git/simpeg/tutorials/14-pgi/gravity_data.obs
     Downloading https://storage.googleapis.com/simpeg/pgi_tutorial_assets/gravity_data.obs
-       saved to: /home/vsts/work/1/s/tutorials/14-pgi/gravity_data.obs
+       saved to: /home/ssoler/git/simpeg/tutorials/14-pgi/gravity_data.obs
     Download completed!
-    file already exists, new file is called /home/vsts/work/1/s/tutorials/14-pgi/magnetic_data.obs
+    file already exists, new file is called /home/ssoler/git/simpeg/tutorials/14-pgi/magnetic_data.obs
     Downloading https://storage.googleapis.com/simpeg/pgi_tutorial_assets/magnetic_data.obs
-       saved to: /home/vsts/work/1/s/tutorials/14-pgi/magnetic_data.obs
+       saved to: /home/ssoler/git/simpeg/tutorials/14-pgi/magnetic_data.obs
     Download completed!
-    file already exists, new file is called /home/vsts/work/1/s/tutorials/14-pgi/CDED_Lake_warp.xyz
+    file already exists, new file is called /home/ssoler/git/simpeg/tutorials/14-pgi/CDED_Lake_warp.xyz
     Downloading https://storage.googleapis.com/simpeg/pgi_tutorial_assets/CDED_Lake_warp.xyz
-       saved to: /home/vsts/work/1/s/tutorials/14-pgi/CDED_Lake_warp.xyz
+       saved to: /home/ssoler/git/simpeg/tutorials/14-pgi/CDED_Lake_warp.xyz
     Download completed!
 
 
@@ -833,7 +833,7 @@ Inverse problem with no mean information
                         SimPEG.InvProblem is setting bfgsH0 to the inverse of the eval2Deriv.
                         ***Done using the default solver Pardiso and no solver_opts.***
                     
-    Alpha scales: [9215418.186342461, 0.0, 6212966.856426273, 0.0, 12323780.700801132, 0.0, 917439580.7251323, 0.0, 739047261.6876792, 0.0, 1690980576.2840338, 0.0]
+    Alpha scales: [9215418.186342454, 0.0, 6212966.8564262735, 0.0, 12323780.70080113, 0.0, 917439580.7251327, 0.0, 739047261.6876792, 0.0, 1690980576.2840345, 0.0]
     <class 'SimPEG.regularization.pgi.PGIsmallness'>
     Initial data misfit scales:  [0.98271129 0.01728871]
     model has any nan: 0
@@ -842,80 +842,80 @@ Inverse problem with no mean information
     -----------------------------------------------------------------------------
     x0 has any nan: 0
        0  1.77e-08  4.28e+06  9.99e+04  4.28e+06    2.17e+02      0              
-    geophys. misfits: 405742.6 (target 576.0 [False]); 125805.3 (target 576.0 [False]) | smallness misfit: 129087.4 (target: 11719.0 [False])
-    Beta cooling evaluation: progress: [405742.6 125805.3]; minimum progress targets: [3470231.3  572697.8]
-    mref changed in  4751  places
-       1  1.77e-08  4.01e+05  2.17e+09  4.01e+05    2.04e+01      0              
-    geophys. misfits: 170914.3 (target 576.0 [False]); 60844.6 (target 576.0 [False]) | smallness misfit: 115193.0 (target: 11719.0 [False])
-    Beta cooling evaluation: progress: [170914.3  60844.6]; minimum progress targets: [324594.1 100644.3]
-    mref changed in  2586  places
-       2  1.77e-08  1.69e+05  4.89e+09  1.69e+05    2.03e+01      0              
-    geophys. misfits: 69353.5 (target 576.0 [False]); 11276.6 (target 576.0 [False]) | smallness misfit: 91480.7 (target: 11719.0 [False])
-    Beta cooling evaluation: progress: [69353.5 11276.6]; minimum progress targets: [136731.4  48675.7]
-    mref changed in  1030  places
-       3  1.77e-08  6.83e+04  5.07e+09  6.84e+04    1.96e+01      0   Skip BFGS  
-    geophys. misfits: 3142.0 (target 576.0 [False]); 476.1 (target 576.0 [True]) | smallness misfit: 70440.1 (target: 11719.0 [False])
-    Updating scaling for data misfits by  1.2099237020909688
-    New scales: [0.98566792 0.01433208]
-    Beta cooling evaluation: progress: [3142.   476.1]; minimum progress targets: [55482.8  9021.3]
-    mref changed in  569  places
-       4  1.77e-08  3.10e+03  5.29e+09  3.20e+03    1.83e+01      0   Skip BFGS  
-    geophys. misfits: 176.8 (target 576.0 [True]); 90.6 (target 576.0 [True]) | smallness misfit: 64590.2 (target: 11719.0 [False])
-    Beta cooling evaluation: progress: [176.8  90.6]; minimum progress targets: [2513.6  691.2]
-    Warming alpha_pgi to favor clustering:  4.806122730971568
-    mref changed in  152  places
-       5  1.77e-08  1.76e+02  5.64e+09  2.75e+02    2.75e+01      0   Skip BFGS  
-    geophys. misfits: 175.2 (target 576.0 [True]); 47.5 (target 576.0 [True]) | smallness misfit: 60575.2 (target: 11719.0 [False])
-    Beta cooling evaluation: progress: [175.2  47.5]; minimum progress targets: [691.2 691.2]
-    Warming alpha_pgi to favor clustering:  37.012833201819404
+    geophys. misfits: 406632.5 (target 576.0 [False]); 125943.9 (target 576.0 [False]) | smallness misfit: 129205.3 (target: 11719.0 [False])
+    Beta cooling evaluation: progress: [406632.5 125943.9]; minimum progress targets: [3470231.3  572697.8]
+    mref changed in  4749  places
+       1  1.77e-08  4.02e+05  2.17e+09  4.02e+05    2.04e+01      0              
+    geophys. misfits: 174215.3 (target 576.0 [False]); 60825.1 (target 576.0 [False]) | smallness misfit: 115381.3 (target: 11719.0 [False])
+    Beta cooling evaluation: progress: [174215.3  60825.1]; minimum progress targets: [325306.  100755.1]
+    mref changed in  2588  places
+       2  1.77e-08  1.72e+05  4.86e+09  1.72e+05    2.04e+01      0              
+    geophys. misfits: 72557.7 (target 576.0 [False]); 11303.1 (target 576.0 [False]) | smallness misfit: 91763.3 (target: 11719.0 [False])
+    Beta cooling evaluation: progress: [72557.7 11303.1]; minimum progress targets: [139372.2  48660.1]
+    mref changed in  1040  places
+       3  1.77e-08  7.15e+04  5.04e+09  7.16e+04    1.96e+01      0   Skip BFGS  
+    geophys. misfits: 3756.6 (target 576.0 [False]); 476.8 (target 576.0 [True]) | smallness misfit: 70872.9 (target: 11719.0 [False])
+    Updating scaling for data misfits by  1.2081413048296115
+    New scales: [0.98564707 0.01435293]
+    Beta cooling evaluation: progress: [3756.6  476.8]; minimum progress targets: [58046.2  9042.5]
+    mref changed in  566  places
+       4  1.77e-08  3.71e+03  5.24e+09  3.80e+03    1.83e+01      0   Skip BFGS  
+    geophys. misfits: 182.6 (target 576.0 [True]); 93.4 (target 576.0 [True]) | smallness misfit: 64600.1 (target: 11719.0 [False])
+    Beta cooling evaluation: progress: [182.6  93.4]; minimum progress targets: [3005.3  691.2]
+    Warming alpha_pgi to favor clustering:  4.662382030431069
+    mref changed in  163  places
+       5  1.77e-08  1.81e+02  5.58e+09  2.80e+02    2.54e+01      0   Skip BFGS  
+    geophys. misfits: 180.2 (target 576.0 [True]); 48.4 (target 576.0 [True]) | smallness misfit: 60538.0 (target: 11719.0 [False])
+    Beta cooling evaluation: progress: [180.2  48.4]; minimum progress targets: [691.2 691.2]
+    Warming alpha_pgi to favor clustering:  35.18584422519227
     mref changed in  11  places
-       6  1.77e-08  1.73e+02  7.80e+09  3.11e+02    3.78e+01      0   Skip BFGS  
-    geophys. misfits: 139.5 (target 576.0 [True]); 685.3 (target 576.0 [False]) | smallness misfit: 47849.8 (target: 11719.0 [False])
-    Updating scaling for data misfits by  4.127857437961258
-    New scales: [0.94337751 0.05662249]
-    Beta cooling evaluation: progress: [139.5 685.3]; minimum progress targets: [691.2 691.2]
-    mref changed in  41  places
-       7  1.77e-08  1.70e+02  7.53e+09  3.04e+02    1.90e+01      0              
-    geophys. misfits: 152.5 (target 576.0 [True]); 422.5 (target 576.0 [True]) | smallness misfit: 46671.4 (target: 11719.0 [False])
-    Beta cooling evaluation: progress: [152.5 422.5]; minimum progress targets: [691.2 691.2]
-    Warming alpha_pgi to favor clustering:  95.14493689537267
-    mref changed in  10  places
-       8  1.77e-08  1.68e+02  1.05e+10  3.54e+02    1.70e+01      2              
-    geophys. misfits: 120.2 (target 576.0 [True]); 68.7 (target 576.0 [True]) | smallness misfit: 34906.3 (target: 11719.0 [False])
-    Beta cooling evaluation: progress: [120.2  68.7]; minimum progress targets: [691.2 691.2]
-    Warming alpha_pgi to favor clustering:  626.9365908785851
-    mref changed in  3  places
-       9  1.77e-08  1.17e+02  3.31e+10  7.02e+02    3.41e+01      0              
-    geophys. misfits: 173.1 (target 576.0 [True]); 189.7 (target 576.0 [True]) | smallness misfit: 16856.3 (target: 11719.0 [False])
-    Beta cooling evaluation: progress: [173.1 189.7]; minimum progress targets: [691.2 691.2]
-    Warming alpha_pgi to favor clustering:  1994.9708738008003
+       6  1.77e-08  1.78e+02  7.64e+09  3.13e+02    3.82e+01      0   Skip BFGS  
+    geophys. misfits: 149.7 (target 576.0 [True]); 616.9 (target 576.0 [False]) | smallness misfit: 49483.9 (target: 11719.0 [False])
+    Updating scaling for data misfits by  3.8477376392356017
+    New scales: [0.94694235 0.05305765]
+    Beta cooling evaluation: progress: [149.7 616.9]; minimum progress targets: [691.2 691.2]
+    mref changed in  39  places
+       7  1.77e-08  1.74e+02  7.72e+09  3.11e+02    1.89e+01      0              
+    geophys. misfits: 160.7 (target 576.0 [True]); 383.0 (target 576.0 [True]) | smallness misfit: 47934.2 (target: 11719.0 [False])
+    Beta cooling evaluation: progress: [160.7 383. ]; minimum progress targets: [691.2 691.2]
+    Warming alpha_pgi to favor clustering:  89.521347987493
+    mref changed in  7  places
+       8  1.77e-08  1.72e+02  1.05e+10  3.58e+02    1.73e+01      2              
+    geophys. misfits: 121.6 (target 576.0 [True]); 95.8 (target 576.0 [True]) | smallness misfit: 35555.0 (target: 11719.0 [False])
+    Beta cooling evaluation: progress: [121.6  95.8]; minimum progress targets: [691.2 691.2]
+    Warming alpha_pgi to favor clustering:  481.13576931760394
+    mref changed in  9  places
+       9  1.77e-08  1.20e+02  2.78e+10  6.12e+02    2.76e+01      0              
+    geophys. misfits: 161.3 (target 576.0 [True]); 229.7 (target 576.0 [True]) | smallness misfit: 17647.1 (target: 11719.0 [False])
+    Beta cooling evaluation: progress: [161.3 229.7]; minimum progress targets: [691.2 691.2]
+    Warming alpha_pgi to favor clustering:  1462.3654654414943
     mref changed in  0  places
     Add mref to Smoothness. Changes in mref happened in 0.0 % of the cells
-      10  1.77e-08  1.74e+02  5.11e+10  1.08e+03    3.49e+01      0              
-    geophys. misfits: 302.3 (target 576.0 [True]); 318.2 (target 576.0 [True]) | smallness misfit: 12116.2 (target: 11719.0 [False])
-    Beta cooling evaluation: progress: [302.3 318.2]; minimum progress targets: [691.2 691.2]
-    Warming alpha_pgi to favor clustering:  3706.1492908592486
+      10  1.77e-08  1.65e+02  4.32e+10  9.28e+02    3.16e+01      0              
+    geophys. misfits: 259.0 (target 576.0 [True]); 359.8 (target 576.0 [True]) | smallness misfit: 12447.9 (target: 11719.0 [False])
+    Beta cooling evaluation: progress: [259.  359.8]; minimum progress targets: [691.2 691.2]
+    Warming alpha_pgi to favor clustering:  2796.950296601143
     mref changed in  0  places
     Add mref to Smoothness. Changes in mref happened in 0.0 % of the cells
-      11  1.77e-08  3.03e+02  5.75e+10  1.32e+03    3.24e+01      0              
-    geophys. misfits: 421.1 (target 576.0 [True]); 1110.4 (target 576.0 [False]) | smallness misfit: 10251.6 (target: 11719.0 [True])
-    Updating scaling for data misfits by  1.3677904342486533
-    New scales: [0.92413227 0.07586773]
-    Beta cooling evaluation: progress: [ 421.1 1110.4]; minimum progress targets: [691.2 691.2]
+      11  1.77e-08  2.64e+02  5.16e+10  1.18e+03    2.70e+01      0              
+    geophys. misfits: 364.4 (target 576.0 [True]); 1121.4 (target 576.0 [False]) | smallness misfit: 10504.8 (target: 11719.0 [True])
+    Updating scaling for data misfits by  1.5805498947343155
+    New scales: [0.91864567 0.08135433]
+    Beta cooling evaluation: progress: [ 364.4 1121.4]; minimum progress targets: [691.2 691.2]
     Decreasing beta to counter data misfit increase.
     mref changed in  0  places
-      12  8.84e-09  4.73e+02  4.65e+10  8.85e+02    3.49e+01      0              
-    geophys. misfits: 293.7 (target 576.0 [True]); 246.6 (target 576.0 [True]) | smallness misfit: 10482.0 (target: 11719.0 [True])
+      12  8.84e-09  4.26e+02  4.19e+10  7.97e+02    3.11e+01      0              
+    geophys. misfits: 257.6 (target 576.0 [True]); 322.3 (target 576.0 [True]) | smallness misfit: 10630.7 (target: 11719.0 [True])
     All targets have been reached
-    Beta cooling evaluation: progress: [293.7 246.6]; minimum progress targets: [691.2 888.3]
-    Warming alpha_pgi to favor clustering:  7962.671840374891
+    Beta cooling evaluation: progress: [257.6 322.3]; minimum progress targets: [691.2 897.1]
+    Warming alpha_pgi to favor clustering:  5626.626770454813
     mref changed in  0  places
     Add mref to Smoothness. Changes in mref happened in 0.0 % of the cells
     ------------------------- STOP! -------------------------
     1 : |fc-fOld| = 0.0000e+00 <= tolF*(1+|f0|) = 4.2752e+05
-    0 : |xc-x_last| = 4.2774e-01 <= tolX*(1+|x0|) = 1.0153e-01
-    0 : |proj(x-g)-x|    = 3.4856e+01 <= tolG          = 1.0000e-01
-    0 : |proj(x-g)-x|    = 3.4856e+01 <= 1e3*eps       = 1.0000e-02
+    0 : |xc-x_last| = 3.6286e-01 <= tolX*(1+|x0|) = 1.0153e-01
+    0 : |proj(x-g)-x|    = 3.1013e+01 <= tolG          = 1.0000e-01
+    0 : |proj(x-g)-x|    = 3.1013e+01 <= 1e3*eps       = 1.0000e-02
     0 : maxIter   =      30    <= iter          =     13
     ------------------------- DONE! -------------------------
 
@@ -925,9 +925,9 @@ Inverse problem with no mean information
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (2 minutes 44.370 seconds)
+   **Total running time of the script:** (3 minutes 54.917 seconds)
 
-**Estimated memory usage:**  88 MB
+**Estimated memory usage:**  99 MB
 
 
 .. _sphx_glr_download_content_tutorials_14-pgi_plot_inv_2_joint_pf_pgi_no_info_tutorial.py:

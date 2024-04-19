@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>PF: Gravity: Laguna del Maule Bouguer Gravity &#8212; SimPEG 0.21.1 documentation</title>
+    <title>PF: Gravity: Laguna del Maule Bouguer Gravity &#8212; SimPEG v0.21.1 documentation</title>
   
   
   
@@ -30,7 +30,7 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=fa44fd50" />
-    <link rel="stylesheet" type="text/css" href="../../../_static/plot_directive.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/plot_directive.css?v=7f9a90b1" />
     <link rel="stylesheet" type="text/css" href="../../../_static/sg_gallery.css?v=61a4c737" />
     <link rel="stylesheet" type="text/css" href="../../../_static/sg_gallery-binder.css?v=f4aeca0c" />
     <link rel="stylesheet" type="text/css" href="../../../_static/sg_gallery-dataframe.css?v=2082cf3c" />
@@ -42,11 +42,17 @@
 <link rel="preload" as="script" href="../../../_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd" />
   <script src="../../../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=5b4479735964841361fd"></script>
 
-    <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js?v=18a41c59"></script>
+    <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js?v=9cbbb60d"></script>
     <script src="../../../_static/doctools.js?v=888ff710"></script>
     <script src="../../../_static/sphinx_highlight.js?v=4825356b"></script>
     <script data-domain="docs.simpeg.xyz" defer="defer" src="https://plausible.io/js/script.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'content/examples/20-published/plot_laguna_del_maule_inversion';</script>
+    <script>
+        DOCUMENTATION_OPTIONS.theme_version = '0.14.4';
+        DOCUMENTATION_OPTIONS.theme_switcher_json_url = 'https://doctest.simpeg.xyz/latest/_static/versions.json';
+        DOCUMENTATION_OPTIONS.theme_switcher_version_match = 'v0.21.1';
+        DOCUMENTATION_OPTIONS.show_version_warning_banner = false;
+        </script>
     <link rel="icon" href="../../../_static/logo-block.ico"/>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
@@ -136,8 +142,8 @@
       
     
     
-    <img src="../../../_static/simpeg-logo.png" class="logo__image only-light" alt="SimPEG 0.21.1 documentation - Home"/>
-    <script>document.write(`<img src="../../../_static/simpeg-logo.png" class="logo__image only-dark" alt="SimPEG 0.21.1 documentation - Home"/>`);</script>
+    <img src="../../../_static/simpeg-logo.png" class="logo__image only-light" alt="SimPEG v0.21.1 documentation - Home"/>
+    <script>document.write(`<img src="../../../_static/simpeg-logo.png" class="logo__image only-dark" alt="SimPEG v0.21.1 documentation - Home"/>`);</script>
   
   
 </a></div>
@@ -236,6 +242,30 @@
  </script>
         </div>
       
+      
+        <div class="navbar-item">
+<script>
+document.write(`
+  <div class="version-switcher__container dropdown">
+    <button id="pst-version-switcher-button-2"
+      type="button"
+      class="version-switcher__button btn btn-sm navbar-btn dropdown-toggle"
+      data-bs-toggle="dropdown"
+      aria-haspopup="listbox"
+      aria-controls="pst-version-switcher-list-2"
+      aria-label="Version switcher list"
+    >
+      Choose version  <!-- this text may get changed later by javascript -->
+      <span class="caret"></span>
+    </button>
+    <div id="pst-version-switcher-list-2"
+      class="version-switcher__menu dropdown-menu list-group-flush py-0"
+      role="listbox" aria-labelledby="pst-version-switcher-button-2">
+      <!-- dropdown will be populated by javascript on page load -->
+    </div>
+  </div>
+`);
+</script></div>
       
         <div class="navbar-item">
 
@@ -415,6 +445,30 @@ document.write(`
     
     
       <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+<script>
+document.write(`
+  <div class="version-switcher__container dropdown">
+    <button id="pst-version-switcher-button-3"
+      type="button"
+      class="version-switcher__button btn btn-sm navbar-btn dropdown-toggle"
+      data-bs-toggle="dropdown"
+      aria-haspopup="listbox"
+      aria-controls="pst-version-switcher-list-3"
+      aria-label="Version switcher list"
+    >
+      Choose version  <!-- this text may get changed later by javascript -->
+      <span class="caret"></span>
+    </button>
+    <div id="pst-version-switcher-list-3"
+      class="version-switcher__menu dropdown-menu list-group-flush py-0"
+      role="listbox" aria-labelledby="pst-version-switcher-button-3">
+      <!-- dropdown will be populated by javascript on page load -->
+    </div>
+  </div>
+`);
+</script></div>
         
           <div class="navbar-item">
 
@@ -617,7 +671,7 @@ then applying an Lp norm to produce a compact model.</p>
 <li><img src="../../../_images/sphx_glr_plot_laguna_del_maule_inversion_003.png" srcset="../../../_images/sphx_glr_plot_laguna_del_maule_inversion_003.png" alt="Compact Inversion: Depth weight = 3.0: $\epsilon_p$ = 0.0: $\epsilon_q$ = 0.0, Z: 1087.5 m, Z: -1125.0 m, Cross Section" class = "sphx-glr-multi-img"/></li>
 </ul>
 <div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>Downloading https://storage.googleapis.com/simpeg/Chile_GRAV_4_Miller/Chile_GRAV_4_Miller.tar.gz
-   saved to: /home/vsts/work/1/s/examples/20-published/Chile_GRAV_4_Miller.tar.gz
+   saved to: /home/ssoler/git/simpeg/examples/20-published/Chile_GRAV_4_Miller.tar.gz
 Download completed!
 
                     SimPEG.InvProblem is setting bfgsH0 to the inverse of the eval2Deriv.
@@ -631,31 +685,31 @@ x0 has any nan: 0
    0  8.98e-04  2.60e+06  1.89e+02  2.60e+06    1.95e+02      0
    1  4.49e-04  1.07e+04  1.05e+08  5.79e+04    1.40e+02      0
    2  2.24e-04  4.01e+03  1.15e+08  2.99e+04    1.33e+02      0   Skip BFGS
-   3  1.12e-04  1.42e+03  1.23e+08  1.53e+04    1.23e+02      0   Skip BFGS
+   3  1.12e-04  1.42e+03  1.23e+08  1.53e+04    1.22e+02      0   Skip BFGS
    4  5.61e-05  4.75e+02  1.29e+08  7.71e+03    1.05e+02      0   Skip BFGS
 Reached starting chifact with l2-norm regularization: Start IRLS steps...
-irls_threshold 0.3497745427619142
-   5  2.80e-05  1.52e+02  2.69e+08  7.70e+03    9.28e+01      0   Skip BFGS
-   6  2.80e-05  1.55e+02  3.69e+08  1.05e+04    1.50e+02      0
-   7  1.88e-05  3.23e+02  4.71e+08  9.17e+03    9.75e+01      0
-   8  1.17e-05  3.82e+02  4.45e+08  5.60e+03    1.99e+02      1
-   9  7.75e-06  3.36e+02  3.72e+08  3.22e+03    2.08e+02      0   Skip BFGS
-  10  1.73e-05  7.74e+01  3.01e+08  5.28e+03    1.42e+02      0
-  11  1.73e-05  2.11e+02  2.29e+08  4.18e+03    1.14e+02      0
-  12  1.73e-05  1.92e+02  1.76e+08  3.24e+03    1.15e+02      0
-  13  1.73e-05  1.77e+02  1.39e+08  2.59e+03    1.40e+02      0
-  14  1.73e-05  1.44e+02  1.25e+08  2.31e+03    1.10e+02      0
-  15  1.73e-05  1.37e+02  1.02e+08  1.91e+03    1.33e+02      0
-  16  1.73e-05  1.12e+02  8.70e+07  1.62e+03    1.18e+02      0   Skip BFGS
-  17  3.55e-05  9.11e+01  7.95e+07  2.91e+03    1.72e+02      0   Skip BFGS
-  18  3.55e-05  1.82e+02  6.51e+07  2.49e+03    1.21e+02      0
-  19  3.55e-05  1.65e+02  6.14e+07  2.34e+03    1.08e+02      0   Skip BFGS
-  20  3.55e-05  1.51e+02  5.89e+07  2.24e+03    1.11e+02      0   Skip BFGS
+irls_threshold 0.3497789377574159
+   5  2.80e-05  1.52e+02  2.69e+08  7.70e+03    9.32e+01      0   Skip BFGS
+   6  2.80e-05  1.62e+02  3.67e+08  1.05e+04    1.41e+02      0
+   7  1.90e-05  3.17e+02  4.71e+08  9.26e+03    8.80e+01      0
+   8  1.19e-05  3.82e+02  4.45e+08  5.65e+03    1.98e+02      1
+   9  7.53e-06  3.67e+02  3.72e+08  3.17e+03    2.02e+02      0   Skip BFGS
+  10  1.73e-05  7.39e+01  3.01e+08  5.28e+03    1.42e+02      0
+  11  1.73e-05  2.11e+02  2.30e+08  4.18e+03    1.13e+02      0
+  12  1.73e-05  1.93e+02  1.77e+08  3.24e+03    1.15e+02      0
+  13  1.73e-05  1.66e+02  1.40e+08  2.59e+03    9.99e+01      0
+  14  1.73e-05  1.46e+02  1.25e+08  2.31e+03    9.44e+01      0
+  15  1.73e-05  1.36e+02  1.03e+08  1.91e+03    9.17e+01      0
+  16  1.73e-05  1.10e+02  8.69e+07  1.61e+03    8.92e+01      0   Skip BFGS
+  17  3.54e-05  9.12e+01  7.97e+07  2.91e+03    1.80e+02      0   Skip BFGS
+  18  3.54e-05  1.82e+02  6.86e+07  2.61e+03    1.09e+02      0
+  19  3.54e-05  1.75e+02  6.09e+07  2.33e+03    1.06e+02      0   Skip BFGS
+  20  3.54e-05  1.51e+02  5.86e+07  2.23e+03    9.72e+01      0   Skip BFGS
 ------------------------- STOP! -------------------------
-1 : |fc-fOld| = 1.0325e+02 &lt;= tolF*(1+|f0|) = 2.6036e+05
-0 : |xc-x_last| = 9.2821e-01 &lt;= tolX*(1+|x0|) = 1.0400e-01
-0 : |proj(x-g)-x|    = 1.1105e+02 &lt;= tolG          = 1.0000e-01
-0 : |proj(x-g)-x|    = 1.1105e+02 &lt;= 1e3*eps       = 1.0000e-02
+1 : |fc-fOld| = 1.0274e+02 &lt;= tolF*(1+|f0|) = 2.6036e+05
+0 : |xc-x_last| = 9.3636e-01 &lt;= tolX*(1+|x0|) = 1.0400e-01
+0 : |proj(x-g)-x|    = 9.7248e+01 &lt;= tolG          = 1.0000e-01
+0 : |proj(x-g)-x|    = 9.7248e+01 &lt;= 1e3*eps       = 1.0000e-02
 1 : maxIter   =      20    &lt;= iter          =     20
 ------------------------- DONE! -------------------------
 </pre></div>
@@ -986,8 +1040,8 @@ irls_threshold 0.3497745427619142
     <a href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.show.html#matplotlib.pyplot.show" title="matplotlib.pyplot.show" class="sphx-glr-backref-module-matplotlib-pyplot sphx-glr-backref-type-py-function"><span class="n">plt</span><span class="o">.</span><span class="n">show</span></a><span class="p">()</span>
 </pre></div>
 </div>
-<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> (1 minutes 10.645 seconds)</p>
-<p><strong>Estimated memory usage:</strong>  214 MB</p>
+<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> (1 minutes 10.932 seconds)</p>
+<p><strong>Estimated memory usage:</strong>  276 MB</p>
 <div class="sphx-glr-footer sphx-glr-footer-example docutils container" id="sphx-glr-download-content-examples-20-published-plot-laguna-del-maule-inversion-py">
 <div class="sphx-glr-download sphx-glr-download-jupyter docutils container">
 <p><a class="reference download internal" download="" href="../../../_downloads/2f2df6d878f736cef157bbcd8f435a73/plot_laguna_del_maule_inversion.ipynb"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Jupyter</span> <span class="pre">notebook:</span> <span class="pre">plot_laguna_del_maule_inversion.ipynb</span></code></a></p>

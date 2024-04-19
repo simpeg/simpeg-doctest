@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>3D DC inversion of Dipole Dipole array &#8212; SimPEG 0.21.1 documentation</title>
+    <title>3D DC inversion of Dipole Dipole array &#8212; SimPEG v0.21.1 documentation</title>
   
   
   
@@ -30,7 +30,7 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=fa44fd50" />
-    <link rel="stylesheet" type="text/css" href="../../../_static/plot_directive.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/plot_directive.css?v=7f9a90b1" />
     <link rel="stylesheet" type="text/css" href="../../../_static/sg_gallery.css?v=61a4c737" />
     <link rel="stylesheet" type="text/css" href="../../../_static/sg_gallery-binder.css?v=f4aeca0c" />
     <link rel="stylesheet" type="text/css" href="../../../_static/sg_gallery-dataframe.css?v=2082cf3c" />
@@ -42,12 +42,18 @@
 <link rel="preload" as="script" href="../../../_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd" />
   <script src="../../../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=5b4479735964841361fd"></script>
 
-    <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js?v=18a41c59"></script>
+    <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js?v=9cbbb60d"></script>
     <script src="../../../_static/doctools.js?v=888ff710"></script>
     <script src="../../../_static/sphinx_highlight.js?v=4825356b"></script>
     <script data-domain="docs.simpeg.xyz" defer="defer" src="https://plausible.io/js/script.js"></script>
     <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'content/examples/04-dcip/plot_inv_dcip_dipoledipole_3Dinversion_twospheres';</script>
+    <script>
+        DOCUMENTATION_OPTIONS.theme_version = '0.14.4';
+        DOCUMENTATION_OPTIONS.theme_switcher_json_url = 'https://doctest.simpeg.xyz/latest/_static/versions.json';
+        DOCUMENTATION_OPTIONS.theme_switcher_version_match = 'v0.21.1';
+        DOCUMENTATION_OPTIONS.show_version_warning_banner = false;
+        </script>
     <link rel="icon" href="../../../_static/logo-block.ico"/>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
@@ -137,8 +143,8 @@
       
     
     
-    <img src="../../../_static/simpeg-logo.png" class="logo__image only-light" alt="SimPEG 0.21.1 documentation - Home"/>
-    <script>document.write(`<img src="../../../_static/simpeg-logo.png" class="logo__image only-dark" alt="SimPEG 0.21.1 documentation - Home"/>`);</script>
+    <img src="../../../_static/simpeg-logo.png" class="logo__image only-light" alt="SimPEG v0.21.1 documentation - Home"/>
+    <script>document.write(`<img src="../../../_static/simpeg-logo.png" class="logo__image only-dark" alt="SimPEG v0.21.1 documentation - Home"/>`);</script>
   
   
 </a></div>
@@ -237,6 +243,30 @@
  </script>
         </div>
       
+      
+        <div class="navbar-item">
+<script>
+document.write(`
+  <div class="version-switcher__container dropdown">
+    <button id="pst-version-switcher-button-2"
+      type="button"
+      class="version-switcher__button btn btn-sm navbar-btn dropdown-toggle"
+      data-bs-toggle="dropdown"
+      aria-haspopup="listbox"
+      aria-controls="pst-version-switcher-list-2"
+      aria-label="Version switcher list"
+    >
+      Choose version  <!-- this text may get changed later by javascript -->
+      <span class="caret"></span>
+    </button>
+    <div id="pst-version-switcher-list-2"
+      class="version-switcher__menu dropdown-menu list-group-flush py-0"
+      role="listbox" aria-labelledby="pst-version-switcher-button-2">
+      <!-- dropdown will be populated by javascript on page load -->
+    </div>
+  </div>
+`);
+</script></div>
       
         <div class="navbar-item">
 
@@ -416,6 +446,30 @@ document.write(`
     
     
       <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+<script>
+document.write(`
+  <div class="version-switcher__container dropdown">
+    <button id="pst-version-switcher-button-3"
+      type="button"
+      class="version-switcher__button btn btn-sm navbar-btn dropdown-toggle"
+      data-bs-toggle="dropdown"
+      aria-haspopup="listbox"
+      aria-controls="pst-version-switcher-list-3"
+      aria-label="Version switcher list"
+    >
+      Choose version  <!-- this text may get changed later by javascript -->
+      <span class="caret"></span>
+    </button>
+    <div id="pst-version-switcher-list-3"
+      class="version-switcher__menu dropdown-menu list-group-flush py-0"
+      role="listbox" aria-labelledby="pst-version-switcher-button-3">
+      <!-- dropdown will be populated by javascript on page load -->
+    </div>
+  </div>
+`);
+</script></div>
         
           <div class="navbar-item">
 
@@ -848,25 +902,24 @@ model has any nan: 0
   #     beta     phi_d     phi_m       f      |proj(x-g)-x|  LS    Comment
 -----------------------------------------------------------------------------
 x0 has any nan: 0
-   0  2.71e+01  5.15e+03  0.00e+00  5.15e+03    1.13e+03      0
-   1  2.71e+01  7.31e+02  1.44e+01  1.12e+03    1.06e+02      0
-   2  5.42e+00  5.28e+02  1.96e+01  6.34e+02    1.07e+02      0   Skip BFGS
-   3  5.42e+00  2.27e+02  4.23e+01  4.56e+02    4.86e+01      0
-   4  1.08e+00  1.95e+02  4.42e+01  2.43e+02    4.96e+01      0
-   5  1.08e+00  1.46e+02  5.83e+01  2.09e+02    6.72e+01      0
-   6  2.17e-01  1.30e+02  6.19e+01  1.44e+02    6.06e+01      0
-   7  2.17e-01  1.17e+02  6.84e+01  1.31e+02    7.26e+01      0
+   0  2.50e+01  4.42e+03  0.00e+00  4.42e+03    9.81e+02      0
+   1  2.50e+01  5.96e+02  1.32e+01  9.26e+02    8.83e+01      0
+   2  5.01e+00  4.36e+02  1.77e+01  5.25e+02    9.39e+01      0   Skip BFGS
+   3  5.01e+00  1.94e+02  3.75e+01  3.81e+02    4.60e+01      0
+   4  1.00e+00  1.63e+02  3.96e+01  2.03e+02    4.27e+01      0
+   5  1.00e+00  1.25e+02  5.13e+01  1.77e+02    5.73e+01      0
+   6  2.00e-01  1.14e+02  5.42e+01  1.25e+02    5.05e+01      0
 ------------------------- STOP! -------------------------
-1 : |fc-fOld| = 0.0000e+00 &lt;= tolF*(1+|f0|) = 5.1493e+02
-1 : |xc-x_last| = 4.5851e+00 &lt;= tolX*(1+|x0|) = 7.5300e+01
-0 : |proj(x-g)-x|    = 7.2560e+01 &lt;= tolG          = 1.0000e-01
-0 : |proj(x-g)-x|    = 7.2560e+01 &lt;= 1e3*eps       = 1.0000e-02
-0 : maxIter   =      10    &lt;= iter          =      8
+1 : |fc-fOld| = 0.0000e+00 &lt;= tolF*(1+|f0|) = 4.4189e+02
+1 : |xc-x_last| = 1.4464e+00 &lt;= tolX*(1+|x0|) = 7.5300e+01
+0 : |proj(x-g)-x|    = 5.0510e+01 &lt;= tolG          = 1.0000e-01
+0 : |proj(x-g)-x|    = 5.0510e+01 &lt;= 1e3*eps       = 1.0000e-02
+0 : maxIter   =      10    &lt;= iter          =      7
 ------------------------- DONE! -------------------------
 </pre></div>
 </div>
-<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> (2 minutes 3.129 seconds)</p>
-<p><strong>Estimated memory usage:</strong>  219 MB</p>
+<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> (0 minutes 58.669 seconds)</p>
+<p><strong>Estimated memory usage:</strong>  256 MB</p>
 <div class="sphx-glr-footer sphx-glr-footer-example docutils container" id="sphx-glr-download-content-examples-04-dcip-plot-inv-dcip-dipoledipole-3dinversion-twospheres-py">
 <div class="sphx-glr-download sphx-glr-download-jupyter docutils container">
 <p><a class="reference download internal" download="" href="../../../_downloads/d9f853b4fe320887c668c903b0e9ba09/plot_inv_dcip_dipoledipole_3Dinversion_twospheres.ipynb"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Jupyter</span> <span class="pre">notebook:</span> <span class="pre">plot_inv_dcip_dipoledipole_3Dinversion_twospheres.ipynb</span></code></a></p>

@@ -189,11 +189,11 @@ The model consists of all cells which lie below the surface.
 
  .. code-block:: none
 
-    /home/vsts/work/1/s/tutorials/01-models_mapping/plot_3_tree_models.py:59: DeprecationWarning:
+    /home/ssoler/git/simpeg/tutorials/01-models_mapping/plot_3_tree_models.py:59: DeprecationWarning:
 
     The surface option is deprecated as of `0.9.0` please update your code to use the `TreeMesh.refine_surface` functionality. It will be removed in a future version of discretize.
 
-    /home/vsts/work/1/s/tutorials/01-models_mapping/plot_3_tree_models.py:71: DeprecationWarning:
+    /home/ssoler/git/simpeg/tutorials/01-models_mapping/plot_3_tree_models.py:71: DeprecationWarning:
 
     The box option is deprecated as of `0.9.0` please update your code to use the `TreeMesh.refine_bounding_box` functionality. It will be removed in a future version of discretize.
 
@@ -516,9 +516,9 @@ between the model vector and a particular physical property type.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 5.821 seconds)
+   **Total running time of the script:** (0 minutes 6.111 seconds)
 
-**Estimated memory usage:**  8 MB
+**Estimated memory usage:**  9 MB
 
 
 .. _sphx_glr_download_content_tutorials_01-models_mapping_plot_3_tree_models.py:

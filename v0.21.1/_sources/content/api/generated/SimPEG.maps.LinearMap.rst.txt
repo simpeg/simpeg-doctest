@@ -18,8 +18,8 @@
          LinearMap.inverse
          LinearMap.test
       
-         LinearMap.__len__
          LinearMap.__mul__
+         LinearMap.__len__
   
 
   

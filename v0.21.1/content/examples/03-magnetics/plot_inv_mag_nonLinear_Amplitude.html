@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Magnetic Amplitude inversion on a TreeMesh &#8212; SimPEG 0.21.1 documentation</title>
+    <title>Magnetic Amplitude inversion on a TreeMesh &#8212; SimPEG v0.21.1 documentation</title>
   
   
   
@@ -30,7 +30,7 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=fa44fd50" />
-    <link rel="stylesheet" type="text/css" href="../../../_static/plot_directive.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/plot_directive.css?v=7f9a90b1" />
     <link rel="stylesheet" type="text/css" href="../../../_static/sg_gallery.css?v=61a4c737" />
     <link rel="stylesheet" type="text/css" href="../../../_static/sg_gallery-binder.css?v=f4aeca0c" />
     <link rel="stylesheet" type="text/css" href="../../../_static/sg_gallery-dataframe.css?v=2082cf3c" />
@@ -42,12 +42,18 @@
 <link rel="preload" as="script" href="../../../_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd" />
   <script src="../../../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=5b4479735964841361fd"></script>
 
-    <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js?v=18a41c59"></script>
+    <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js?v=9cbbb60d"></script>
     <script src="../../../_static/doctools.js?v=888ff710"></script>
     <script src="../../../_static/sphinx_highlight.js?v=4825356b"></script>
     <script data-domain="docs.simpeg.xyz" defer="defer" src="https://plausible.io/js/script.js"></script>
     <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'content/examples/03-magnetics/plot_inv_mag_nonLinear_Amplitude';</script>
+    <script>
+        DOCUMENTATION_OPTIONS.theme_version = '0.14.4';
+        DOCUMENTATION_OPTIONS.theme_switcher_json_url = 'https://doctest.simpeg.xyz/latest/_static/versions.json';
+        DOCUMENTATION_OPTIONS.theme_switcher_version_match = 'v0.21.1';
+        DOCUMENTATION_OPTIONS.show_version_warning_banner = false;
+        </script>
     <link rel="icon" href="../../../_static/logo-block.ico"/>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
@@ -137,8 +143,8 @@
       
     
     
-    <img src="../../../_static/simpeg-logo.png" class="logo__image only-light" alt="SimPEG 0.21.1 documentation - Home"/>
-    <script>document.write(`<img src="../../../_static/simpeg-logo.png" class="logo__image only-dark" alt="SimPEG 0.21.1 documentation - Home"/>`);</script>
+    <img src="../../../_static/simpeg-logo.png" class="logo__image only-light" alt="SimPEG v0.21.1 documentation - Home"/>
+    <script>document.write(`<img src="../../../_static/simpeg-logo.png" class="logo__image only-dark" alt="SimPEG v0.21.1 documentation - Home"/>`);</script>
   
   
 </a></div>
@@ -237,6 +243,30 @@
  </script>
         </div>
       
+      
+        <div class="navbar-item">
+<script>
+document.write(`
+  <div class="version-switcher__container dropdown">
+    <button id="pst-version-switcher-button-2"
+      type="button"
+      class="version-switcher__button btn btn-sm navbar-btn dropdown-toggle"
+      data-bs-toggle="dropdown"
+      aria-haspopup="listbox"
+      aria-controls="pst-version-switcher-list-2"
+      aria-label="Version switcher list"
+    >
+      Choose version  <!-- this text may get changed later by javascript -->
+      <span class="caret"></span>
+    </button>
+    <div id="pst-version-switcher-list-2"
+      class="version-switcher__menu dropdown-menu list-group-flush py-0"
+      role="listbox" aria-labelledby="pst-version-switcher-button-2">
+      <!-- dropdown will be populated by javascript on page load -->
+    </div>
+  </div>
+`);
+</script></div>
       
         <div class="navbar-item">
 
@@ -416,6 +446,30 @@ document.write(`
     
     
       <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+<script>
+document.write(`
+  <div class="version-switcher__container dropdown">
+    <button id="pst-version-switcher-button-3"
+      type="button"
+      class="version-switcher__button btn btn-sm navbar-btn dropdown-toggle"
+      data-bs-toggle="dropdown"
+      aria-haspopup="listbox"
+      aria-controls="pst-version-switcher-list-3"
+      aria-label="Version switcher list"
+    >
+      Choose version  <!-- this text may get changed later by javascript -->
+      <span class="caret"></span>
+    </button>
+    <div id="pst-version-switcher-list-3"
+      class="version-switcher__menu dropdown-menu list-group-flush py-0"
+      role="listbox" aria-labelledby="pst-version-switcher-button-3">
+      <!-- dropdown will be populated by javascript on page load -->
+    </div>
+  </div>
+`);
+</script></div>
         
           <div class="navbar-item">
 
@@ -705,7 +759,7 @@ The second stage allows us to refine the mesh around points or surfaces
 <a href="https://docs.python.org/3/library/functions.html#int" title="builtins.int" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">nC</span></a> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><a href="https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html#numpy.ndarray" title="numpy.ndarray" class="sphx-glr-backref-module-numpy sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">actv</span></a><span class="o">.</span><span class="n">sum</span><span class="p">())</span>
 </pre></div>
 </div>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>/home/vsts/work/1/s/examples/03-magnetics/plot_inv_mag_nonLinear_Amplitude.py:114: DeprecationWarning:
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>/home/ssoler/git/simpeg/examples/03-magnetics/plot_inv_mag_nonLinear_Amplitude.py:114: DeprecationWarning:
 
 The surface option is deprecated as of `0.9.0` please update your code to use the `TreeMesh.refine_surface` functionality. It will be removed in a future version of discretize.
 </pre></div>
@@ -859,7 +913,7 @@ model has any nan: 0
 x0 has any nan: 0
    0  7.66e+01  4.58e+02  1.36e+00  5.62e+02    1.57e+05      0
 Reached starting chifact with l2-norm regularization: Start IRLS steps...
-irls_threshold 0.005925057291869476
+irls_threshold 0.005925057300257509
    1  3.83e+01  8.24e+01  1.33e+00  1.33e+02    6.32e+02      0
    2  1.52e+02  6.73e+01  2.24e+00  4.07e+02    9.68e+03      0   Skip BFGS
    3  3.22e+02  1.79e+02  3.28e-01  2.84e+02    3.35e+03      0
@@ -1002,7 +1056,7 @@ model has any nan: 0
 x0 has any nan: 0
    0  2.11e+04  2.16e+01  3.71e-03  9.98e+01    1.19e+02      0
 Reached starting chifact with l2-norm regularization: Start IRLS steps...
-irls_threshold 6.30818138017508e-05
+irls_threshold 6.308066991773107e-05
    1  1.05e+04  8.13e+00  2.21e-04  1.05e+01    9.44e+01      0
    2  1.25e+06  5.09e+00  4.48e-04  5.68e+02    5.47e+01      0
    3  2.32e+07  3.43e+01  9.98e-07  5.75e+01    4.23e+01      0
@@ -1014,8 +1068,8 @@ irls_threshold 6.30818138017508e-05
 ------------------------- STOP! -------------------------
 1 : |fc-fOld| = 3.8370e-04 &lt;= tolF*(1+|f0|) = 1.0082e+01
 1 : |xc-x_last| = 2.5960e-09 &lt;= tolX*(1+|x0|) = 1.0195e-01
-1 : |proj(x-g)-x|    = 1.6277e-10 &lt;= tolG          = 1.0000e-01
-1 : |proj(x-g)-x|    = 1.6277e-10 &lt;= 1e3*eps       = 1.0000e-02
+1 : |proj(x-g)-x|    = 1.6278e-10 &lt;= tolG          = 1.0000e-01
+1 : |proj(x-g)-x|    = 1.6278e-10 &lt;= 1e3*eps       = 1.0000e-02
 0 : maxIter   =      30    &lt;= iter          =      8
 ------------------------- DONE! -------------------------
 </pre></div>
@@ -1075,8 +1129,8 @@ an impact.</p>
 <a href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.show.html#matplotlib.pyplot.show" title="matplotlib.pyplot.show" class="sphx-glr-backref-module-matplotlib-pyplot sphx-glr-backref-type-py-function"><span class="n">plt</span><span class="o">.</span><span class="n">show</span></a><span class="p">()</span>
 </pre></div>
 </div>
-<img src="../../../_images/sphx_glr_plot_inv_mag_nonLinear_Amplitude_004.png" srcset="../../../_images/sphx_glr_plot_inv_mag_nonLinear_Amplitude_004.png" alt="Predicted data., Slice 66, Y = 12.50, Slice 66, Y = 12.50" class = "sphx-glr-single-img"/><p class="sphx-glr-timing"><strong>Total running time of the script:</strong> (0 minutes 49.515 seconds)</p>
-<p><strong>Estimated memory usage:</strong>  534 MB</p>
+<img src="../../../_images/sphx_glr_plot_inv_mag_nonLinear_Amplitude_004.png" srcset="../../../_images/sphx_glr_plot_inv_mag_nonLinear_Amplitude_004.png" alt="Predicted data., Slice 66, Y = 12.50, Slice 66, Y = 12.50" class = "sphx-glr-single-img"/><p class="sphx-glr-timing"><strong>Total running time of the script:</strong> (0 minutes 50.043 seconds)</p>
+<p><strong>Estimated memory usage:</strong>  545 MB</p>
 <div class="sphx-glr-footer sphx-glr-footer-example docutils container" id="sphx-glr-download-content-examples-03-magnetics-plot-inv-mag-nonlinear-amplitude-py">
 <div class="sphx-glr-download sphx-glr-download-jupyter docutils container">
 <p><a class="reference download internal" download="" href="../../../_downloads/77cd0f379b903f15dca0a5375849c3f6/plot_inv_mag_nonLinear_Amplitude.ipynb"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Jupyter</span> <span class="pre">notebook:</span> <span class="pre">plot_inv_mag_nonLinear_Amplitude.ipynb</span></code></a></p>
