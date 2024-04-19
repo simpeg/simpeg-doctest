@@ -81,7 +81,7 @@ User is promoted to try different initial values of the parameterized model.
 
  .. code-block:: none
 
-    /home/vsts/work/1/s/examples/04-dcip/plot_inv_dcip_dipoledipole_parametric_inversion.py:55: UserWarning:
+    /home/ssoler/git/simpeg/examples/04-dcip/plot_inv_dcip_dipoledipole_parametric_inversion.py:55: UserWarning:
 
     code under construction - API might change in the future
 
@@ -99,15 +99,15 @@ User is promoted to try different initial values of the parameterized model.
       #     beta     phi_d     phi_m       f      |proj(x-g)-x|  LS    Comment   
     -----------------------------------------------------------------------------
     x0 has any nan: 0
-       0  0.00e+00  7.43e+03  0.00e+00  7.43e+03    3.11e+04      0              
-       1  0.00e+00  4.03e+03  7.90e-03  4.03e+03    2.81e+03      0              
-       2  0.00e+00  2.09e+03  7.70e-01  2.09e+03    9.43e+03      0   Skip BFGS  
-       3  0.00e+00  1.44e+03  7.58e-01  1.44e+03    5.98e+02      0              
-       4  0.00e+00  1.13e+03  1.67e+00  1.13e+03    5.21e+03      8              
-       5  0.00e+00  8.85e+02  3.45e+00  8.85e+02    5.21e+03      2              
-       6  0.00e+00  8.77e+02  3.37e+00  8.77e+02    5.13e+03      5              
+       0  0.00e+00  7.53e+03  0.00e+00  7.53e+03    3.16e+04      0              
+       1  0.00e+00  4.05e+03  8.06e-03  4.05e+03    2.87e+03      0              
+       2  0.00e+00  2.08e+03  7.90e-01  2.08e+03    9.58e+03      0   Skip BFGS  
+       3  0.00e+00  1.41e+03  7.78e-01  1.41e+03    6.11e+02      0              
+       4  0.00e+00  1.09e+03  1.63e+00  1.09e+03    5.25e+03      8              
+       5  0.00e+00  9.68e+02  2.77e+00  9.68e+02    5.97e+03      3              
+       6  0.00e+00  9.47e+02  3.11e+00  9.47e+02    5.82e+03      4              
     ------------------------------------------------------------------
-    0 :    ft     = 8.7784e+02 <= alp*descent     = 8.7698e+02
+    0 :    ft     = 2.0155e+03 <= alp*descent     = 9.4691e+02
     1 : maxIterLS =      10    <= iterLS          =     10
     ------------------------- End Linesearch -------------------------
     The linesearch got broken. Boo.
@@ -337,9 +337,9 @@ User is promoted to try different initial values of the parameterized model.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 37.847 seconds)
+   **Total running time of the script:** (0 minutes 28.078 seconds)
 
-**Estimated memory usage:**  9 MB
+**Estimated memory usage:**  11 MB
 
 
 .. _sphx_glr_download_content_examples_04-dcip_plot_inv_dcip_dipoledipole_parametric_inversion.py:

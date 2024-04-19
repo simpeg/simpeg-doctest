@@ -18,8 +18,8 @@
          CurrentDensityMap.inverse
          CurrentDensityMap.test
       
-         CurrentDensityMap.__len__
          CurrentDensityMap.__mul__
+         CurrentDensityMap.__len__
   
 
   

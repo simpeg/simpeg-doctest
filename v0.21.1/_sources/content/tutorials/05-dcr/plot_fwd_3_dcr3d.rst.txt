@@ -232,11 +232,11 @@ Here, we create the OcTree mesh that will be used to predict DC data.
 
  .. code-block:: none
 
-    /home/vsts/work/1/s/tutorials/05-dcr/plot_fwd_3_dcr3d.py:151: DeprecationWarning:
+    /home/ssoler/git/simpeg/tutorials/05-dcr/plot_fwd_3_dcr3d.py:151: DeprecationWarning:
 
     The surface option is deprecated as of `0.9.0` please update your code to use the `TreeMesh.refine_surface` functionality. It will be removed in a future version of discretize.
 
-    /home/vsts/work/1/s/tutorials/05-dcr/plot_fwd_3_dcr3d.py:160: DeprecationWarning:
+    /home/ssoler/git/simpeg/tutorials/05-dcr/plot_fwd_3_dcr3d.py:160: DeprecationWarning:
 
     The radial option is deprecated as of `0.9.0` please update your code to use the `TreeMesh.refine_points` functionality. It will be removed in a future version of discretize.
 
@@ -540,9 +540,9 @@ Write DC resistivity data, topography and true model
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 13.858 seconds)
+   **Total running time of the script:** (0 minutes 10.474 seconds)
 
-**Estimated memory usage:**  8 MB
+**Estimated memory usage:**  9 MB
 
 
 .. _sphx_glr_download_content_tutorials_05-dcr_plot_fwd_3_dcr3d.py:

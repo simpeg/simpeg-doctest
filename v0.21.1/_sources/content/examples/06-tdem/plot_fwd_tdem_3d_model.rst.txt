@@ -649,9 +649,9 @@ empymod.Report([SimPEG, discretize, pymatsolver])
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (5 minutes 5.714 seconds)
+   **Total running time of the script:** (1 minutes 9.815 seconds)
 
-**Estimated memory usage:**  2010 MB
+**Estimated memory usage:**  2158 MB
 
 
 .. _sphx_glr_download_content_examples_06-tdem_plot_fwd_tdem_3d_model.py:

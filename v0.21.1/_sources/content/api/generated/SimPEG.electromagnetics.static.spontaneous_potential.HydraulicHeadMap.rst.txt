@@ -18,8 +18,8 @@
          HydraulicHeadMap.inverse
          HydraulicHeadMap.test
       
-         HydraulicHeadMap.__len__
          HydraulicHeadMap.__mul__
+         HydraulicHeadMap.__len__
   
 
   

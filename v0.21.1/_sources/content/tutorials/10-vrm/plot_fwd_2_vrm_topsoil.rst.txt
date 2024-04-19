@@ -214,7 +214,7 @@ magnetic viscosity is negligible below 8 metres.
 
  .. code-block:: none
 
-    /home/vsts/work/1/s/tutorials/10-vrm/plot_fwd_2_vrm_topsoil.py:142: DeprecationWarning:
+    /home/ssoler/git/simpeg/tutorials/10-vrm/plot_fwd_2_vrm_topsoil.py:142: DeprecationWarning:
 
     The surface option is deprecated as of `0.9.0` please update your code to use the `TreeMesh.refine_surface` functionality. It will be removed in a future version of discretize.
 
@@ -426,16 +426,16 @@ Predict Data and Plot
     CREATING T MATRIX
     CREATING A MATRIX
 
-    <matplotlib.legend.Legend object at 0x7f36e6d16820>
+    <matplotlib.legend.Legend object at 0x7f395f3d8d90>
 
 
 
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 14.924 seconds)
+   **Total running time of the script:** (0 minutes 13.767 seconds)
 
-**Estimated memory usage:**  8 MB
+**Estimated memory usage:**  9 MB
 
 
 .. _sphx_glr_download_content_tutorials_10-vrm_plot_fwd_2_vrm_topsoil.py:

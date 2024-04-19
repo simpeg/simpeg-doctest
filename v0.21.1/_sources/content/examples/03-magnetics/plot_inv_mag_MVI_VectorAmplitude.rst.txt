@@ -150,7 +150,7 @@ Here, we create a TreeMesh with base cell size of 5 m.
 
  .. code-block:: none
 
-    /home/vsts/work/1/s/examples/03-magnetics/plot_inv_mag_MVI_VectorAmplitude.py:88: DeprecationWarning:
+    /home/ssoler/git/simpeg/examples/03-magnetics/plot_inv_mag_MVI_VectorAmplitude.py:88: DeprecationWarning:
 
     The surface option is deprecated as of `0.9.0` please update your code to use the `TreeMesh.refine_surface` functionality. It will be removed in a future version of discretize.
 
@@ -308,7 +308,7 @@ We can now attempt the inverse calculations.
        4  8.14e+03  1.35e+03  1.42e-01  2.50e+03    1.61e+03      0   Skip BFGS  
        5  4.07e+03  5.98e+02  2.05e-01  1.43e+03    1.48e+03      0   Skip BFGS  
     Reached starting chifact with l2-norm regularization: Start IRLS steps...
-    irls_threshold 0.008928977028188038
+    irls_threshold 0.008928977174245806
        6  2.03e+03  2.58e+02  4.66e-01  1.21e+03    9.98e+02      0   Skip BFGS  
        7  2.03e+03  2.02e+02  7.19e-01  1.67e+03    1.45e+03      0              
        8  2.03e+03  3.24e+02  9.32e-01  2.22e+03    1.57e+03      0              
@@ -412,9 +412,9 @@ Let's compare the smooth and compact model
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 42.017 seconds)
+   **Total running time of the script:** (0 minutes 48.345 seconds)
 
-**Estimated memory usage:**  137 MB
+**Estimated memory usage:**  138 MB
 
 
 .. _sphx_glr_download_content_examples_03-magnetics_plot_inv_mag_MVI_VectorAmplitude.py:

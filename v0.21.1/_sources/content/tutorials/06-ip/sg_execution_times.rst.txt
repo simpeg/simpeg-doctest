@@ -6,7 +6,7 @@
 
 Computation times
 =================
-**06:57.016** total execution time for 4 files **from content/tutorials/06-ip**:
+**04:43.332** total execution time for 4 files **from content/tutorials/06-ip**:
 
 .. container::
 
@@ -33,14 +33,14 @@ Computation times
      - Time
      - Mem (MB)
    * - :ref:`sphx_glr_content_tutorials_06-ip_plot_inv_3_dcip3d.py` (``plot_inv_3_dcip3d.py``)
-     - 04:54.171
-     - 427.5
+     - 03:10.315
+     - 552.7
    * - :ref:`sphx_glr_content_tutorials_06-ip_plot_inv_2_dcip2d.py` (``plot_inv_2_dcip2d.py``)
-     - 01:15.842
-     - 8.1
+     - 00:57.044
+     - 8.6
    * - :ref:`sphx_glr_content_tutorials_06-ip_plot_fwd_3_dcip3d.py` (``plot_fwd_3_dcip3d.py``)
-     - 00:32.845
-     - 44.0
+     - 00:23.230
+     - 159.0
    * - :ref:`sphx_glr_content_tutorials_06-ip_plot_fwd_2_dcip2d.py` (``plot_fwd_2_dcip2d.py``)
-     - 00:14.159
-     - 10.0
+     - 00:12.742
+     - 9.2

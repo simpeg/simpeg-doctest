@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Petrophysically guided inversion: Joint linear example with nonlinear relationships &#8212; SimPEG 0.21.1 documentation</title>
+    <title>Petrophysically guided inversion: Joint linear example with nonlinear relationships &#8212; SimPEG v0.21.1 documentation</title>
   
   
   
@@ -30,7 +30,7 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=fa44fd50" />
-    <link rel="stylesheet" type="text/css" href="../../../_static/plot_directive.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/plot_directive.css?v=7f9a90b1" />
     <link rel="stylesheet" type="text/css" href="../../../_static/sg_gallery.css?v=61a4c737" />
     <link rel="stylesheet" type="text/css" href="../../../_static/sg_gallery-binder.css?v=f4aeca0c" />
     <link rel="stylesheet" type="text/css" href="../../../_static/sg_gallery-dataframe.css?v=2082cf3c" />
@@ -42,11 +42,17 @@
 <link rel="preload" as="script" href="../../../_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd" />
   <script src="../../../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=5b4479735964841361fd"></script>
 
-    <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js?v=18a41c59"></script>
+    <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js?v=9cbbb60d"></script>
     <script src="../../../_static/doctools.js?v=888ff710"></script>
     <script src="../../../_static/sphinx_highlight.js?v=4825356b"></script>
     <script data-domain="docs.simpeg.xyz" defer="defer" src="https://plausible.io/js/script.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'content/examples/10-pgi/plot_inv_1_PGI_Linear_1D_joint_WithRelationships';</script>
+    <script>
+        DOCUMENTATION_OPTIONS.theme_version = '0.14.4';
+        DOCUMENTATION_OPTIONS.theme_switcher_json_url = 'https://doctest.simpeg.xyz/latest/_static/versions.json';
+        DOCUMENTATION_OPTIONS.theme_switcher_version_match = 'v0.21.1';
+        DOCUMENTATION_OPTIONS.show_version_warning_banner = false;
+        </script>
     <link rel="icon" href="../../../_static/logo-block.ico"/>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
@@ -136,8 +142,8 @@
       
     
     
-    <img src="../../../_static/simpeg-logo.png" class="logo__image only-light" alt="SimPEG 0.21.1 documentation - Home"/>
-    <script>document.write(`<img src="../../../_static/simpeg-logo.png" class="logo__image only-dark" alt="SimPEG 0.21.1 documentation - Home"/>`);</script>
+    <img src="../../../_static/simpeg-logo.png" class="logo__image only-light" alt="SimPEG v0.21.1 documentation - Home"/>
+    <script>document.write(`<img src="../../../_static/simpeg-logo.png" class="logo__image only-dark" alt="SimPEG v0.21.1 documentation - Home"/>`);</script>
   
   
 </a></div>
@@ -236,6 +242,30 @@
  </script>
         </div>
       
+      
+        <div class="navbar-item">
+<script>
+document.write(`
+  <div class="version-switcher__container dropdown">
+    <button id="pst-version-switcher-button-2"
+      type="button"
+      class="version-switcher__button btn btn-sm navbar-btn dropdown-toggle"
+      data-bs-toggle="dropdown"
+      aria-haspopup="listbox"
+      aria-controls="pst-version-switcher-list-2"
+      aria-label="Version switcher list"
+    >
+      Choose version  <!-- this text may get changed later by javascript -->
+      <span class="caret"></span>
+    </button>
+    <div id="pst-version-switcher-list-2"
+      class="version-switcher__menu dropdown-menu list-group-flush py-0"
+      role="listbox" aria-labelledby="pst-version-switcher-button-2">
+      <!-- dropdown will be populated by javascript on page load -->
+    </div>
+  </div>
+`);
+</script></div>
       
         <div class="navbar-item">
 
@@ -415,6 +445,30 @@ document.write(`
     
     
       <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+<script>
+document.write(`
+  <div class="version-switcher__container dropdown">
+    <button id="pst-version-switcher-button-3"
+      type="button"
+      class="version-switcher__button btn btn-sm navbar-btn dropdown-toggle"
+      data-bs-toggle="dropdown"
+      aria-haspopup="listbox"
+      aria-controls="pst-version-switcher-list-3"
+      aria-label="Version switcher list"
+    >
+      Choose version  <!-- this text may get changed later by javascript -->
+      <span class="caret"></span>
+    </button>
+    <div id="pst-version-switcher-list-3"
+      class="version-switcher__menu dropdown-menu list-group-flush py-0"
+      role="listbox" aria-labelledby="pst-version-switcher-button-3">
+      <!-- dropdown will be populated by javascript on page load -->
+    </div>
+  </div>
+`);
+</script></div>
         
           <div class="navbar-item">
 
@@ -609,145 +663,137 @@ SimPEG.InvProblem will set Regularization.reference_model to m0.
 
 Alpha scales: [3.466585984471505, 0.0, 3.497667477042771e-06, 0.0]
 Calculating the scaling parameter.
-Scale Multipliers:  [0.10253344 0.89746656]
+Scale Multipliers:  [0.09298509 0.90701491]
 &lt;class &#39;SimPEG.regularization.pgi.PGIsmallness&#39;&gt;
-Initial data misfit scales:  [0.10253344 0.89746656]
+Initial data misfit scales:  [0.09298509 0.90701491]
 model has any nan: 0
 =============================== Projected GNCG ===============================
   #     beta     phi_d     phi_m       f      |proj(x-g)-x|  LS    Comment
 -----------------------------------------------------------------------------
 x0 has any nan: 0
-   0  1.97e+01  3.00e+05  0.00e+00  3.00e+05    1.41e+02      0
-geophys. misfits: 976.3 (target 30.0 [False]); 75.5 (target 30.0 [False]) | smallness misfit: 2987.0 (target: 200.0 [False])
-Beta cooling evaluation: progress: [976.3  75.5]; minimum progress targets: [240000. 240000.]
-   1  1.97e+01  1.68e+02  4.11e+01  9.79e+02    9.62e+01      0
-geophys. misfits: 450.0 (target 30.0 [False]); 17.6 (target 30.0 [True]) | smallness misfit: 1375.5 (target: 200.0 [False])
-Beta cooling evaluation: progress: [450.   17.6]; minimum progress targets: [781.   60.4]
-Updating scaling for data misfits by  1.708075361874646
-New scales: [0.16328045 0.83671955]
-   2  1.97e+01  8.82e+01  3.98e+01  8.73e+02    8.12e+01      0   Skip BFGS
-geophys. misfits: 233.8 (target 30.0 [False]); 17.3 (target 30.0 [True]) | smallness misfit: 1264.2 (target: 200.0 [False])
-Beta cooling evaluation: progress: [233.8  17.3]; minimum progress targets: [360.  30.]
-Updating scaling for data misfits by  1.73480762458182
-New scales: [0.25291544 0.74708456]
-   3  1.97e+01  7.20e+01  4.12e+01  8.84e+02    7.80e+01      0
-geophys. misfits: 128.9 (target 30.0 [False]); 17.6 (target 30.0 [True]) | smallness misfit: 1189.0 (target: 200.0 [False])
-Beta cooling evaluation: progress: [128.9  17.6]; minimum progress targets: [187.  30.]
-Updating scaling for data misfits by  1.7020492337099165
-New scales: [0.36556512 0.63443488]
-   4  1.97e+01  5.83e+01  4.22e+01  8.91e+02    7.70e+01      0
-geophys. misfits: 80.8 (target 30.0 [False]); 18.7 (target 30.0 [True]) | smallness misfit: 1131.5 (target: 200.0 [False])
-Beta cooling evaluation: progress: [80.8 18.7]; minimum progress targets: [103.1  30. ]
-Updating scaling for data misfits by  1.6069709546804007
-New scales: [0.48077468 0.51922532]
-   5  1.97e+01  4.85e+01  4.29e+01  8.95e+02    7.39e+01      0   Skip BFGS
-geophys. misfits: 58.9 (target 30.0 [False]); 20.5 (target 30.0 [True]) | smallness misfit: 1083.9 (target: 200.0 [False])
-Beta cooling evaluation: progress: [58.9 20.5]; minimum progress targets: [64.6 30. ]
-Updating scaling for data misfits by  1.4662958220227225
-New scales: [0.5758598 0.4241402]
-   6  1.97e+01  4.26e+01  4.33e+01  8.97e+02    6.95e+01      0   Skip BFGS
-geophys. misfits: 48.7 (target 30.0 [False]); 22.9 (target 30.0 [True]) | smallness misfit: 1044.7 (target: 200.0 [False])
-Beta cooling evaluation: progress: [48.7 22.9]; minimum progress targets: [47.1 30. ]
+   0  1.93e+01  3.00e+05  0.00e+00  3.00e+05    1.41e+02      0
+geophys. misfits: 1108.9 (target 30.0 [False]); 83.1 (target 30.0 [False]) | smallness misfit: 2998.3 (target: 200.0 [False])
+Beta cooling evaluation: progress: [1108.9   83.1]; minimum progress targets: [240000. 240000.]
+   1  1.93e+01  1.78e+02  4.09e+01  9.68e+02    8.39e+01      0
+geophys. misfits: 488.7 (target 30.0 [False]); 26.8 (target 30.0 [True]) | smallness misfit: 1356.6 (target: 200.0 [False])
+Beta cooling evaluation: progress: [488.7  26.8]; minimum progress targets: [887.1  66.5]
+Updating scaling for data misfits by  1.1180633075907926
+New scales: [0.10283429 0.89716571]
+   2  1.93e+01  7.43e+01  3.98e+01  8.42e+02    6.21e+01      0   Skip BFGS
+geophys. misfits: 417.7 (target 30.0 [False]); 26.5 (target 30.0 [True]) | smallness misfit: 1316.0 (target: 200.0 [False])
+Beta cooling evaluation: progress: [417.7  26.5]; minimum progress targets: [391.  30.]
 Decreasing beta to counter data misfit decrase plateau.
-Updating scaling for data misfits by  1.3128511097465423
-New scales: [0.64060739 0.35939261]
-   7  9.87e+00  3.94e+01  4.35e+01  4.69e+02    9.23e+01      0   Skip BFGS
-geophys. misfits: 25.6 (target 30.0 [True]); 16.8 (target 30.0 [True]) | smallness misfit: 1100.7 (target: 200.0 [False])
-Beta cooling evaluation: progress: [25.6 16.8]; minimum progress targets: [39. 30.]
-Warming alpha_pgi to favor clustering:  1.4784430570260136
-   8  9.87e+00  2.24e+01  4.58e+01  4.74e+02    4.17e+01      0
-geophys. misfits: 25.4 (target 30.0 [True]); 20.2 (target 30.0 [True]) | smallness misfit: 985.3 (target: 200.0 [False])
-Beta cooling evaluation: progress: [25.4 20.2]; minimum progress targets: [30. 30.]
-Warming alpha_pgi to favor clustering:  1.9732502654200745
-   9  9.87e+00  2.35e+01  4.67e+01  4.84e+02    7.70e+01      0
-geophys. misfits: 25.2 (target 30.0 [True]); 23.5 (target 30.0 [True]) | smallness misfit: 898.0 (target: 200.0 [False])
-Beta cooling evaluation: progress: [25.2 23.5]; minimum progress targets: [30. 30.]
-Warming alpha_pgi to favor clustering:  2.4299925361475583
-  10  9.87e+00  2.46e+01  4.74e+01  4.93e+02    7.43e+01      0   Skip BFGS
-geophys. misfits: 25.1 (target 30.0 [True]); 26.7 (target 30.0 [True]) | smallness misfit: 832.4 (target: 200.0 [False])
-Beta cooling evaluation: progress: [25.1 26.7]; minimum progress targets: [30. 30.]
-Warming alpha_pgi to favor clustering:  2.817109952670229
-  11  9.87e+00  2.57e+01  4.80e+01  4.99e+02    5.60e+01      0   Skip BFGS
-geophys. misfits: 25.1 (target 30.0 [True]); 29.3 (target 30.0 [True]) | smallness misfit: 785.8 (target: 200.0 [False])
-Beta cooling evaluation: progress: [25.1 29.3]; minimum progress targets: [30. 30.]
-Warming alpha_pgi to favor clustering:  3.129877772141576
-  12  9.87e+00  2.66e+01  4.84e+01  5.04e+02    3.63e+01      0   Skip BFGS
-geophys. misfits: 25.0 (target 30.0 [True]); 31.5 (target 30.0 [False]) | smallness misfit: 752.5 (target: 200.0 [False])
-Beta cooling evaluation: progress: [25.  31.5]; minimum progress targets: [30. 30.]
+Updating scaling for data misfits by  1.1314753023745852
+New scales: [0.11480231 0.88519769]
+   3  9.65e+00  7.14e+01  4.01e+01  4.59e+02    8.58e+01      0   Skip BFGS
+geophys. misfits: 133.4 (target 30.0 [False]); 21.0 (target 30.0 [True]) | smallness misfit: 1339.7 (target: 200.0 [False])
+Beta cooling evaluation: progress: [133.4  21. ]; minimum progress targets: [334.2  30. ]
+Updating scaling for data misfits by  1.4296465097664488
+New scales: [0.1564118 0.8435882]
+   4  9.65e+00  3.86e+01  4.26e+01  4.50e+02    6.80e+01      0
+geophys. misfits: 99.8 (target 30.0 [False]); 21.7 (target 30.0 [True]) | smallness misfit: 1258.1 (target: 200.0 [False])
+Beta cooling evaluation: progress: [99.8 21.7]; minimum progress targets: [106.7  30. ]
+Updating scaling for data misfits by  1.3807214757469528
+New scales: [0.20382357 0.79617643]
+   5  9.65e+00  3.76e+01  4.30e+01  4.53e+02    6.81e+01      0   Skip BFGS
+geophys. misfits: 64.6 (target 30.0 [False]); 21.5 (target 30.0 [True]) | smallness misfit: 1227.3 (target: 200.0 [False])
+Beta cooling evaluation: progress: [64.6 21.5]; minimum progress targets: [79.8 30. ]
+Updating scaling for data misfits by  1.3940693474569692
+New scales: [0.26301839 0.73698161]
+   6  9.65e+00  3.29e+01  4.36e+01  4.54e+02    6.45e+01      0
+geophys. misfits: 47.2 (target 30.0 [False]); 21.6 (target 30.0 [True]) | smallness misfit: 1200.7 (target: 200.0 [False])
+Beta cooling evaluation: progress: [47.2 21.6]; minimum progress targets: [51.7 30. ]
+Updating scaling for data misfits by  1.3885631444826607
+New scales: [0.33135356 0.66864644]
+   7  9.65e+00  3.01e+01  4.40e+01  4.55e+02    8.07e+01      0   Skip BFGS
+geophys. misfits: 38.6 (target 30.0 [False]); 22.3 (target 30.0 [True]) | smallness misfit: 1166.6 (target: 200.0 [False])
+Beta cooling evaluation: progress: [38.6 22.3]; minimum progress targets: [37.8 30. ]
+Decreasing beta to counter data misfit decrase plateau.
+Updating scaling for data misfits by  1.3425988718834716
+New scales: [0.39952078 0.60047922]
+   8  4.83e+00  2.89e+01  4.42e+01  2.42e+02    7.55e+01      0
+geophys. misfits: 21.8 (target 30.0 [True]); 19.9 (target 30.0 [True]) | smallness misfit: 1230.3 (target: 200.0 [False])
+Beta cooling evaluation: progress: [21.8 19.9]; minimum progress targets: [30.9 30. ]
+Warming alpha_pgi to favor clustering:  1.443878078741625
+   9  4.83e+00  2.06e+01  4.65e+01  2.45e+02    5.07e+01      0
+geophys. misfits: 21.4 (target 30.0 [True]); 20.9 (target 30.0 [True]) | smallness misfit: 1101.7 (target: 200.0 [False])
+Beta cooling evaluation: progress: [21.4 20.9]; minimum progress targets: [30. 30.]
+Warming alpha_pgi to favor clustering:  2.0496019155058085
+  10  4.83e+00  2.11e+01  4.77e+01  2.51e+02    4.90e+01      0
+geophys. misfits: 19.9 (target 30.0 [True]); 21.7 (target 30.0 [True]) | smallness misfit: 992.1 (target: 200.0 [False])
+Beta cooling evaluation: progress: [19.9 21.7]; minimum progress targets: [30. 30.]
+Warming alpha_pgi to favor clustering:  2.962166093627672
+  11  4.83e+00  2.10e+01  4.95e+01  2.60e+02    4.69e+01      0
+geophys. misfits: 19.0 (target 30.0 [True]); 22.9 (target 30.0 [True]) | smallness misfit: 872.4 (target: 200.0 [False])
+Beta cooling evaluation: progress: [19.  22.9]; minimum progress targets: [30. 30.]
+Warming alpha_pgi to favor clustering:  4.275062184877144
+  12  4.83e+00  2.14e+01  5.18e+01  2.71e+02    6.14e+01      0
+geophys. misfits: 18.9 (target 30.0 [True]); 24.3 (target 30.0 [True]) | smallness misfit: 763.1 (target: 200.0 [False])
+Beta cooling evaluation: progress: [18.9 24.3]; minimum progress targets: [30. 30.]
+Warming alpha_pgi to favor clustering:  6.025467638072105
+  13  4.83e+00  2.22e+01  5.44e+01  2.85e+02    7.35e+01      0
+geophys. misfits: 19.1 (target 30.0 [True]); 25.7 (target 30.0 [True]) | smallness misfit: 664.1 (target: 200.0 [False])
+Beta cooling evaluation: progress: [19.1 25.7]; minimum progress targets: [30. 30.]
+Warming alpha_pgi to favor clustering:  8.246342999887883
+  14  4.83e+00  2.31e+01  5.72e+01  2.99e+02    8.78e+01      0
+geophys. misfits: 19.6 (target 30.0 [True]); 27.3 (target 30.0 [True]) | smallness misfit: 576.9 (target: 200.0 [False])
+Beta cooling evaluation: progress: [19.6 27.3]; minimum progress targets: [30. 30.]
+Warming alpha_pgi to favor clustering:  10.845170009066615
+  15  4.83e+00  2.42e+01  5.99e+01  3.13e+02    7.86e+01      0
+geophys. misfits: 20.4 (target 30.0 [True]); 29.4 (target 30.0 [True]) | smallness misfit: 499.5 (target: 200.0 [False])
+Beta cooling evaluation: progress: [20.4 29.4]; minimum progress targets: [30. 30.]
+Warming alpha_pgi to favor clustering:  13.520778151534024
+  16  4.83e+00  2.58e+01  6.22e+01  3.26e+02    8.58e+01      0
+geophys. misfits: 23.9 (target 30.0 [True]); 32.0 (target 30.0 [False]) | smallness misfit: 431.5 (target: 200.0 [False])
+Beta cooling evaluation: progress: [23.9 32. ]; minimum progress targets: [30. 30.]
 Decreasing beta to counter data misfit increase.
-Updating scaling for data misfits by  1.198529568044168
-New scales: [0.59794405 0.40205595]
-  13  4.93e+00  2.76e+01  4.83e+01  2.66e+02    8.76e+01      0   Skip BFGS
-geophys. misfits: 19.8 (target 30.0 [True]); 18.3 (target 30.0 [True]) | smallness misfit: 855.5 (target: 200.0 [False])
-Beta cooling evaluation: progress: [19.8 18.3]; minimum progress targets: [30. 30.]
-Warming alpha_pgi to favor clustering:  4.9358512209031025
-  14  4.93e+00  1.92e+01  5.28e+01  2.80e+02    6.23e+01      0
-geophys. misfits: 19.9 (target 30.0 [True]); 23.1 (target 30.0 [True]) | smallness misfit: 708.0 (target: 200.0 [False])
-Beta cooling evaluation: progress: [19.9 23.1]; minimum progress targets: [30. 30.]
-Warming alpha_pgi to favor clustering:  6.922849426719274
-  15  4.93e+00  2.12e+01  5.52e+01  2.94e+02    6.80e+01      0
-geophys. misfits: 20.5 (target 30.0 [True]); 29.7 (target 30.0 [True]) | smallness misfit: 600.8 (target: 200.0 [False])
-Beta cooling evaluation: progress: [20.5 29.7]; minimum progress targets: [30. 30.]
-Warming alpha_pgi to favor clustering:  8.557932009373166
-  16  4.93e+00  2.42e+01  5.65e+01  3.03e+02    8.55e+01      0
-geophys. misfits: 20.9 (target 30.0 [True]); 34.2 (target 30.0 [False]) | smallness misfit: 531.3 (target: 200.0 [False])
-Beta cooling evaluation: progress: [20.9 34.2]; minimum progress targets: [30. 30.]
+Updating scaling for data misfits by  1.2538703163113525
+New scales: [0.34667266 0.65332734]
+  17  2.41e+00  2.92e+01  6.12e+01  1.77e+02    9.15e+01      0
+geophys. misfits: 20.5 (target 30.0 [True]); 24.1 (target 30.0 [True]) | smallness misfit: 469.7 (target: 200.0 [False])
+Beta cooling evaluation: progress: [20.5 24.1]; minimum progress targets: [30. 30.]
+Warming alpha_pgi to favor clustering:  18.305271408092842
+  18  2.41e+00  2.29e+01  6.78e+01  1.86e+02    9.27e+01      0
+geophys. misfits: 18.7 (target 30.0 [True]); 23.4 (target 30.0 [True]) | smallness misfit: 406.0 (target: 200.0 [False])
+Beta cooling evaluation: progress: [18.7 23.4]; minimum progress targets: [30. 30.]
+Warming alpha_pgi to favor clustering:  26.45274527700061
+  19  2.41e+00  2.18e+01  7.49e+01  2.02e+02    8.41e+01      0
+geophys. misfits: 18.2 (target 30.0 [True]); 22.6 (target 30.0 [True]) | smallness misfit: 366.8 (target: 200.0 [False])
+Beta cooling evaluation: progress: [18.2 22.6]; minimum progress targets: [30. 30.]
+Warming alpha_pgi to favor clustering:  39.40426027800066
+  20  2.41e+00  2.11e+01  8.48e+01  2.26e+02    1.06e+02      0
+geophys. misfits: 18.5 (target 30.0 [True]); 20.7 (target 30.0 [True]) | smallness misfit: 310.6 (target: 200.0 [False])
+Beta cooling evaluation: progress: [18.5 20.7]; minimum progress targets: [30. 30.]
+Warming alpha_pgi to favor clustering:  60.39686376205604
+  21  2.41e+00  2.00e+01  9.86e+01  2.58e+02    1.13e+02      0
+geophys. misfits: 19.5 (target 30.0 [True]); 23.3 (target 30.0 [True]) | smallness misfit: 285.6 (target: 200.0 [False])
+Beta cooling evaluation: progress: [19.5 23.3]; minimum progress targets: [30. 30.]
+Warming alpha_pgi to favor clustering:  85.46279449789299
+  22  2.41e+00  2.20e+01  1.12e+02  2.93e+02    1.20e+02      0
+geophys. misfits: 22.2 (target 30.0 [True]); 26.5 (target 30.0 [True]) | smallness misfit: 241.3 (target: 200.0 [False])
+Beta cooling evaluation: progress: [22.2 26.5]; minimum progress targets: [30. 30.]
+Warming alpha_pgi to favor clustering:  106.26970914234639
+  23  2.41e+00  2.50e+01  1.22e+02  3.19e+02    1.21e+02      0
+geophys. misfits: 19.9 (target 30.0 [True]); 23.9 (target 30.0 [True]) | smallness misfit: 234.4 (target: 200.0 [False])
+Beta cooling evaluation: progress: [19.9 23.9]; minimum progress targets: [30. 30.]
+Warming alpha_pgi to favor clustering:  146.8097476420638
+  24  2.41e+00  2.25e+01  1.43e+02  3.67e+02    1.25e+02      0
+geophys. misfits: 31.0 (target 30.0 [False]); 23.0 (target 30.0 [True]) | smallness misfit: 216.6 (target: 200.0 [False])
+Beta cooling evaluation: progress: [31. 23.]; minimum progress targets: [30. 30.]
 Decreasing beta to counter data misfit increase.
-Updating scaling for data misfits by  1.4360536637893107
-New scales: [0.50875087 0.49124913]
-  17  2.47e+00  2.74e+01  5.60e+01  1.65e+02    9.40e+01      0   Skip BFGS
-geophys. misfits: 18.8 (target 30.0 [True]); 18.8 (target 30.0 [True]) | smallness misfit: 633.3 (target: 200.0 [False])
-Beta cooling evaluation: progress: [18.8 18.8]; minimum progress targets: [30. 30.]
-Warming alpha_pgi to favor clustering:  13.647381256803174
-  18  2.47e+00  1.88e+01  6.51e+01  1.79e+02    8.74e+01      0
-geophys. misfits: 19.6 (target 30.0 [True]); 23.8 (target 30.0 [True]) | smallness misfit: 483.5 (target: 200.0 [False])
-Beta cooling evaluation: progress: [19.6 23.8]; minimum progress targets: [30. 30.]
-Warming alpha_pgi to favor clustering:  19.045404598769014
-  19  2.47e+00  2.17e+01  6.88e+01  1.91e+02    8.65e+01      0
-geophys. misfits: 20.5 (target 30.0 [True]); 25.7 (target 30.0 [True]) | smallness misfit: 407.0 (target: 200.0 [False])
-Beta cooling evaluation: progress: [20.5 25.7]; minimum progress targets: [30. 30.]
-Warming alpha_pgi to favor clustering:  25.045740275743086
-  20  2.47e+00  2.31e+01  7.29e+01  2.03e+02    9.08e+01      0   Skip BFGS
-geophys. misfits: 21.0 (target 30.0 [True]); 27.2 (target 30.0 [True]) | smallness misfit: 339.1 (target: 200.0 [False])
-Beta cooling evaluation: progress: [21.  27.2]; minimum progress targets: [30. 30.]
-Warming alpha_pgi to favor clustering:  31.722142767214407
-  21  2.47e+00  2.40e+01  7.68e+01  2.13e+02    9.80e+01      0
-geophys. misfits: 22.2 (target 30.0 [True]); 29.0 (target 30.0 [True]) | smallness misfit: 300.9 (target: 200.0 [False])
-Beta cooling evaluation: progress: [22.2 29. ]; minimum progress targets: [30. 30.]
-Warming alpha_pgi to favor clustering:  37.82019981845879
-  22  2.47e+00  2.56e+01  7.96e+01  2.22e+02    1.01e+02      0
-geophys. misfits: 23.1 (target 30.0 [True]); 29.2 (target 30.0 [True]) | smallness misfit: 244.9 (target: 200.0 [False])
-Beta cooling evaluation: progress: [23.1 29.2]; minimum progress targets: [30. 30.]
-Warming alpha_pgi to favor clustering:  43.95066985849938
-  23  2.47e+00  2.61e+01  8.15e+01  2.27e+02    9.91e+01      0
-geophys. misfits: 23.7 (target 30.0 [True]); 31.7 (target 30.0 [False]) | smallness misfit: 231.9 (target: 200.0 [False])
-Beta cooling evaluation: progress: [23.7 31.7]; minimum progress targets: [30. 30.]
-Decreasing beta to counter data misfit increase.
-Updating scaling for data misfits by  1.2665719494814376
-New scales: [0.44984254 0.55015746]
-  24  1.23e+00  2.81e+01  8.06e+01  1.28e+02    1.07e+02      0
-geophys. misfits: 21.3 (target 30.0 [True]); 19.0 (target 30.0 [True]) | smallness misfit: 257.6 (target: 200.0 [False])
-Beta cooling evaluation: progress: [21.3 19. ]; minimum progress targets: [30. 30.]
-Warming alpha_pgi to favor clustering:  65.70376545749437
-  25  1.23e+00  2.00e+01  9.68e+01  1.39e+02    1.05e+02      0
-geophys. misfits: 22.3 (target 30.0 [True]); 16.9 (target 30.0 [True]) | smallness misfit: 233.0 (target: 200.0 [False])
-Beta cooling evaluation: progress: [22.3 16.9]; minimum progress targets: [30. 30.]
-Warming alpha_pgi to favor clustering:  102.4300759001624
-  26  1.23e+00  1.93e+01  1.14e+02  1.60e+02    1.10e+02      0
-geophys. misfits: 22.6 (target 30.0 [True]); 16.1 (target 30.0 [True]) | smallness misfit: 202.7 (target: 200.0 [False])
-Beta cooling evaluation: progress: [22.6 16.1]; minimum progress targets: [30. 30.]
-Warming alpha_pgi to favor clustering:  163.69186464532837
-  27  1.23e+00  1.90e+01  1.40e+02  1.92e+02    1.20e+02      0
-geophys. misfits: 23.7 (target 30.0 [True]); 15.5 (target 30.0 [True]) | smallness misfit: 187.1 (target: 200.0 [True])
+Updating scaling for data misfits by  1.3056443761911123
+New scales: [0.40926598 0.59073402]
+  25  1.21e+00  2.63e+01  1.38e+02  1.93e+02    1.20e+02      0
+geophys. misfits: 17.8 (target 30.0 [True]); 26.7 (target 30.0 [True]) | smallness misfit: 195.6 (target: 200.0 [True])
 All targets have been reached
-Beta cooling evaluation: progress: [23.7 15.5]; minimum progress targets: [30. 30.]
-Warming alpha_pgi to favor clustering:  262.2468013455045
+Beta cooling evaluation: progress: [17.8 26.7]; minimum progress targets: [30. 30.]
+Warming alpha_pgi to favor clustering:  206.36580588566093
 ------------------------- STOP! -------------------------
 1 : |fc-fOld| = 0.0000e+00 &lt;= tolF*(1+|f0|) = 3.0000e+04
-0 : |xc-x_last| = 3.5166e-01 &lt;= tolX*(1+|x0|) = 1.0000e-06
-0 : |proj(x-g)-x|    = 1.1983e+02 &lt;= tolG          = 1.0000e-01
-0 : |proj(x-g)-x|    = 1.1983e+02 &lt;= 1e3*eps       = 1.0000e-02
-0 : maxIter   =      50    &lt;= iter          =     28
+0 : |xc-x_last| = 8.2260e-01 &lt;= tolX*(1+|x0|) = 1.0000e-06
+0 : |proj(x-g)-x|    = 1.1979e+02 &lt;= tolG          = 1.0000e-01
+0 : |proj(x-g)-x|    = 1.1979e+02 &lt;= 1e3*eps       = 1.0000e-02
+0 : maxIter   =      50    &lt;= iter          =     26
 ------------------------- DONE! -------------------------
 SimPEG.InvProblem will set Regularization.reference_model to m0.
 SimPEG.InvProblem will set Regularization.reference_model to m0.
@@ -758,43 +804,48 @@ SimPEG.InvProblem will set Regularization.reference_model to m0.
 
 Alpha scales: [0.00034499025026179766, 0.0, 3.7949084087632494e-06, 0.0]
 Calculating the scaling parameter.
-Scale Multipliers:  [0.10253344 0.89746656]
+Scale Multipliers:  [0.09298509 0.90701491]
 &lt;class &#39;SimPEG.regularization.pgi.PGIsmallness&#39;&gt;
-Initial data misfit scales:  [0.10253344 0.89746656]
+Initial data misfit scales:  [0.09298509 0.90701491]
 model has any nan: 0
 =============================== Projected GNCG ===============================
   #     beta     phi_d     phi_m       f      |proj(x-g)-x|  LS    Comment
 -----------------------------------------------------------------------------
 x0 has any nan: 0
-   0  1.97e+03  3.00e+05  0.00e+00  3.00e+05    1.41e+02      0
-geophys. misfits: 84899.9 (target 30.0 [False]); 63769.0 (target 30.0 [False]) | smallness misfit: 307.0 (target: 200.0 [False])
-Beta cooling evaluation: progress: [84899.9 63769. ]; minimum progress targets: [240000. 240000.]
-   1  1.97e+03  6.59e+04  7.14e-01  6.73e+04    8.95e+01      0
-geophys. misfits: 561.9 (target 30.0 [False]); 14.5 (target 30.0 [True]) | smallness misfit: 75.2 (target: 200.0 [True])
-Beta cooling evaluation: progress: [561.9  14.5]; minimum progress targets: [67919.9 51015.2]
-Updating scaling for data misfits by  2.0742079849535013
-New scales: [0.19157515 0.80842485]
-   2  1.97e+03  1.19e+02  1.99e-01  5.10e+02    1.12e+02      0   Skip BFGS
-geophys. misfits: 52.4 (target 30.0 [False]); 14.5 (target 30.0 [True]) | smallness misfit: 50.4 (target: 200.0 [True])
-Beta cooling evaluation: progress: [52.4 14.5]; minimum progress targets: [449.5  30. ]
-Updating scaling for data misfits by  2.0657867057786627
-New scales: [0.32865019 0.67134981]
-   3  1.97e+03  2.70e+01  1.41e-01  3.04e+02    8.52e+01      0   Skip BFGS
-geophys. misfits: 32.2 (target 30.0 [False]); 15.0 (target 30.0 [True]) | smallness misfit: 59.6 (target: 200.0 [True])
-Beta cooling evaluation: progress: [32.2 15. ]; minimum progress targets: [42. 30.]
-Updating scaling for data misfits by  2.005372276424505
-New scales: [0.49538346 0.50461654]
-   4  1.97e+03  2.35e+01  1.68e-01  3.54e+02    8.94e+01      0
-geophys. misfits: 25.4 (target 30.0 [True]); 17.0 (target 30.0 [True]) | smallness misfit: 48.3 (target: 200.0 [True])
+   0  1.92e+03  3.00e+05  0.00e+00  3.00e+05    1.41e+02      0
+geophys. misfits: 89802.0 (target 30.0 [False]); 62471.1 (target 30.0 [False]) | smallness misfit: 269.7 (target: 200.0 [False])
+Beta cooling evaluation: progress: [89802.  62471.1]; minimum progress targets: [240000. 240000.]
+   1  1.92e+03  6.50e+04  6.55e-01  6.63e+04    9.25e+01      0
+geophys. misfits: 654.8 (target 30.0 [False]); 20.6 (target 30.0 [True]) | smallness misfit: 89.9 (target: 200.0 [True])
+Beta cooling evaluation: progress: [654.8  20.6]; minimum progress targets: [71841.6 49976.9]
+Updating scaling for data misfits by  1.4577138405555077
+New scales: [0.13001225 0.86998775]
+   2  1.92e+03  1.03e+02  2.45e-01  5.75e+02    1.03e+02      0   Skip BFGS
+geophys. misfits: 78.0 (target 30.0 [False]); 18.9 (target 30.0 [True]) | smallness misfit: 55.7 (target: 200.0 [True])
+Beta cooling evaluation: progress: [78.  18.9]; minimum progress targets: [523.8  30. ]
+Updating scaling for data misfits by  1.5872808293086649
+New scales: [0.1917269 0.8082731]
+   3  1.92e+03  3.02e+01  1.45e-01  3.09e+02    8.51e+01      0   Skip BFGS
+geophys. misfits: 46.5 (target 30.0 [False]); 18.1 (target 30.0 [True]) | smallness misfit: 70.3 (target: 200.0 [True])
+Beta cooling evaluation: progress: [46.5 18.1]; minimum progress targets: [62.4 30. ]
+Updating scaling for data misfits by  1.652956583909816
+New scales: [0.28165592 0.71834408]
+   4  1.92e+03  2.61e+01  1.87e-01  3.86e+02    7.95e+01      0
+geophys. misfits: 31.8 (target 30.0 [False]); 19.0 (target 30.0 [True]) | smallness misfit: 47.4 (target: 200.0 [True])
+Beta cooling evaluation: progress: [31.8 19. ]; minimum progress targets: [37.2 30. ]
+Updating scaling for data misfits by  1.5803534409264133
+New scales: [0.38257947 0.61742053]
+   5  1.92e+03  2.39e+01  1.29e-01  2.72e+02    7.69e+01      0
+geophys. misfits: 25.3 (target 30.0 [True]); 19.9 (target 30.0 [True]) | smallness misfit: 47.7 (target: 200.0 [True])
 All targets have been reached
-Beta cooling evaluation: progress: [25.4 17. ]; minimum progress targets: [30. 30.]
-Warming alpha_pgi to favor clustering:  1.47406056633217
+Beta cooling evaluation: progress: [25.3 19.9]; minimum progress targets: [30. 30.]
+Warming alpha_pgi to favor clustering:  1.3449566670816129
 ------------------------- STOP! -------------------------
 1 : |fc-fOld| = 0.0000e+00 &lt;= tolF*(1+|f0|) = 3.0000e+04
-0 : |xc-x_last| = 1.6960e-01 &lt;= tolX*(1+|x0|) = 1.0000e-06
-0 : |proj(x-g)-x|    = 8.9403e+01 &lt;= tolG          = 1.0000e-01
-0 : |proj(x-g)-x|    = 8.9403e+01 &lt;= 1e3*eps       = 1.0000e-02
-0 : maxIter   =      50    &lt;= iter          =      5
+0 : |xc-x_last| = 8.5682e-02 &lt;= tolX*(1+|x0|) = 1.0000e-06
+0 : |proj(x-g)-x|    = 7.6846e+01 &lt;= tolG          = 1.0000e-01
+0 : |proj(x-g)-x|    = 7.6846e+01 &lt;= 1e3*eps       = 1.0000e-02
+0 : maxIter   =      50    &lt;= iter          =      6
 ------------------------- DONE! -------------------------
 SimPEG.InvProblem will set Regularization.reference_model to m0.
 SimPEG.InvProblem will set Regularization.reference_model to m0.
@@ -804,66 +855,64 @@ SimPEG.InvProblem will set Regularization.reference_model to m0.
 
 Alpha scales: [3.5188574849327586e-05, 0.0, 3.4826374354602616e-05, 0.0]
 Calculating the scaling parameter.
-Scale Multipliers:  [0.10253344 0.89746656]
-/home/vsts/work/1/s/SimPEG/directives/directives.py:332: UserWarning:
+Scale Multipliers:  [0.09298509 0.90701491]
+/home/ssoler/git/simpeg/SimPEG/directives/directives.py:332: UserWarning:
 
 There is no PGI regularization. Smallness target is turned off (TriggerSmall flag)
 
-Initial data misfit scales:  [0.10253344 0.89746656]
+Initial data misfit scales:  [0.09298509 0.90701491]
 model has any nan: 0
 =============================== Projected GNCG ===============================
   #     beta     phi_d     phi_m       f      |proj(x-g)-x|  LS    Comment
 -----------------------------------------------------------------------------
 x0 has any nan: 0
-   0  1.07e+06  3.00e+05  0.00e+00  3.00e+05    1.41e+02      0
-geophys. misfits: 53866.9 (target 30.0 [False]); 36983.1 (target 30.0 [False])
-   1  2.13e+05  3.87e+04  4.18e-02  4.76e+04    1.38e+02      0
-geophys. misfits: 7708.0 (target 30.0 [False]); 4065.3 (target 30.0 [False])
-   2  4.27e+04  4.44e+03  1.06e-01  8.95e+03    1.31e+02      0   Skip BFGS
-geophys. misfits: 509.1 (target 30.0 [False]); 260.0 (target 30.0 [False])
-   3  8.53e+03  2.86e+02  1.40e-01  1.48e+03    1.05e+02      0   Skip BFGS
-geophys. misfits: 42.8 (target 30.0 [False]); 27.0 (target 30.0 [True])
-Updating scaling for data misfits by  1.109305984673468
-New scales: [0.11248033 0.88751967]
-   4  1.71e+03  2.88e+01  1.51e-01  2.86e+02    8.56e+01      0   Skip BFGS
-geophys. misfits: 18.4 (target 30.0 [True]); 10.7 (target 30.0 [True])
+   0  1.04e+06  3.00e+05  0.00e+00  3.00e+05    1.41e+02      0
+geophys. misfits: 58138.4 (target 30.0 [False]); 35947.8 (target 30.0 [False])
+   1  2.09e+05  3.80e+04  4.27e-02  4.69e+04    1.38e+02      0
+geophys. misfits: 8841.4 (target 30.0 [False]); 3900.3 (target 30.0 [False])
+   2  4.17e+04  4.36e+03  1.07e-01  8.82e+03    1.30e+02      0   Skip BFGS
+geophys. misfits: 597.5 (target 30.0 [False]); 260.5 (target 30.0 [False])
+   3  8.34e+03  2.92e+02  1.41e-01  1.47e+03    1.02e+02      0   Skip BFGS
+geophys. misfits: 44.4 (target 30.0 [False]); 35.6 (target 30.0 [False])
+   4  1.67e+03  3.64e+01  1.52e-01  2.90e+02    7.92e+01      0   Skip BFGS
+geophys. misfits: 17.8 (target 30.0 [True]); 17.5 (target 30.0 [True])
 All targets have been reached
 ------------------------- STOP! -------------------------
 1 : |fc-fOld| = 0.0000e+00 &lt;= tolF*(1+|f0|) = 3.0000e+04
-0 : |xc-x_last| = 4.3953e-01 &lt;= tolX*(1+|x0|) = 1.0000e-06
-0 : |proj(x-g)-x|    = 8.5526e+01 &lt;= tolG          = 1.0000e-01
-0 : |proj(x-g)-x|    = 8.5526e+01 &lt;= 1e3*eps       = 1.0000e-02
+0 : |xc-x_last| = 5.3686e-01 &lt;= tolX*(1+|x0|) = 1.0000e-06
+0 : |proj(x-g)-x|    = 7.9182e+01 &lt;= tolG          = 1.0000e-01
+0 : |proj(x-g)-x|    = 7.9182e+01 &lt;= 1e3*eps       = 1.0000e-02
 0 : maxIter   =      50    &lt;= iter          =      5
 ------------------------- DONE! -------------------------
-/home/vsts/work/1/s/examples/10-pgi/plot_inv_1_PGI_Linear_1D_joint_WithRelationships.py:301: UserWarning:
+/home/ssoler/git/simpeg/examples/10-pgi/plot_inv_1_PGI_Linear_1D_joint_WithRelationships.py:301: UserWarning:
 
 marker is redundantly defined by the &#39;marker&#39; keyword argument and the fmt string &quot;b.-&quot; (-&gt; marker=&#39;.&#39;). The keyword argument will take precedence.
 
-/home/vsts/work/1/s/examples/10-pgi/plot_inv_1_PGI_Linear_1D_joint_WithRelationships.py:308: UserWarning:
+/home/ssoler/git/simpeg/examples/10-pgi/plot_inv_1_PGI_Linear_1D_joint_WithRelationships.py:308: UserWarning:
 
 marker is redundantly defined by the &#39;marker&#39; keyword argument and the fmt string &quot;r.-&quot; (-&gt; marker=&#39;.&#39;). The keyword argument will take precedence.
 
-/home/vsts/work/1/s/examples/10-pgi/plot_inv_1_PGI_Linear_1D_joint_WithRelationships.py:346: UserWarning:
+/home/ssoler/git/simpeg/examples/10-pgi/plot_inv_1_PGI_Linear_1D_joint_WithRelationships.py:346: UserWarning:
 
 marker is redundantly defined by the &#39;marker&#39; keyword argument and the fmt string &quot;b.-&quot; (-&gt; marker=&#39;.&#39;). The keyword argument will take precedence.
 
-/home/vsts/work/1/s/examples/10-pgi/plot_inv_1_PGI_Linear_1D_joint_WithRelationships.py:353: UserWarning:
+/home/ssoler/git/simpeg/examples/10-pgi/plot_inv_1_PGI_Linear_1D_joint_WithRelationships.py:353: UserWarning:
 
 marker is redundantly defined by the &#39;marker&#39; keyword argument and the fmt string &quot;r.-&quot; (-&gt; marker=&#39;.&#39;). The keyword argument will take precedence.
 
-/home/vsts/work/1/s/examples/10-pgi/plot_inv_1_PGI_Linear_1D_joint_WithRelationships.py:360: UserWarning:
+/home/ssoler/git/simpeg/examples/10-pgi/plot_inv_1_PGI_Linear_1D_joint_WithRelationships.py:360: UserWarning:
 
 The following kwargs were not used by contour: &#39;label&#39;
 
-/home/vsts/work/1/s/examples/10-pgi/plot_inv_1_PGI_Linear_1D_joint_WithRelationships.py:368: UserWarning:
+/home/ssoler/git/simpeg/examples/10-pgi/plot_inv_1_PGI_Linear_1D_joint_WithRelationships.py:368: UserWarning:
 
 The following kwargs were not used by contour: &#39;label&#39;
 
-/home/vsts/work/1/s/examples/10-pgi/plot_inv_1_PGI_Linear_1D_joint_WithRelationships.py:402: UserWarning:
+/home/ssoler/git/simpeg/examples/10-pgi/plot_inv_1_PGI_Linear_1D_joint_WithRelationships.py:402: UserWarning:
 
 marker is redundantly defined by the &#39;marker&#39; keyword argument and the fmt string &quot;b.-&quot; (-&gt; marker=&#39;.&#39;). The keyword argument will take precedence.
 
-/home/vsts/work/1/s/examples/10-pgi/plot_inv_1_PGI_Linear_1D_joint_WithRelationships.py:409: UserWarning:
+/home/ssoler/git/simpeg/examples/10-pgi/plot_inv_1_PGI_Linear_1D_joint_WithRelationships.py:409: UserWarning:
 
 marker is redundantly defined by the &#39;marker&#39; keyword argument and the fmt string &quot;r.-&quot; (-&gt; marker=&#39;.&#39;). The keyword argument will take precedence.
 </pre></div>
@@ -1293,8 +1342,8 @@ marker is redundantly defined by the &#39;marker&#39; keyword argument and the f
 <a href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.show.html#matplotlib.pyplot.show" title="matplotlib.pyplot.show" class="sphx-glr-backref-module-matplotlib-pyplot sphx-glr-backref-type-py-function"><span class="n">plt</span><span class="o">.</span><span class="n">show</span></a><span class="p">()</span>
 </pre></div>
 </div>
-<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> (0 minutes 55.403 seconds)</p>
-<p><strong>Estimated memory usage:</strong>  17 MB</p>
+<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> (0 minutes 37.303 seconds)</p>
+<p><strong>Estimated memory usage:</strong>  10 MB</p>
 <div class="sphx-glr-footer sphx-glr-footer-example docutils container" id="sphx-glr-download-content-examples-10-pgi-plot-inv-1-pgi-linear-1d-joint-withrelationships-py">
 <div class="sphx-glr-download sphx-glr-download-jupyter docutils container">
 <p><a class="reference download internal" download="" href="../../../_downloads/a51d6b3469114e4dd39956834faf0a6d/plot_inv_1_PGI_Linear_1D_joint_WithRelationships.ipynb"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Jupyter</span> <span class="pre">notebook:</span> <span class="pre">plot_inv_1_PGI_Linear_1D_joint_WithRelationships.ipynb</span></code></a></p>

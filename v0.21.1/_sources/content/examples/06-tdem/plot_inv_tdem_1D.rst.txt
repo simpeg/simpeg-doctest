@@ -44,11 +44,11 @@ Here we will create and run a TDEM 1D inversion.
                             SimPEG.InvProblem is setting bfgsH0 to the inverse of the eval2Deriv.
                             ***Done using same Solver, and solver_opts as the Simulation3DElectricField problem***
                         
-    /home/vsts/conda/envs/simpeg-test/lib/python3.8/site-packages/pymatsolver/direct.py:23: PardisoTypeConversionWarning:
+    /home/ssoler/mambaforge/envs/simpeg-test/lib/python3.8/site-packages/pymatsolver/direct.py:23: PardisoTypeConversionWarning:
 
     Converting csc_matrix matrix to CSR format.
 
-    /home/vsts/conda/envs/simpeg-test/lib/python3.8/site-packages/pymatsolver/direct.py:73: PardisoTypeConversionWarning:
+    /home/ssoler/mambaforge/envs/simpeg-test/lib/python3.8/site-packages/pymatsolver/direct.py:73: PardisoTypeConversionWarning:
 
     Converting csc_matrix matrix to CSR format.
 
@@ -174,9 +174,9 @@ Here we will create and run a TDEM 1D inversion.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 27.201 seconds)
+   **Total running time of the script:** (0 minutes 20.104 seconds)
 
-**Estimated memory usage:**  9 MB
+**Estimated memory usage:**  8 MB
 
 
 .. _sphx_glr_download_content_examples_06-tdem_plot_inv_tdem_1D.py:

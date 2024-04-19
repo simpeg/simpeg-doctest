@@ -6,7 +6,7 @@
 
 Computation times
 =================
-**03:11.869** total execution time for 1 file **from content/examples/07-nsem**:
+**00:38.797** total execution time for 1 file **from content/examples/07-nsem**:
 
 .. container::
 
@@ -33,5 +33,5 @@ Computation times
      - Time
      - Mem (MB)
    * - :ref:`sphx_glr_content_examples_07-nsem_plot_fwd_nsem_MTTipper3D.py` (``plot_fwd_nsem_MTTipper3D.py``)
-     - 03:11.869
-     - 1016.9
+     - 00:38.797
+     - 1135.7

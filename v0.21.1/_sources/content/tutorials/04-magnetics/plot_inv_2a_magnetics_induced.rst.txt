@@ -123,8 +123,9 @@ tar-file on our google cloud bucket:
 
  .. code-block:: none
 
+    overwriting /home/ssoler/git/simpeg/tutorials/04-magnetics/magnetics.tar.gz
     Downloading https://storage.googleapis.com/simpeg/doc-assets/magnetics.tar.gz
-       saved to: /home/vsts/work/1/s/tutorials/04-magnetics/magnetics.tar.gz
+       saved to: /home/ssoler/git/simpeg/tutorials/04-magnetics/magnetics.tar.gz
     Download completed!
 
 
@@ -532,34 +533,34 @@ the set of directives. We can then run the inversion.
       #     beta     phi_d     phi_m       f      |proj(x-g)-x|  LS    Comment   
     -----------------------------------------------------------------------------
     x0 has any nan: 0
-       0  2.04e+05  2.10e+04  0.00e+00  2.10e+04    1.39e+02      0              
-       1  1.02e+05  5.02e+02  9.99e-03  1.52e+03    1.24e+02      0              
+       0  2.03e+05  2.10e+04  0.00e+00  2.10e+04    1.39e+02      0              
+       1  1.02e+05  5.00e+02  1.00e-02  1.52e+03    1.24e+02      0              
     Reached starting chifact with l2-norm regularization: Start IRLS steps...
-    irls_threshold 0.0014103872270714315
-       2  5.09e+04  1.79e+02  2.06e-02  1.23e+03    1.85e+02      0   Skip BFGS  
-       3  1.31e+05  9.21e+01  2.90e-02  3.89e+03    1.87e+02      0              
+    irls_threshold 0.001410977561015165
+       2  5.08e+04  1.78e+02  2.06e-02  1.22e+03    1.85e+02      0   Skip BFGS  
+       3  1.31e+05  9.17e+01  2.90e-02  3.89e+03    1.87e+02      0              
        4  8.18e+04  5.77e+02  2.64e-02  2.74e+03    1.84e+02      0              
        5  6.60e+04  3.34e+02  2.93e-02  2.27e+03    1.85e+02      0              
-       6  1.17e+05  1.86e+02  2.64e-02  3.28e+03    1.76e+02      0              
-       7  1.92e+05  2.26e+02  1.47e-02  3.04e+03    1.55e+02      0              
+       6  1.17e+05  1.87e+02  2.64e-02  3.28e+03    1.76e+02      0              
+       7  1.92e+05  2.26e+02  1.47e-02  3.05e+03    1.55e+02      0              
        8  3.16e+05  2.24e+02  7.57e-03  2.62e+03    1.35e+02      0              
-       9  5.09e+05  2.37e+02  4.51e-03  2.54e+03    1.57e+02      0              
+       9  5.09e+05  2.37e+02  4.52e-03  2.54e+03    1.57e+02      0              
       10  7.85e+05  2.66e+02  2.88e-03  2.53e+03    1.39e+02      0              
       11  6.53e+05  3.16e+02  1.77e-03  1.47e+03    1.81e+02      0              
-      12  1.36e+06  1.34e+02  1.22e-03  1.79e+03    1.17e+02      0              
-      13  2.31e+06  2.06e+02  7.58e-04  1.95e+03    1.67e+02      0              
-      14  3.80e+06  2.24e+02  5.15e-04  2.18e+03    1.23e+02      0              
-      15  3.26e+06  2.98e+02  3.37e-04  1.40e+03    1.69e+02      0              
-      16  6.91e+06  1.29e+02  2.35e-04  1.75e+03    1.20e+02      0              
-      17  1.16e+07  2.15e+02  1.53e-04  1.98e+03    1.59e+02      0              
-      18  1.90e+07  2.26e+02  1.04e-04  2.20e+03    1.36e+02      0              
-      19  1.63e+07  2.99e+02  7.03e-05  1.44e+03    1.64e+02      0              
-      20  3.26e+07  1.44e+02  4.85e-05  1.72e+03    1.24e+02      0              
+      12  1.39e+06  1.29e+02  1.22e-03  1.82e+03    1.17e+02      0              
+      13  2.34e+06  2.10e+02  7.56e-04  1.98e+03    1.66e+02      0              
+      14  3.81e+06  2.30e+02  5.14e-04  2.19e+03    1.25e+02      0              
+      15  3.26e+06  3.01e+02  3.37e-04  1.40e+03    1.70e+02      0              
+      16  6.85e+06  1.31e+02  2.35e-04  1.74e+03    1.22e+02      0              
+      17  1.15e+07  2.14e+02  1.52e-04  1.96e+03    1.61e+02      0              
+      18  1.88e+07  2.26e+02  1.04e-04  2.18e+03    1.30e+02      0              
+      19  1.61e+07  2.99e+02  6.96e-05  1.42e+03    1.58e+02      0              
+      20  3.37e+07  1.33e+02  4.76e-05  1.74e+03    1.30e+02      0              
     ------------------------- STOP! -------------------------
-    1 : |fc-fOld| = 2.8263e+02 <= tolF*(1+|f0|) = 2.1023e+03
-    1 : |xc-x_last| = 1.1382e-02 <= tolX*(1+|x0|) = 1.0219e-01
-    0 : |proj(x-g)-x|    = 1.2393e+02 <= tolG          = 1.0000e-01
-    0 : |proj(x-g)-x|    = 1.2393e+02 <= 1e3*eps       = 1.0000e-02
+    1 : |fc-fOld| = 3.1481e+02 <= tolF*(1+|f0|) = 2.1023e+03
+    1 : |xc-x_last| = 1.5225e-02 <= tolX*(1+|x0|) = 1.0219e-01
+    0 : |proj(x-g)-x|    = 1.3021e+02 <= tolG          = 1.0000e-01
+    0 : |proj(x-g)-x|    = 1.3021e+02 <= 1e3*eps       = 1.0000e-02
     1 : maxIter   =      20    <= iter          =     20
     ------------------------- DONE! -------------------------
 
@@ -746,9 +747,9 @@ Plotting Predicted Data and Misfit
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 34.226 seconds)
+   **Total running time of the script:** (0 minutes 32.228 seconds)
 
-**Estimated memory usage:**  8 MB
+**Estimated memory usage:**  11 MB
 
 
 .. _sphx_glr_download_content_tutorials_04-magnetics_plot_inv_2a_magnetics_induced.py:

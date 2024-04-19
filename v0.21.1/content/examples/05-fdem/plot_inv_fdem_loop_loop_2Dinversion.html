@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>2D inversion of Loop-Loop EM Data &#8212; SimPEG 0.21.1 documentation</title>
+    <title>2D inversion of Loop-Loop EM Data &#8212; SimPEG v0.21.1 documentation</title>
   
   
   
@@ -30,7 +30,7 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=fa44fd50" />
-    <link rel="stylesheet" type="text/css" href="../../../_static/plot_directive.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/plot_directive.css?v=7f9a90b1" />
     <link rel="stylesheet" type="text/css" href="../../../_static/sg_gallery.css?v=61a4c737" />
     <link rel="stylesheet" type="text/css" href="../../../_static/sg_gallery-binder.css?v=f4aeca0c" />
     <link rel="stylesheet" type="text/css" href="../../../_static/sg_gallery-dataframe.css?v=2082cf3c" />
@@ -42,11 +42,17 @@
 <link rel="preload" as="script" href="../../../_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd" />
   <script src="../../../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=5b4479735964841361fd"></script>
 
-    <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js?v=18a41c59"></script>
+    <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js?v=9cbbb60d"></script>
     <script src="../../../_static/doctools.js?v=888ff710"></script>
     <script src="../../../_static/sphinx_highlight.js?v=4825356b"></script>
     <script data-domain="docs.simpeg.xyz" defer="defer" src="https://plausible.io/js/script.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'content/examples/05-fdem/plot_inv_fdem_loop_loop_2Dinversion';</script>
+    <script>
+        DOCUMENTATION_OPTIONS.theme_version = '0.14.4';
+        DOCUMENTATION_OPTIONS.theme_switcher_json_url = 'https://doctest.simpeg.xyz/latest/_static/versions.json';
+        DOCUMENTATION_OPTIONS.theme_switcher_version_match = 'v0.21.1';
+        DOCUMENTATION_OPTIONS.show_version_warning_banner = false;
+        </script>
     <link rel="icon" href="../../../_static/logo-block.ico"/>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
@@ -136,8 +142,8 @@
       
     
     
-    <img src="../../../_static/simpeg-logo.png" class="logo__image only-light" alt="SimPEG 0.21.1 documentation - Home"/>
-    <script>document.write(`<img src="../../../_static/simpeg-logo.png" class="logo__image only-dark" alt="SimPEG 0.21.1 documentation - Home"/>`);</script>
+    <img src="../../../_static/simpeg-logo.png" class="logo__image only-light" alt="SimPEG v0.21.1 documentation - Home"/>
+    <script>document.write(`<img src="../../../_static/simpeg-logo.png" class="logo__image only-dark" alt="SimPEG v0.21.1 documentation - Home"/>`);</script>
   
   
 </a></div>
@@ -236,6 +242,30 @@
  </script>
         </div>
       
+      
+        <div class="navbar-item">
+<script>
+document.write(`
+  <div class="version-switcher__container dropdown">
+    <button id="pst-version-switcher-button-2"
+      type="button"
+      class="version-switcher__button btn btn-sm navbar-btn dropdown-toggle"
+      data-bs-toggle="dropdown"
+      aria-haspopup="listbox"
+      aria-controls="pst-version-switcher-list-2"
+      aria-label="Version switcher list"
+    >
+      Choose version  <!-- this text may get changed later by javascript -->
+      <span class="caret"></span>
+    </button>
+    <div id="pst-version-switcher-list-2"
+      class="version-switcher__menu dropdown-menu list-group-flush py-0"
+      role="listbox" aria-labelledby="pst-version-switcher-button-2">
+      <!-- dropdown will be populated by javascript on page load -->
+    </div>
+  </div>
+`);
+</script></div>
       
         <div class="navbar-item">
 
@@ -415,6 +445,30 @@ document.write(`
     
     
       <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+<script>
+document.write(`
+  <div class="version-switcher__container dropdown">
+    <button id="pst-version-switcher-button-3"
+      type="button"
+      class="version-switcher__button btn btn-sm navbar-btn dropdown-toggle"
+      data-bs-toggle="dropdown"
+      aria-haspopup="listbox"
+      aria-controls="pst-version-switcher-list-3"
+      aria-label="Version switcher list"
+    >
+      Choose version  <!-- this text may get changed later by javascript -->
+      <span class="caret"></span>
+    </button>
+    <div id="pst-version-switcher-list-3"
+      class="version-switcher__menu dropdown-menu list-group-flush py-0"
+      role="listbox" aria-labelledby="pst-version-switcher-button-3">
+      <!-- dropdown will be populated by javascript on page load -->
+    </div>
+  </div>
+`);
+</script></div>
         
           <div class="navbar-item">
 
@@ -857,7 +911,7 @@ assign a standard deviation of 0.05, and a floor of 1e-11.</p>
 <a href="https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html#numpy.ndarray" title="numpy.ndarray" class="sphx-glr-backref-module-numpy sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">ax</span></a> <span class="o">=</span> <span class="n">plot_data</span><span class="p">(</span><a href="https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html#numpy.ndarray" title="numpy.ndarray" class="sphx-glr-backref-module-numpy sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">dclean</span></a><span class="p">)</span>
 </pre></div>
 </div>
-<img src="../../../_images/sphx_glr_plot_inv_fdem_loop_loop_2Dinversion_004.png" srcset="../../../_images/sphx_glr_plot_inv_fdem_loop_loop_2Dinversion_004.png" alt="offset = 0.32m, offset = 0.71m, offset = 1.18m" class = "sphx-glr-single-img"/><div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>Done forward simulation. Elapsed time = 23.46 s
+<img src="../../../_images/sphx_glr_plot_inv_fdem_loop_loop_2Dinversion_004.png" srcset="../../../_images/sphx_glr_plot_inv_fdem_loop_loop_2Dinversion_004.png" alt="offset = 0.32m, offset = 0.71m, offset = 1.18m" class = "sphx-glr-single-img"/><div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>Done forward simulation. Elapsed time = 7.31 s
 </pre></div>
 </div>
 </section>
@@ -926,7 +980,7 @@ x0 has any nan: 0
 0 : maxIter   =      20    &lt;= iter          =      2
 ------------------------- DONE! -------------------------
 
- Inversion Complete. Elapsed Time = 356.25 s
+ Inversion Complete. Elapsed Time = 149.61 s
 </pre></div>
 </div>
 </section>
@@ -987,13 +1041,13 @@ x0 has any nan: 0
 <div class="output_subarea output_html rendered_html output_result">
 <table style='border: 1.5px solid;'>
   <tr>
-     <td style='text-align: center; font-weight: bold; font-size: 1.2em; border: 1px solid;' colspan='6'>Wed Apr 10 20:08:12 2024 UTC</td>
+     <td style='text-align: center; font-weight: bold; font-size: 1.2em; border: 1px solid;' colspan='6'>Wed Apr 17 18:24:10 2024 PDT</td>
   </tr>
   <tr>
     <td style='text-align: right; border: 1px solid;'>OS</td>
     <td style='text-align: left; border: 1px solid;'>Linux</td>
     <td style='text-align: right; border: 1px solid;'>CPU(s)</td>
-    <td style='text-align: left; border: 1px solid;'>2</td>
+    <td style='text-align: left; border: 1px solid;'>48</td>
     <td style='text-align: right; border: 1px solid;'>Machine</td>
     <td style='text-align: left; border: 1px solid;'>x86_64</td>
   </tr>
@@ -1001,7 +1055,7 @@ x0 has any nan: 0
     <td style='text-align: right; border: 1px solid;'>Architecture</td>
     <td style='text-align: left; border: 1px solid;'>64bit</td>
     <td style='text-align: right; border: 1px solid;'>RAM</td>
-    <td style='text-align: left; border: 1px solid;'>6.8 GiB</td>
+    <td style='text-align: left; border: 1px solid;'>125.8 GiB</td>
     <td style='text-align: right; border: 1px solid;'>Environment</td>
     <td style='text-align: left; border: 1px solid;'>Python</td>
   </tr>
@@ -1015,7 +1069,7 @@ x0 has any nan: 0
   </tr>
   <tr>
     <td style='text-align: right; border: 1px solid;'>SimPEG</td>
-    <td style='text-align: left; border: 1px solid;'>0.21.1</td>
+    <td style='text-align: left; border: 1px solid;'>0.21.2.dev2+g999d18c03.d20240417</td>
     <td style='text-align: right; border: 1px solid;'>discretize</td>
     <td style='text-align: left; border: 1px solid;'>0.10.0</td>
     <td style='text-align: right; border: 1px solid;'>pymatsolver</td>
@@ -1086,8 +1140,8 @@ x0 has any nan: 0
 </ul>
 </dd>
 </dl>
-<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> (6 minutes 28.643 seconds)</p>
-<p><strong>Estimated memory usage:</strong>  2936 MB</p>
+<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> (2 minutes 47.620 seconds)</p>
+<p><strong>Estimated memory usage:</strong>  3180 MB</p>
 <div class="sphx-glr-footer sphx-glr-footer-example docutils container" id="sphx-glr-download-content-examples-05-fdem-plot-inv-fdem-loop-loop-2dinversion-py">
 <div class="sphx-glr-download sphx-glr-download-jupyter docutils container">
 <p><a class="reference download internal" download="" href="../../../_downloads/ab6830e8abf007c907b3e56c637b1e3b/plot_inv_fdem_loop_loop_2Dinversion.ipynb"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Jupyter</span> <span class="pre">notebook:</span> <span class="pre">plot_inv_fdem_loop_loop_2Dinversion.ipynb</span></code></a></p>

@@ -444,7 +444,7 @@ assign a standard deviation of 0.05, and a floor of 1e-11.
 
  .. code-block:: none
 
-    Done forward simulation. Elapsed time = 23.46 s
+    Done forward simulation. Elapsed time = 7.31 s
 
 
 
@@ -548,7 +548,7 @@ We start from a half-space equal to the deep conductivity.
     0 : maxIter   =      20    <= iter          =      2
     ------------------------- DONE! -------------------------
 
-     Inversion Complete. Elapsed Time = 356.25 s
+     Inversion Complete. Elapsed Time = 149.61 s
 
 
 
@@ -666,13 +666,13 @@ Print the version of SimPEG and dependencies
     <div class="output_subarea output_html rendered_html output_result">
     <table style='border: 1.5px solid;'>
       <tr>
-         <td style='text-align: center; font-weight: bold; font-size: 1.2em; border: 1px solid;' colspan='6'>Wed Apr 10 20:08:12 2024 UTC</td>
+         <td style='text-align: center; font-weight: bold; font-size: 1.2em; border: 1px solid;' colspan='6'>Wed Apr 17 18:24:10 2024 PDT</td>
       </tr>
       <tr>
         <td style='text-align: right; border: 1px solid;'>OS</td>
         <td style='text-align: left; border: 1px solid;'>Linux</td>
         <td style='text-align: right; border: 1px solid;'>CPU(s)</td>
-        <td style='text-align: left; border: 1px solid;'>2</td>
+        <td style='text-align: left; border: 1px solid;'>48</td>
         <td style='text-align: right; border: 1px solid;'>Machine</td>
         <td style='text-align: left; border: 1px solid;'>x86_64</td>
       </tr>
@@ -680,7 +680,7 @@ Print the version of SimPEG and dependencies
         <td style='text-align: right; border: 1px solid;'>Architecture</td>
         <td style='text-align: left; border: 1px solid;'>64bit</td>
         <td style='text-align: right; border: 1px solid;'>RAM</td>
-        <td style='text-align: left; border: 1px solid;'>6.8 GiB</td>
+        <td style='text-align: left; border: 1px solid;'>125.8 GiB</td>
         <td style='text-align: right; border: 1px solid;'>Environment</td>
         <td style='text-align: left; border: 1px solid;'>Python</td>
       </tr>
@@ -694,7 +694,7 @@ Print the version of SimPEG and dependencies
       </tr>
       <tr>
         <td style='text-align: right; border: 1px solid;'>SimPEG</td>
-        <td style='text-align: left; border: 1px solid;'>0.21.1</td>
+        <td style='text-align: left; border: 1px solid;'>0.21.2.dev2+g999d18c03.d20240417</td>
         <td style='text-align: right; border: 1px solid;'>discretize</td>
         <td style='text-align: left; border: 1px solid;'>0.10.0</td>
         <td style='text-align: right; border: 1px solid;'>pymatsolver</td>
@@ -770,9 +770,9 @@ You might try:
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (6 minutes 28.643 seconds)
+   **Total running time of the script:** (2 minutes 47.620 seconds)
 
-**Estimated memory usage:**  2936 MB
+**Estimated memory usage:**  3180 MB
 
 
 .. _sphx_glr_download_content_examples_05-fdem_plot_inv_fdem_loop_loop_2Dinversion.py:
