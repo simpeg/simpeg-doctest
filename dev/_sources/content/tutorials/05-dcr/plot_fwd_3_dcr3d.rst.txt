@@ -540,9 +540,9 @@ Write DC resistivity data, topography and true model
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 10.094 seconds)
+   **Total running time of the script:** (0 minutes 12.799 seconds)
 
-**Estimated memory usage:**  10 MB
+**Estimated memory usage:**  9 MB
 
 
 .. _sphx_glr_download_content_tutorials_05-dcr_plot_fwd_3_dcr3d.py:

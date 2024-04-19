@@ -788,9 +788,9 @@ Optional: Write Outputs
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 21.997 seconds)
+   **Total running time of the script:** (0 minutes 28.117 seconds)
 
-**Estimated memory usage:**  163 MB
+**Estimated memory usage:**  181 MB
 
 
 .. _sphx_glr_download_content_tutorials_06-ip_plot_fwd_3_dcip3d.py:

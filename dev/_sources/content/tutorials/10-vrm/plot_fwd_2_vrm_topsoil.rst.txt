@@ -426,14 +426,14 @@ Predict Data and Plot
     CREATING T MATRIX
     CREATING A MATRIX
 
-    <matplotlib.legend.Legend object at 0x7f918c7daf40>
+    <matplotlib.legend.Legend object at 0x7f72e8c8e790>
 
 
 
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 13.098 seconds)
+   **Total running time of the script:** (0 minutes 14.276 seconds)
 
 **Estimated memory usage:**  9 MB
 

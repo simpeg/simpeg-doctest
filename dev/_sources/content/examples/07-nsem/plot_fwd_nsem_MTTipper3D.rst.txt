@@ -178,9 +178,9 @@ impedance and tipper synthetic data.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 40.242 seconds)
+   **Total running time of the script:** (0 minutes 50.932 seconds)
 
-**Estimated memory usage:**  1133 MB
+**Estimated memory usage:**  1164 MB
 
 
 .. _sphx_glr_download_content_examples_07-nsem_plot_fwd_nsem_MTTipper3D.py:

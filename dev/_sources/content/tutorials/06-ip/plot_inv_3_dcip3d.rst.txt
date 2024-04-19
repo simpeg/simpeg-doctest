@@ -1238,9 +1238,9 @@ Plotting Normalized Data Misfit or Predicted IP Data
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (3 minutes 11.641 seconds)
+   **Total running time of the script:** (4 minutes 58.926 seconds)
 
-**Estimated memory usage:**  618 MB
+**Estimated memory usage:**  663 MB
 
 
 .. _sphx_glr_download_content_tutorials_06-ip_plot_inv_3_dcip3d.py:

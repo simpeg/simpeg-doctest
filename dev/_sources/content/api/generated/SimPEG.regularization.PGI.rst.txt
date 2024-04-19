@@ -22,9 +22,9 @@
          PGI.membership
          PGI.test
       
+         PGI.__call__
          PGI.__mul__
          PGI.__getitem__
-         PGI.__call__
          PGI.__len__
   
 

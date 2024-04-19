@@ -23,9 +23,9 @@
          Sparse.test
          Sparse.update_weights
       
+         Sparse.__call__
          Sparse.__mul__
          Sparse.__getitem__
-         Sparse.__call__
          Sparse.__len__
   
 

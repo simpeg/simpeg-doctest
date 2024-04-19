@@ -796,7 +796,7 @@ Here, we accomplish this by plotting the normalized misfit.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (2 minutes 25.665 seconds)
+   **Total running time of the script:** (3 minutes 34.622 seconds)
 
 **Estimated memory usage:**  9 MB
 

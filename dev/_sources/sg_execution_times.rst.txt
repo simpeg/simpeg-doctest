@@ -6,7 +6,7 @@
 
 Computation times
 =================
-**54:12.428** total execution time for 85 files **from all galleries**:
+**62:28.475** total execution time for 85 files **from all galleries**:
 
 .. container::
 
@@ -33,257 +33,257 @@ Computation times
      - Time
      - Mem (MB)
    * - :ref:`sphx_glr_content_examples_09-flow_plot_inv_flow_richards_1D.py` (``../examples/09-flow/plot_inv_flow_richards_1D.py``)
-     - 05:14.732
-     - 8.8
-   * - :ref:`sphx_glr_content_tutorials_14-pgi_plot_inv_2_joint_pf_pgi_no_info_tutorial.py` (``../tutorials/14-pgi/plot_inv_2_joint_pf_pgi_no_info_tutorial.py``)
-     - 03:49.968
-     - 94.6
-   * - :ref:`sphx_glr_content_tutorials_14-pgi_plot_inv_1_joint_pf_pgi_full_info_tutorial.py` (``../tutorials/14-pgi/plot_inv_1_joint_pf_pgi_full_info_tutorial.py``)
-     - 03:16.782
-     - 104.4
-   * - :ref:`sphx_glr_content_tutorials_06-ip_plot_inv_3_dcip3d.py` (``../tutorials/06-ip/plot_inv_3_dcip3d.py``)
-     - 03:11.641
-     - 617.7
-   * - :ref:`sphx_glr_content_tutorials_05-dcr_plot_inv_2_dcr2d_irls.py` (``../tutorials/05-dcr/plot_inv_2_dcr2d_irls.py``)
-     - 02:44.386
-     - 8.6
-   * - :ref:`sphx_glr_content_examples_05-fdem_plot_inv_fdem_loop_loop_2Dinversion.py` (``../examples/05-fdem/plot_inv_fdem_loop_loop_2Dinversion.py``)
-     - 02:43.625
-     - 3246.9
-   * - :ref:`sphx_glr_content_tutorials_05-dcr_plot_inv_3_dcr3d.py` (``../tutorials/05-dcr/plot_inv_3_dcr3d.py``)
-     - 02:25.665
-     - 8.6
-   * - :ref:`sphx_glr_content_examples_03-magnetics_plot_inv_mag_MVI_Sparse_TreeMesh.py` (``../examples/03-magnetics/plot_inv_mag_MVI_Sparse_TreeMesh.py``)
-     - 02:11.110
-     - 672.3
-   * - :ref:`sphx_glr_content_tutorials_13-joint_inversion_plot_inv_3_cross_gradient_pf.py` (``../tutorials/13-joint_inversion/plot_inv_3_cross_gradient_pf.py``)
-     - 02:07.611
+     - 07:56.209
      - 9.0
-   * - :ref:`sphx_glr_content_examples_20-published_plot_heagyetal2017_cyl_inversions.py` (``../examples/20-published/plot_heagyetal2017_cyl_inversions.py``)
-     - 02:02.941
-     - 118.5
-   * - :ref:`sphx_glr_content_tutorials_08-tdem_plot_fwd_3_tem_3d.py` (``../tutorials/08-tdem/plot_fwd_3_tem_3d.py``)
-     - 01:15.316
-     - 764.4
-   * - :ref:`sphx_glr_content_examples_20-published_plot_laguna_del_maule_inversion.py` (``../examples/20-published/plot_laguna_del_maule_inversion.py``)
-     - 01:12.378
-     - 267.0
-   * - :ref:`sphx_glr_content_examples_04-dcip_plot_inv_dcip_dipoledipole_3Dinversion_twospheres.py` (``../examples/04-dcip/plot_inv_dcip_dipoledipole_3Dinversion_twospheres.py``)
-     - 01:09.720
-     - 260.8
-   * - :ref:`sphx_glr_content_tutorials_05-dcr_plot_inv_2_dcr2d.py` (``../tutorials/05-dcr/plot_inv_2_dcr2d.py``)
-     - 01:09.284
-     - 8.6
+   * - :ref:`sphx_glr_content_tutorials_06-ip_plot_inv_3_dcip3d.py` (``../tutorials/06-ip/plot_inv_3_dcip3d.py``)
+     - 04:58.926
+     - 662.7
+   * - :ref:`sphx_glr_content_tutorials_14-pgi_plot_inv_2_joint_pf_pgi_no_info_tutorial.py` (``../tutorials/14-pgi/plot_inv_2_joint_pf_pgi_no_info_tutorial.py``)
+     - 03:54.312
+     - 90.5
+   * - :ref:`sphx_glr_content_tutorials_05-dcr_plot_inv_3_dcr3d.py` (``../tutorials/05-dcr/plot_inv_3_dcr3d.py``)
+     - 03:34.622
+     - 8.7
+   * - :ref:`sphx_glr_content_tutorials_14-pgi_plot_inv_1_joint_pf_pgi_full_info_tutorial.py` (``../tutorials/14-pgi/plot_inv_1_joint_pf_pgi_full_info_tutorial.py``)
+     - 03:31.232
+     - 102.0
+   * - :ref:`sphx_glr_content_examples_05-fdem_plot_inv_fdem_loop_loop_2Dinversion.py` (``../examples/05-fdem/plot_inv_fdem_loop_loop_2Dinversion.py``)
+     - 03:29.074
+     - 3249.6
+   * - :ref:`sphx_glr_content_tutorials_05-dcr_plot_inv_2_dcr2d_irls.py` (``../tutorials/05-dcr/plot_inv_2_dcr2d_irls.py``)
+     - 03:14.676
+     - 8.7
+   * - :ref:`sphx_glr_content_examples_03-magnetics_plot_inv_mag_MVI_Sparse_TreeMesh.py` (``../examples/03-magnetics/plot_inv_mag_MVI_Sparse_TreeMesh.py``)
+     - 02:21.400
+     - 671.7
+   * - :ref:`sphx_glr_content_tutorials_13-joint_inversion_plot_inv_3_cross_gradient_pf.py` (``../tutorials/13-joint_inversion/plot_inv_3_cross_gradient_pf.py``)
+     - 02:10.650
+     - 9.8
    * - :ref:`sphx_glr_content_examples_06-tdem_plot_fwd_tdem_3d_model.py` (``../examples/06-tdem/plot_fwd_tdem_3d_model.py``)
-     - 01:07.258
-     - 2146.1
+     - 01:27.275
+     - 2197.9
+   * - :ref:`sphx_glr_content_tutorials_08-tdem_plot_fwd_3_tem_3d.py` (``../tutorials/08-tdem/plot_fwd_3_tem_3d.py``)
+     - 01:20.175
+     - 751.6
+   * - :ref:`sphx_glr_content_tutorials_05-dcr_plot_inv_2_dcr2d.py` (``../tutorials/05-dcr/plot_inv_2_dcr2d.py``)
+     - 01:19.798
+     - 8.7
+   * - :ref:`sphx_glr_content_examples_20-published_plot_laguna_del_maule_inversion.py` (``../examples/20-published/plot_laguna_del_maule_inversion.py``)
+     - 01:18.497
+     - 325.2
    * - :ref:`sphx_glr_content_tutorials_06-ip_plot_inv_2_dcip2d.py` (``../tutorials/06-ip/plot_inv_2_dcip2d.py``)
-     - 00:58.391
-     - 8.6
-   * - :ref:`sphx_glr_content_examples_03-magnetics_plot_inv_mag_nonLinear_Amplitude.py` (``../examples/03-magnetics/plot_inv_mag_nonLinear_Amplitude.py``)
-     - 00:51.857
-     - 545.6
+     - 01:08.242
+     - 8.7
+   * - :ref:`sphx_glr_content_examples_04-dcip_plot_inv_dcip_dipoledipole_3Dinversion_twospheres.py` (``../examples/04-dcip/plot_inv_dcip_dipoledipole_3Dinversion_twospheres.py``)
+     - 01:04.816
+     - 309.0
+   * - :ref:`sphx_glr_content_examples_20-published_plot_heagyetal2017_cyl_inversions.py` (``../examples/20-published/plot_heagyetal2017_cyl_inversions.py``)
+     - 01:03.114
+     - 118.6
    * - :ref:`sphx_glr_content_examples_03-magnetics_plot_inv_mag_MVI_VectorAmplitude.py` (``../examples/03-magnetics/plot_inv_mag_MVI_VectorAmplitude.py``)
-     - 00:47.887
-     - 138.7
-   * - :ref:`sphx_glr_content_tutorials_03-gravity_plot_inv_1b_gravity_anomaly_irls.py` (``../tutorials/03-gravity/plot_inv_1b_gravity_anomaly_irls.py``)
-     - 00:46.008
-     - 9.1
-   * - :ref:`sphx_glr_content_tutorials_05-dcr_plot_inv_1_dcr_sounding_irls.py` (``../tutorials/05-dcr/plot_inv_1_dcr_sounding_irls.py``)
-     - 00:43.948
-     - 8.3
+     - 00:54.387
+     - 144.3
+   * - :ref:`sphx_glr_content_examples_10-pgi_plot_inv_1_PGI_Linear_1D_joint_WithRelationships.py` (``../examples/10-pgi/plot_inv_1_PGI_Linear_1D_joint_WithRelationships.py``)
+     - 00:53.765
+     - 9.8
+   * - :ref:`sphx_glr_content_examples_03-magnetics_plot_inv_mag_nonLinear_Amplitude.py` (``../examples/03-magnetics/plot_inv_mag_nonLinear_Amplitude.py``)
+     - 00:53.691
+     - 500.5
    * - :ref:`sphx_glr_content_examples_07-nsem_plot_fwd_nsem_MTTipper3D.py` (``../examples/07-nsem/plot_fwd_nsem_MTTipper3D.py``)
-     - 00:40.242
-     - 1133.4
-   * - :ref:`sphx_glr_content_tutorials_08-tdem_plot_fwd_2_tem_cyl.py` (``../tutorials/08-tdem/plot_fwd_2_tem_cyl.py``)
-     - 00:37.894
-     - 456.2
-   * - :ref:`sphx_glr_content_examples_06-tdem_plot_inv_tdem_1D_raw_waveform.py` (``../examples/06-tdem/plot_inv_tdem_1D_raw_waveform.py``)
-     - 00:35.436
+     - 00:50.932
+     - 1164.4
+   * - :ref:`sphx_glr_content_tutorials_03-gravity_plot_inv_1b_gravity_anomaly_irls.py` (``../tutorials/03-gravity/plot_inv_1b_gravity_anomaly_irls.py``)
+     - 00:44.984
+     - 9.2
+   * - :ref:`sphx_glr_content_tutorials_05-dcr_plot_inv_1_dcr_sounding_irls.py` (``../tutorials/05-dcr/plot_inv_1_dcr_sounding_irls.py``)
+     - 00:42.314
      - 8.3
-   * - :ref:`sphx_glr_content_tutorials_04-magnetics_plot_inv_2a_magnetics_induced.py` (``../tutorials/04-magnetics/plot_inv_2a_magnetics_induced.py``)
-     - 00:34.725
-     - 10.3
-   * - :ref:`sphx_glr_content_tutorials_02-linear_inversion_plot_inv_2_inversion_irls.py` (``../tutorials/02-linear_inversion/plot_inv_2_inversion_irls.py``)
-     - 00:32.517
+   * - :ref:`sphx_glr_content_tutorials_08-tdem_plot_fwd_2_tem_cyl.py` (``../tutorials/08-tdem/plot_fwd_2_tem_cyl.py``)
+     - 00:40.978
+     - 456.1
+   * - :ref:`sphx_glr_content_examples_06-tdem_plot_inv_tdem_1D_raw_waveform.py` (``../examples/06-tdem/plot_inv_tdem_1D_raw_waveform.py``)
+     - 00:37.688
      - 8.3
    * - :ref:`sphx_glr_content_examples_01-maps_plot_sumMap.py` (``../examples/01-maps/plot_sumMap.py``)
-     - 00:31.475
-     - 41.9
-   * - :ref:`sphx_glr_content_examples_04-dcip_plot_inv_dcip_dipoledipole_parametric_inversion.py` (``../examples/04-dcip/plot_inv_dcip_dipoledipole_parametric_inversion.py``)
-     - 00:30.784
-     - 11.2
+     - 00:36.924
+     - 41.8
    * - :ref:`sphx_glr_content_examples_20-published_plot_tomo_joint_with_volume.py` (``../examples/20-published/plot_tomo_joint_with_volume.py``)
-     - 00:30.380
-     - 9.0
-   * - :ref:`sphx_glr_content_examples_10-pgi_plot_inv_1_PGI_Linear_1D_joint_WithRelationships.py` (``../examples/10-pgi/plot_inv_1_PGI_Linear_1D_joint_WithRelationships.py``)
-     - 00:28.867
-     - 9.7
-   * - :ref:`sphx_glr_content_tutorials_02-linear_inversion_plot_inv_1_inversion_lsq.py` (``../tutorials/02-linear_inversion/plot_inv_1_inversion_lsq.py``)
-     - 00:28.496
-     - 8.3
-   * - :ref:`sphx_glr_content_tutorials_10-vrm_plot_fwd_3_vrm_tem.py` (``../tutorials/10-vrm/plot_fwd_3_vrm_tem.py``)
-     - 00:27.598
-     - 288.7
-   * - :ref:`sphx_glr_content_examples_20-published_plot_heagyetal2017_casing.py` (``../examples/20-published/plot_heagyetal2017_casing.py``)
-     - 00:27.461
-     - 1541.8
-   * - :ref:`sphx_glr_content_tutorials_05-dcr_plot_inv_1_dcr_sounding_parametric.py` (``../tutorials/05-dcr/plot_inv_1_dcr_sounding_parametric.py``)
-     - 00:25.888
-     - 8.3
+     - 00:33.507
+     - 9.9
+   * - :ref:`sphx_glr_content_tutorials_04-magnetics_plot_inv_2a_magnetics_induced.py` (``../tutorials/04-magnetics/plot_inv_2a_magnetics_induced.py``)
+     - 00:33.388
+     - 10.5
    * - :ref:`sphx_glr_content_examples_20-published_plot_booky_1D_time_freq_inv.py` (``../examples/20-published/plot_booky_1D_time_freq_inv.py``)
-     - 00:24.936
-     - 15.4
-   * - :ref:`sphx_glr_content_tutorials_07-fdem_plot_inv_1_em1dfm.py` (``../tutorials/07-fdem/plot_inv_1_em1dfm.py``)
-     - 00:23.880
-     - 8.8
-   * - :ref:`sphx_glr_content_examples_08-vrm_plot_inv_vrm_eq.py` (``../examples/08-vrm/plot_inv_vrm_eq.py``)
-     - 00:23.874
-     - 111.9
-   * - :ref:`sphx_glr_content_tutorials_08-tdem_plot_inv_1_em1dtm.py` (``../tutorials/08-tdem/plot_inv_1_em1dtm.py``)
-     - 00:23.782
-     - 8.3
+     - 00:32.950
+     - 15.6
+   * - :ref:`sphx_glr_content_tutorials_10-vrm_plot_fwd_3_vrm_tem.py` (``../tutorials/10-vrm/plot_fwd_3_vrm_tem.py``)
+     - 00:31.745
+     - 288.8
+   * - :ref:`sphx_glr_content_examples_20-published_plot_heagyetal2017_casing.py` (``../examples/20-published/plot_heagyetal2017_casing.py``)
+     - 00:30.506
+     - 1620.2
    * - :ref:`sphx_glr_content_tutorials_06-ip_plot_fwd_3_dcip3d.py` (``../tutorials/06-ip/plot_fwd_3_dcip3d.py``)
-     - 00:21.997
-     - 162.9
+     - 00:28.117
+     - 180.9
+   * - :ref:`sphx_glr_content_examples_04-dcip_plot_inv_dcip_dipoledipole_parametric_inversion.py` (``../examples/04-dcip/plot_inv_dcip_dipoledipole_parametric_inversion.py``)
+     - 00:27.143
+     - 9.4
+   * - :ref:`sphx_glr_content_tutorials_02-linear_inversion_plot_inv_2_inversion_irls.py` (``../tutorials/02-linear_inversion/plot_inv_2_inversion_irls.py``)
+     - 00:26.578
+     - 8.3
+   * - :ref:`sphx_glr_content_examples_08-vrm_plot_inv_vrm_eq.py` (``../examples/08-vrm/plot_inv_vrm_eq.py``)
+     - 00:26.436
+     - 112.0
+   * - :ref:`sphx_glr_content_tutorials_02-linear_inversion_plot_inv_1_inversion_lsq.py` (``../tutorials/02-linear_inversion/plot_inv_1_inversion_lsq.py``)
+     - 00:26.036
+     - 8.3
+   * - :ref:`sphx_glr_content_tutorials_08-tdem_plot_inv_1_em1dtm.py` (``../tutorials/08-tdem/plot_inv_1_em1dtm.py``)
+     - 00:23.634
+     - 8.3
+   * - :ref:`sphx_glr_content_tutorials_05-dcr_plot_inv_1_dcr_sounding_parametric.py` (``../tutorials/05-dcr/plot_inv_1_dcr_sounding_parametric.py``)
+     - 00:22.611
+     - 8.3
+   * - :ref:`sphx_glr_content_tutorials_07-fdem_plot_inv_1_em1dfm.py` (``../tutorials/07-fdem/plot_inv_1_em1dfm.py``)
+     - 00:21.553
+     - 8.6
    * - :ref:`sphx_glr_content_examples_08-vrm_plot_fwd_vrm.py` (``../examples/08-vrm/plot_fwd_vrm.py``)
-     - 00:19.611
-     - 110.9
+     - 00:20.837
+     - 111.0
    * - :ref:`sphx_glr_content_examples_06-tdem_plot_inv_tdem_1D.py` (``../examples/06-tdem/plot_inv_tdem_1D.py``)
-     - 00:19.114
+     - 00:20.824
      - 8.4
    * - :ref:`sphx_glr_content_tutorials_03-gravity_plot_inv_1a_gravity_anomaly.py` (``../tutorials/03-gravity/plot_inv_1a_gravity_anomaly.py``)
-     - 00:14.938
-     - 9.8
-   * - :ref:`sphx_glr_content_tutorials_12-seismic_plot_inv_1_tomography_2D.py` (``../tutorials/12-seismic/plot_inv_1_tomography_2D.py``)
-     - 00:14.510
-     - 8.3
+     - 00:14.598
+     - 11.1
    * - :ref:`sphx_glr_content_tutorials_10-vrm_plot_fwd_2_vrm_topsoil.py` (``../tutorials/10-vrm/plot_fwd_2_vrm_topsoil.py``)
-     - 00:13.098
-     - 8.6
-   * - :ref:`sphx_glr_content_examples_06-tdem_plot_fwd_tdem_inductive_src_permeable_target.py` (``../examples/06-tdem/plot_fwd_tdem_inductive_src_permeable_target.py``)
-     - 00:12.467
-     - 9.8
-   * - :ref:`sphx_glr_content_examples_06-tdem_plot_0_tdem_analytic.py` (``../examples/06-tdem/plot_0_tdem_analytic.py``)
-     - 00:12.342
-     - 168.9
-   * - :ref:`sphx_glr_content_tutorials_04-magnetics_plot_2b_magnetics_mvi.py` (``../tutorials/04-magnetics/plot_2b_magnetics_mvi.py``)
-     - 00:12.292
-     - 8.6
-   * - :ref:`sphx_glr_content_tutorials_06-ip_plot_fwd_2_dcip2d.py` (``../tutorials/06-ip/plot_fwd_2_dcip2d.py``)
-     - 00:12.100
-     - 8.9
-   * - :ref:`sphx_glr_content_tutorials_04-magnetics_plot_2a_magnetics_induced.py` (``../tutorials/04-magnetics/plot_2a_magnetics_induced.py``)
-     - 00:11.869
-     - 8.6
+     - 00:14.276
+     - 8.7
    * - :ref:`sphx_glr_content_tutorials_07-fdem_plot_fwd_3_fem_3d.py` (``../tutorials/07-fdem/plot_fwd_3_fem_3d.py``)
-     - 00:11.722
-     - 936.7
-   * - :ref:`sphx_glr_content_examples_05-fdem_plot_0_fdem_analytic.py` (``../examples/05-fdem/plot_0_fdem_analytic.py``)
-     - 00:10.920
-     - 118.4
-   * - :ref:`sphx_glr_content_tutorials_07-fdem_plot_fwd_2_fem_cyl.py` (``../tutorials/07-fdem/plot_fwd_2_fem_cyl.py``)
-     - 00:10.679
-     - 203.8
-   * - :ref:`sphx_glr_content_tutorials_05-dcr_plot_fwd_3_dcr3d.py` (``../tutorials/05-dcr/plot_fwd_3_dcr3d.py``)
-     - 00:10.094
-     - 9.6
-   * - :ref:`sphx_glr_content_examples_20-published_plot_schenkel_morrison_casing.py` (``../examples/20-published/plot_schenkel_morrison_casing.py``)
-     - 00:09.476
-     - 2136.0
-   * - :ref:`sphx_glr_content_tutorials_05-dcr_plot_inv_1_dcr_sounding.py` (``../tutorials/05-dcr/plot_inv_1_dcr_sounding.py``)
-     - 00:09.358
+     - 00:13.482
+     - 936.0
+   * - :ref:`sphx_glr_content_tutorials_12-seismic_plot_inv_1_tomography_2D.py` (``../tutorials/12-seismic/plot_inv_1_tomography_2D.py``)
+     - 00:13.345
      - 8.3
+   * - :ref:`sphx_glr_content_examples_06-tdem_plot_0_tdem_analytic.py` (``../examples/06-tdem/plot_0_tdem_analytic.py``)
+     - 00:12.931
+     - 169.2
+   * - :ref:`sphx_glr_content_tutorials_05-dcr_plot_fwd_3_dcr3d.py` (``../tutorials/05-dcr/plot_fwd_3_dcr3d.py``)
+     - 00:12.799
+     - 9.4
+   * - :ref:`sphx_glr_content_tutorials_04-magnetics_plot_2a_magnetics_induced.py` (``../tutorials/04-magnetics/plot_2a_magnetics_induced.py``)
+     - 00:12.603
+     - 8.7
+   * - :ref:`sphx_glr_content_examples_06-tdem_plot_fwd_tdem_inductive_src_permeable_target.py` (``../examples/06-tdem/plot_fwd_tdem_inductive_src_permeable_target.py``)
+     - 00:12.435
+     - 8.7
+   * - :ref:`sphx_glr_content_tutorials_04-magnetics_plot_2b_magnetics_mvi.py` (``../tutorials/04-magnetics/plot_2b_magnetics_mvi.py``)
+     - 00:11.747
+     - 8.7
+   * - :ref:`sphx_glr_content_examples_05-fdem_plot_0_fdem_analytic.py` (``../examples/05-fdem/plot_0_fdem_analytic.py``)
+     - 00:11.447
+     - 118.6
+   * - :ref:`sphx_glr_content_tutorials_06-ip_plot_fwd_2_dcip2d.py` (``../tutorials/06-ip/plot_fwd_2_dcip2d.py``)
+     - 00:11.228
+     - 9.8
+   * - :ref:`sphx_glr_content_tutorials_07-fdem_plot_fwd_2_fem_cyl.py` (``../tutorials/07-fdem/plot_fwd_2_fem_cyl.py``)
+     - 00:10.965
+     - 235.9
+   * - :ref:`sphx_glr_content_examples_20-published_plot_schenkel_morrison_casing.py` (``../examples/20-published/plot_schenkel_morrison_casing.py``)
+     - 00:09.371
+     - 2169.3
    * - :ref:`sphx_glr_content_tutorials_08-tdem_plot_fwd_1_em1dtm_waveforms.py` (``../tutorials/08-tdem/plot_fwd_1_em1dtm_waveforms.py``)
-     - 00:09.274
+     - 00:09.049
      - 8.3
    * - :ref:`sphx_glr_content_tutorials_12-seismic_plot_fwd_1_tomography_2D.py` (``../tutorials/12-seismic/plot_fwd_1_tomography_2D.py``)
-     - 00:09.027
-     - 8.6
-   * - :ref:`sphx_glr_content_tutorials_05-dcr_plot_fwd_2_dcr2d.py` (``../tutorials/05-dcr/plot_fwd_2_dcr2d.py``)
-     - 00:08.692
-     - 8.3
+     - 00:08.969
+     - 8.7
+   * - :ref:`sphx_glr_content_tutorials_05-dcr_plot_inv_1_dcr_sounding.py` (``../tutorials/05-dcr/plot_inv_1_dcr_sounding.py``)
+     - 00:08.671
+     - 8.4
    * - :ref:`sphx_glr_content_tutorials_01-models_mapping_plot_1_tensor_models.py` (``../tutorials/01-models_mapping/plot_1_tensor_models.py``)
-     - 00:08.483
+     - 00:08.500
+     - 8.3
+   * - :ref:`sphx_glr_content_tutorials_05-dcr_plot_fwd_2_dcr2d.py` (``../tutorials/05-dcr/plot_fwd_2_dcr2d.py``)
+     - 00:07.930
      - 8.3
    * - :ref:`sphx_glr_content_tutorials_03-gravity_plot_1b_gravity_gradiometry.py` (``../tutorials/03-gravity/plot_1b_gravity_gradiometry.py``)
-     - 00:07.317
-     - 9.6
-   * - :ref:`sphx_glr_content_examples_10-pgi_plot_inv_0_PGI_Linear_1D.py` (``../examples/10-pgi/plot_inv_0_PGI_Linear_1D.py``)
-     - 00:06.525
-     - 9.3
-   * - :ref:`sphx_glr_content_tutorials_03-gravity_plot_1a_gravity_anomaly.py` (``../tutorials/03-gravity/plot_1a_gravity_anomaly.py``)
-     - 00:06.110
-     - 32.0
-   * - :ref:`sphx_glr_content_tutorials_01-models_mapping_plot_3_tree_models.py` (``../tutorials/01-models_mapping/plot_3_tree_models.py``)
-     - 00:05.588
-     - 8.6
-   * - :ref:`sphx_glr_content_tutorials_01-models_mapping_plot_2_cyl_models.py` (``../tutorials/01-models_mapping/plot_2_cyl_models.py``)
-     - 00:05.561
-     - 8.3
+     - 00:06.978
+     - 12.4
    * - :ref:`sphx_glr_content_examples_02-gravity_plot_inv_grav_tiled.py` (``../examples/02-gravity/plot_inv_grav_tiled.py``)
-     - 00:05.532
-     - 15.4
+     - 00:06.141
+     - 15.1
+   * - :ref:`sphx_glr_content_tutorials_03-gravity_plot_1a_gravity_anomaly.py` (``../tutorials/03-gravity/plot_1a_gravity_anomaly.py``)
+     - 00:06.059
+     - 27.4
+   * - :ref:`sphx_glr_content_tutorials_01-models_mapping_plot_3_tree_models.py` (``../tutorials/01-models_mapping/plot_3_tree_models.py``)
+     - 00:06.022
+     - 8.7
+   * - :ref:`sphx_glr_content_examples_09-flow_plot_fwd_flow_richards_1D.py` (``../examples/09-flow/plot_fwd_flow_richards_1D.py``)
+     - 00:05.1000
+     - 8.9
    * - :ref:`sphx_glr_content_examples_20-published_plot_richards_celia1990.py` (``../examples/20-published/plot_richards_celia1990.py``)
-     - 00:05.395
+     - 00:05.651
      - 8.3
-   * - :ref:`sphx_glr_content_tutorials_05-dcr_plot_gen_3_3d_to_2d.py` (``../tutorials/05-dcr/plot_gen_3_3d_to_2d.py``)
-     - 00:04.894
-     - 8.3
-   * - :ref:`sphx_glr_content_tutorials_08-tdem_plot_fwd_1_em1dtm_dispersive.py` (``../tutorials/08-tdem/plot_fwd_1_em1dtm_dispersive.py``)
-     - 00:04.826
+   * - :ref:`sphx_glr_content_tutorials_01-models_mapping_plot_2_cyl_models.py` (``../tutorials/01-models_mapping/plot_2_cyl_models.py``)
+     - 00:05.398
      - 8.3
    * - :ref:`sphx_glr_content_tutorials_10-vrm_plot_fwd_1_vrm_layer.py` (``../tutorials/10-vrm/plot_fwd_1_vrm_layer.py``)
-     - 00:04.699
-     - 8.6
-   * - :ref:`sphx_glr_content_examples_09-flow_plot_fwd_flow_richards_1D.py` (``../examples/09-flow/plot_fwd_flow_richards_1D.py``)
-     - 00:04.577
-     - 9.3
+     - 00:05.089
+     - 8.3
+   * - :ref:`sphx_glr_content_tutorials_08-tdem_plot_fwd_1_em1dtm_dispersive.py` (``../tutorials/08-tdem/plot_fwd_1_em1dtm_dispersive.py``)
+     - 00:04.513
+     - 8.4
+   * - :ref:`sphx_glr_content_tutorials_05-dcr_plot_gen_3_3d_to_2d.py` (``../tutorials/05-dcr/plot_gen_3_3d_to_2d.py``)
+     - 00:04.453
+     - 8.3
+   * - :ref:`sphx_glr_content_examples_10-pgi_plot_inv_0_PGI_Linear_1D.py` (``../examples/10-pgi/plot_inv_0_PGI_Linear_1D.py``)
+     - 00:04.218
+     - 9.4
    * - :ref:`sphx_glr_content_tutorials_08-tdem_plot_fwd_1_em1dtm.py` (``../tutorials/08-tdem/plot_fwd_1_em1dtm.py``)
-     - 00:04.562
+     - 00:04.026
+     - 8.4
+   * - :ref:`sphx_glr_content_tutorials_07-fdem_plot_fwd_1_em1dfm.py` (``../tutorials/07-fdem/plot_fwd_1_em1dfm.py``)
+     - 00:03.718
      - 8.3
    * - :ref:`sphx_glr_content_tutorials_07-fdem_plot_fwd_1_em1dfm_dispersive.py` (``../tutorials/07-fdem/plot_fwd_1_em1dfm_dispersive.py``)
-     - 00:04.277
-     - 8.3
-   * - :ref:`sphx_glr_content_tutorials_07-fdem_plot_fwd_1_em1dfm.py` (``../tutorials/07-fdem/plot_fwd_1_em1dfm.py``)
-     - 00:03.957
+     - 00:03.705
      - 8.3
    * - :ref:`sphx_glr_content_tutorials_05-dcr_plot_fwd_1_dcr_sounding.py` (``../tutorials/05-dcr/plot_fwd_1_dcr_sounding.py``)
-     - 00:03.745
+     - 00:03.611
      - 8.3
    * - :ref:`sphx_glr_content_examples_20-published_plot_effective_medium_theory.py` (``../examples/20-published/plot_effective_medium_theory.py``)
-     - 00:02.836
-     - 8.6
+     - 00:02.430
+     - 8.7
    * - :ref:`sphx_glr_content_examples_04-dcip_plot_read_DC_data_with_IO_class.py` (``../examples/04-dcip/plot_read_DC_data_with_IO_class.py``)
-     - 00:02.219
-     - 9.4
+     - 00:02.018
+     - 9.7
    * - :ref:`sphx_glr_content_examples_20-published_plot_booky_1Dstitched_resolve_inv.py` (``../examples/20-published/plot_booky_1Dstitched_resolve_inv.py``)
-     - 00:01.764
-     - 8.6
+     - 00:01.844
+     - 8.7
    * - :ref:`sphx_glr_content_examples_20-published_plot_load_booky.py` (``../examples/20-published/plot_load_booky.py``)
-     - 00:01.757
+     - 00:01.781
      - 8.3
    * - :ref:`sphx_glr_content_examples_06-tdem_plot_fwd_tdem_waveforms.py` (``../examples/06-tdem/plot_fwd_tdem_waveforms.py``)
-     - 00:01.383
-     - 8.6
+     - 00:01.503
+     - 8.7
    * - :ref:`sphx_glr_content_examples_04-dcip_plot_dc_analytic.py` (``../examples/04-dcip/plot_dc_analytic.py``)
-     - 00:01.230
-     - 32.8
+     - 00:01.439
+     - 28.5
    * - :ref:`sphx_glr_content_examples_20-published_plot_vadose_vangenuchten.py` (``../examples/20-published/plot_vadose_vangenuchten.py``)
-     - 00:00.786
-     - 8.3
-   * - :ref:`sphx_glr_content_examples_01-maps_plot_mesh2mesh.py` (``../examples/01-maps/plot_mesh2mesh.py``)
-     - 00:00.540
-     - 8.9
-   * - :ref:`sphx_glr_content_examples_03-magnetics_plot_0_analytic.py` (``../examples/03-magnetics/plot_0_analytic.py``)
-     - 00:00.524
+     - 00:00.722
      - 8.3
    * - :ref:`sphx_glr_content_examples_01-maps_plot_combo.py` (``../examples/01-maps/plot_combo.py``)
-     - 00:00.506
-     - 10.2
+     - 00:00.631
+     - 10.3
+   * - :ref:`sphx_glr_content_examples_03-magnetics_plot_0_analytic.py` (``../examples/03-magnetics/plot_0_analytic.py``)
+     - 00:00.588
+     - 8.3
+   * - :ref:`sphx_glr_content_examples_01-maps_plot_mesh2mesh.py` (``../examples/01-maps/plot_mesh2mesh.py``)
+     - 00:00.513
+     - 9.0
    * - :ref:`sphx_glr_content_examples_01-maps_plot_block_in_layer.py` (``../examples/01-maps/plot_block_in_layer.py``)
-     - 00:00.288
-     - 8.7
+     - 00:00.282
+     - 8.8
    * - :ref:`sphx_glr_content_examples_01-maps_plot_layer.py` (``../examples/01-maps/plot_layer.py``)
-     - 00:00.224
+     - 00:00.253
      - 8.3

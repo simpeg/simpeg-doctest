@@ -23,8 +23,8 @@
          BaseAmplitude.set_weights
          BaseAmplitude.test
       
-         BaseAmplitude.__mul__
          BaseAmplitude.__call__
+         BaseAmplitude.__mul__
   
 
   

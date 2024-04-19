@@ -1143,7 +1143,7 @@ Plotting Predicted Data and Misfit
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** (0 minutes 58.391 seconds)
+   **Total running time of the script:** (1 minutes 8.242 seconds)
 
 **Estimated memory usage:**  9 MB
 

@@ -6,7 +6,7 @@
 
 Computation times
 =================
-**02:35.654** total execution time for 6 files **from content/tutorials/08-tdem**:
+**02:42.375** total execution time for 6 files **from content/tutorials/08-tdem**:
 
 .. container::
 
@@ -33,20 +33,20 @@ Computation times
      - Time
      - Mem (MB)
    * - :ref:`sphx_glr_content_tutorials_08-tdem_plot_fwd_3_tem_3d.py` (``plot_fwd_3_tem_3d.py``)
-     - 01:15.316
-     - 764.4
+     - 01:20.175
+     - 751.6
    * - :ref:`sphx_glr_content_tutorials_08-tdem_plot_fwd_2_tem_cyl.py` (``plot_fwd_2_tem_cyl.py``)
-     - 00:37.894
-     - 456.2
+     - 00:40.978
+     - 456.1
    * - :ref:`sphx_glr_content_tutorials_08-tdem_plot_inv_1_em1dtm.py` (``plot_inv_1_em1dtm.py``)
-     - 00:23.782
+     - 00:23.634
      - 8.3
    * - :ref:`sphx_glr_content_tutorials_08-tdem_plot_fwd_1_em1dtm_waveforms.py` (``plot_fwd_1_em1dtm_waveforms.py``)
-     - 00:09.274
+     - 00:09.049
      - 8.3
    * - :ref:`sphx_glr_content_tutorials_08-tdem_plot_fwd_1_em1dtm_dispersive.py` (``plot_fwd_1_em1dtm_dispersive.py``)
-     - 00:04.826
-     - 8.3
+     - 00:04.513
+     - 8.4
    * - :ref:`sphx_glr_content_tutorials_08-tdem_plot_fwd_1_em1dtm.py` (``plot_fwd_1_em1dtm.py``)
-     - 00:04.562
-     - 8.3
+     - 00:04.026
+     - 8.4
