@@ -2,3 +2,7 @@
 	path = dev
 	url = https://github.com/simpeg/simpeg-doctest
 	branch = dev
+[submodule "v0.21.1"]
+	path = v0.21.1
+	url = https://github.com/simpeg/simpeg-doctest
+	branch = v0.21.1
