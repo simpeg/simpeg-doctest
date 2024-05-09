@@ -2,7 +2,7 @@
     {
         "version": "dev",
         "url": "https://doctest.simpeg.xyz/dev/"
-    }
+    },
     {
         "name": "v0.21.1 (latest)",
         "version": "v0.21.1",
@@ -27,5 +27,5 @@
     {
         "version": "v0.18.0",
         "url": "https://doctest.simpeg.xyz/v0.18.0/"
-    },
+    }
 ]
