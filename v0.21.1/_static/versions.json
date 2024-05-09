@@ -21,6 +21,10 @@
         "url": "https://doctest.simpeg.xyz/v0.18.1/"
     },
     {
+        "version": "v0.18.0",
+        "url": "https://doctest.simpeg.xyz/v0.18.0/"
+    },
+    {
         "version": "dev",
         "url": "https://doctest.simpeg.xyz/dev/"
     }
